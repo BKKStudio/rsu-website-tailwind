@@ -1,18 +1,47 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}', // Note the addition of the `app` directory.
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+ 
+    // Or if using `src` directory:
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        'comfortaa': ['Comfortaa', 'cursive'],
+        'sriracha': ['Sriracha', 'cursive'],
+        'anuphan': ['Anuphan', 'sans-serif'],
       },
+      keyframes:{
+        'animation-manu':{
+          '0%,100%':{transform:'scale(100%)'},
+          '25%':{transform:'scale(110%)'},
+          '50%':{transform:'scale(120%)'},
+          '75%':{transform:'scale(110%)'},
+        },
+        'animation-shake':{
+          '0%,100%':{transform:'rotate(3deg)'},
+          '25%':{transform:'rotate(-3deg)'},
+          '50%':{transform:'rotate(3deg)'},
+          '75%':{transform:'rotate(-3deg)'},
+        },
+
+      },
+      animation:{
+        'animation-manu':'animation-manu 1s ease-in infinite' ,
+        'animation-shake':'animation-shake .5s ease-in 1' 
+      },
+      boxShadow: {
+        '3xl': '0px 0px 8px 0px black',
+      },
+      height: {
+        '105': '43rem',
+      }
+     
     },
   },
-  plugins: [],
+  plugins: []
 }
