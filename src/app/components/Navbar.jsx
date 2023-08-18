@@ -73,7 +73,7 @@ function MobileNav({ open, setOpen }) {
   );
 }
 
-const Navbar = React.memo(() => {
+const Navbar = (() => {
   const [open, setOpen] = useState(false);
   return (
     <>
