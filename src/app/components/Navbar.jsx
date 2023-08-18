@@ -1,6 +1,6 @@
 "use client";
 import { BsList, BsXLg } from "react-icons/bs";
-import { useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -13,7 +13,14 @@ function MobileNav({ open, setOpen }) {
         } transition-transform duration-300 ease-in-out filter  `}
       >
         <div className="flex justify-between mx-4">
-          <Image src="/image/Logo_universe/Rangsit.png" alt="" width={60} height={60}></Image>
+          <Image
+            src="/image/Logo_universe/Rangsit.png"
+            alt=""
+            width={60}
+            height={60}
+            style={{ width: "auto", height: "auto" }}
+          />
+
           <button onClick={() => setOpen(!open)} className="p-3 ">
             <BsXLg size={20} />
           </button>
@@ -66,7 +73,7 @@ function MobileNav({ open, setOpen }) {
   );
 }
 
-export default function Navbar() {
+const Navbar = React.memo(() => {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -75,11 +82,14 @@ export default function Navbar() {
         <div className="container mx-auto  max-w-7xl">
           <div className="flex items-center justify-between  p-1 ">
             <Link className="text-black text-lg font-semibold" href="#">
-              <Image
-                src={"/image/Logo_universe/Rsu_logo.png"}
-                width={200}
-                height={200}
-              />
+            <Image
+            src="/image/Logo_universe/Rsu_logo.png"
+            alt=""
+            width={200}
+            height={200}
+       
+          />
+
             </Link>
             <button
               className="lg:hidden text-black focus:outline-none"
@@ -117,12 +127,12 @@ export default function Navbar() {
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      ปริญญาโท-เอก 2566
+                        ปริญญาโท-เอก 2566
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                       International Program
+                        International Program
                       </Link>
                     </li>
                   </ul>
@@ -141,32 +151,32 @@ export default function Navbar() {
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
                       <Link className="dropdown-item font-bold " href="#">
-                      วิทยาศาสตร์ - สุขภาพ
+                        วิทยาศาสตร์ - สุขภาพ
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      วิศวกรรมศาสตร์ - เทคโนโลยี
+                        วิศวกรรมศาสตร์ - เทคโนโลยี
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      มนุษยศาสตร์ - สังคมศาสตร์
+                        มนุษยศาสตร์ - สังคมศาสตร์
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      เศรษฐกิจ - ธุรกิจ
+                        เศรษฐกิจ - ธุรกิจ
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      ศิลปะ - การออกแบบ
+                        ศิลปะ - การออกแบบ
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      หลักสูตรออนไลน์ / นานาชาติ / ป.โท-เอก
+                        หลักสูตรออนไลน์ / นานาชาติ / ป.โท-เอก
                       </Link>
                     </li>
                   </ul>
@@ -185,27 +195,27 @@ export default function Navbar() {
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
                       <Link className="dropdown-item font-bold " href="#">
-                      นักศึกษาปัจจุบัน
+                        นักศึกษาปัจจุบัน
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      Intranet
+                        Intranet
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      International Students
+                        International Students
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      ชมรมนักศึกษา
+                        ชมรมนักศึกษา
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      ปฎิทินการศึกษา
+                        ปฎิทินการศึกษา
                       </Link>
                     </li>
                   </ul>
@@ -224,12 +234,12 @@ export default function Navbar() {
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
                       <Link className="dropdown-item font-bold " href="#">
-                      เส้นทางมา ม.รังสิต
+                        เส้นทางมา ม.รังสิต
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      แผนที่ใน ม.รังสิต
+                        แผนที่ใน ม.รังสิต
                       </Link>
                     </li>
                   </ul>
@@ -248,32 +258,32 @@ export default function Navbar() {
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
                       <Link className="dropdown-item font-bold " href="#">
-                      ต้อนรับสู่ ม.รังสิต
+                        ต้อนรับสู่ ม.รังสิต
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      ปรัชญา
+                        ปรัชญา
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold " href="#">
-                      ชุดนักศึกษา
+                        ชุดนักศึกษา
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      โรงเรียนสาธิต ม.รังสิต
+                        โรงเรียนสาธิต ม.รังสิต
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold " href="#">
-                      โรงเรียนนานาชาติบริติช
+                        โรงเรียนนานาชาติบริติช
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item font-bold" href="#">
-                      กลุ่มบริษัท RSU
+                        กลุ่มบริษัท RSU
                       </Link>
                     </li>
                   </ul>
@@ -282,11 +292,11 @@ export default function Navbar() {
               <div>
                 <Link href={""}>ติดต่อเรา</Link>
               </div>
-            
             </div>
           </div>
         </div>
       </nav>
     </>
   );
-}
+});
+export default Navbar;

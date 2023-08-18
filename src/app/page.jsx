@@ -3,10 +3,11 @@ import Navbar from "./components/Navbar";
 import Carousel from "./components/Carousel";
 import Footer from "./components/Footer";
 import Link from "next/link";
-import { BsFillPlayFill } from "react-icons/bs";
 import ManuUnderCarousel from "./components/ManuUnderCarousel";
 import Image from "next/image";
 import Swipershowcase from "./components/Swiper";
+import { BsFillPlayFill } from "react-icons/bs";
+import Rsuvideo from "./components/Rsuvideo";
 
 export default function Home() {
   return (
@@ -130,10 +131,10 @@ export default function Home() {
               >
                 All Showcase <BsFillPlayFill size={19} />
               </Link>
-              <span className="max-sm:text-xl">SHOWCASE</span>
+              <span className="max-sm:text-xl">RSU SHOWCASE</span>
             </div>
             <div className="bg-pink-500 w-full h-1"></div>
-            <div className=" w-full mt-5 flex justify-center max-lg:hidden">
+            <div className=" w-full mt-5 px-3 flex justify-center max-lg:hidden">
               <Link
                 href={""}
                 className="shadow-3xl p-3 w-full grid grid-flow-col rounded-lg max-lg:hidden"
@@ -143,7 +144,7 @@ export default function Home() {
                   alt=""
                   width={400}
                   height={400}
-                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
+                  className="rounded-lg lg:hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
                 ></Image>
                 <div className="text-center flex flex-col gap-3 justify-center">
                   <span className="text-xl">
@@ -162,7 +163,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className=" w-full mt-5 flex justify-center max-lg:hidden">
+            <div className=" w-full mt-5  px-3 flex justify-center max-lg:hidden">
               <Link
                 href={""}
                 className="shadow-3xl p-3 w-full grid grid-flow-col rounded-lg max-lg:hidden"
@@ -172,7 +173,7 @@ export default function Home() {
                   alt=""
                   width={400}
                   height={400}
-                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
+                  className="rounded-lg lg:hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
                 ></Image>
                 <div className="text-center flex flex-col gap-3 justify-center">
                   <span className="text-xl">
@@ -191,7 +192,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className=" w-full mt-5 flex justify-center max-lg:hidden">
+            <div className=" w-full mt-5  px-3 flex justify-center max-lg:hidden">
               <Link
                 href={""}
                 className="shadow-3xl p-3 w-full grid grid-flow-col rounded-lg max-lg:hidden"
@@ -223,7 +224,15 @@ export default function Home() {
             <Swipershowcase/>
           </figure>
         </article>
-        {/* Show case ---End--- */}
+        {/* Show case ---End--- */} 
+
+        {/* RSU Video */}
+        <Rsuvideo/>
+        {/* ----------RSU Video END--------- */}
+
+
+        {/*  */}
+      
       </main>
       <Footer />
     </div>

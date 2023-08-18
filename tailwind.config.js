@@ -39,7 +39,14 @@ module.exports = {
       },
       height: {
         '105': '43rem',
+      },
+      width: {
+        '106': '35rem',
+      },  
+      margin: {
+        '10': '15rem',
       }
+
      
     },
   },

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Image from 'next/image';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-flip';
@@ -33,11 +33,13 @@ export default function Swipershowcase() {
               href={""}
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
-              <img
-                src="/image/showcase/showcase1.jpg"
-                className="max-w-7xl w-full rounded-lg mb-2"
-                alt="..."
-              />
+              <Image
+                  src={"/image/showcase/showcase1.jpg"}
+                  alt=""
+                  width={400}
+                  height={400}
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
+                ></Image>
               <span className="max-lg:text-xl max-md:text-xl">
                 วิลาวัณย์ แดนสีแก้ว ศิษย์เก่าทุนกีฬา
                 คว้าเหรียญเงินการแข่งขันนักวอลเลย์บอลนั่งทีมชาติไทย
@@ -61,11 +63,13 @@ export default function Swipershowcase() {
               href={""}
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
-              <img
-                src="/image/showcase/showcase3.jpg"
-                className="max-w-7xl w-full rounded-lg mb-2"
-                alt="..."
-              />
+             <Image
+                  src={"/image/showcase/showcase3.jpg"}
+                  alt=""
+                  width={400}
+                  height={400}
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
+                ></Image>
               <span className="max-lg:text-xl max-md:text-xl">
               “เรียนภาษา เล่นดนตรี และเล่นเกม
                     นิยามการใช้ชีวิตในรั้วมหาวิทยาลัย ” ณัฎฐพงษ์ ยงกำลัง
@@ -90,11 +94,13 @@ export default function Swipershowcase() {
               href={""}
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
-              <img
-                src="/image/showcase/showcase2.jpg"
-                className="max-w-7xl w-full rounded-lg mb-2"
-                alt="..."
-              />
+              <Image
+                  src={"/image/showcase/showcase2.jpg"}
+                  alt=""
+                  width={400}
+                  height={400}
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
+                ></Image>
               <span className="max-lg:text-xl max-md:text-xl">
                 ยกนิ้วให้ไปเลยกับ โอปอ-ธภัทรวัฒน์ โจสรรค์นุสนธิ์
                 ที่คว้าแชมป์โลกในศึกดับเบิ้ลยูจีพี วัน เจ็ตสกี

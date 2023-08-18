@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="bg-white  h-0.5 rounded"></div>
             <div className="flex flex-wrap justify-center mt-7">
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   วิทยาศาสตร์ - สุขภาพ
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   วิศวกรรมศาสตร์ - เทคโนโลยี
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   มนุษยศาสตร์ - สังคมศาสตร์
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -62,7 +62,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className=" text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg  text-center font-bold mb-3">
                   เศรษฐกิจ - ธุรกิจ
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -72,7 +72,7 @@ export default function Footer() {
                   <Link href="">เศรษฐศาสตร์</Link>
                 </div>
                 <div>
-                  <h3 className="text-pink-500 text-lg font-bold my-3">
+                  <h3 className="text-pink-500 text-lg text-center font-bold my-3">
                     ศิลปะ - การออกแบบ
                   </h3>
                   <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -84,7 +84,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className=" text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   หลักสูตรออนไลน์ / นานาชาติ / ป.โท-เอก
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -100,7 +100,7 @@ export default function Footer() {
             <div className="bg-white h-0.5 rounded mt-8"></div>
             <div className="flex flex-wrap justify-center mt-7">
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   วิชาการ / วิจัย /ประกันคุณภาพ
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -114,7 +114,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   SHOWCASE ปล่อยของ
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -127,7 +127,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                   ดาวน์โหลด / ฟอนต์ / ซีไอ
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -135,7 +135,7 @@ export default function Footer() {
                   <Link href="">ดาวน์โหลดฟอนต์</Link>
                   <Link href="">ดาวน์โหลดซีไอ</Link>
                 </div>
-                <h3 className="text-pink-500 text-lg font-bold my-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold my-3">
                   NEWS & MEDIA
                 </h3>
                 <div className="flex flex-col items-start text-xs gap-1 max-lg:items-center">
@@ -144,7 +144,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="text-white p-4">
-                <h3 className="text-pink-500 text-lg font-bold mb-3">
+                <h3 className="text-pink-500 text-lg text-center font-bold mb-3">
                 ติดต่อเรา
                 </h3>
                 <div className="flex items-start text-xs gap-1 max-lg:items-center">
