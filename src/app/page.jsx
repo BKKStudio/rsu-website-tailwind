@@ -8,6 +8,7 @@ import Image from "next/image";
 import Swipershowcase from "./components/Swiper";
 import { BsFillPlayFill } from "react-icons/bs";
 import Rsuvideo from "./components/Rsuvideo";
+import GoodOldday from "./components/Goodoldday";
 
 export default function Home() {
   return (
@@ -226,13 +227,14 @@ export default function Home() {
         </article>
         {/* Show case ---End--- */} 
 
-        {/* RSU Video */}
+        {/* RSU CONTENTS */}
         <Rsuvideo/>
-        {/* ----------RSU Video END--------- */}
+        {/* ----------RSU CONTENTS END--------- */}
 
 
-        {/*  */}
-      
+        {/* Good old day */}
+        <GoodOldday/>
+        {/* Good old day  end */}
       </main>
       <Footer />
     </div>

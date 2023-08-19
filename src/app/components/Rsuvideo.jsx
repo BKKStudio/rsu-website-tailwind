@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsFillPlayFill } from "react-icons/bs";
+
 import Swipercontent from "./Swipercontent";
 import Swipernewgen from "./Swipernewgen";
+
 
 export default function Rsuvideo() {
   return (
@@ -117,17 +119,17 @@ export default function Rsuvideo() {
                 </Link>
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-4 max-lg:flex max-lg:flex-wrap max-lg:justify-center max-lg:mt-4">
-              <Link href={""}>
+            <div className="grid grid-cols-3 gap-4 max-lg:grid max-md:grid-cols-1 max-lg:justify-center max-lg:mt-4">
+              <Link href={""} className="flex justify-center">
                 <Image
                   src={"/image/rsuvideo/tt1.jpg"}
                   alt=""
                   width={400}
                   height={300}
-                  className="rounded-lg shadow-3xl lg:hover:animate-animation-shake"
+                  className="rounded-lg shadow-3xl lg:hover:animate-animation-shake "
                 ></Image>
               </Link>
-              <Link href={""}>
+              <Link href={""} className="flex justify-center">
                 <Image
                   src={"/image/rsuvideo/tt2.jpg"}
                   alt=""
@@ -136,7 +138,7 @@ export default function Rsuvideo() {
                   className="rounded-lg shadow-3xl lg:hover:animate-animation-shake"
                 ></Image>
               </Link>
-              <Link href={""}>
+              <Link href={""} className="flex justify-center">
                 <Image
                   src={"/image/rsuvideo/tt3.jpg"}
                   alt=""
@@ -152,13 +154,15 @@ export default function Rsuvideo() {
 
       {/* Carousels RSU Contents */}
       <article className="flex justify-center items-center my-4">
-        <figure className="max-w-7xl w-full mt-4 flex  justify-between">
-        <div className="w-106 shadow-3xl mx-3">
-          <div></div>
-         </div>
-         <div className="w-106 shadow-3xl mx-3">
-          <Swipercontent/>
-         </div>
+        <figure className="max-w-7xl w-full mt-4 grid grid-cols-2 gap-5 max-md:grid-cols-1  ">
+          {/* RSU location */}
+          <div className=" shadow-3xl mx-3  ">
+              <Swipernewgen/>
+          </div>
+          {/* ------ENd---------- */}
+          <div className=" shadow-3xl mx-3">
+            <Swipercontent />
+          </div>
         </figure>
       </article>
       {/*---------------Carousels RSU Contents----END */}

@@ -33,28 +33,28 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/image/rsuvideo/content1.jpg" className='shadow-3xl' />
+          <img src="/image/rsuvideo/content1.jpg" className='shadow-3xl' alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content2.jpg"  className='shadow-3xl'/>
+          <img src="/image/rsuvideo/content2.jpg"  className='shadow-3xl' alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content3.jpg" className='shadow-3xl' />
+          <img src="/image/rsuvideo/content3.jpg" className='shadow-3xl'  alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content4.jpg" className='shadow-3xl' />
+          <img src="/image/rsuvideo/content4.jpg" className='shadow-3xl'  alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content5.jpg"  className='shadow-3xl'/>
+          <img src="/image/rsuvideo/content5.jpg"  className='shadow-3xl'alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content6.jpg" className='shadow-3xl' />
+          <img src="/image/rsuvideo/content6.jpg" className='shadow-3xl' alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content7.jpg" className='shadow-3xl' />
+          <img src="/image/rsuvideo/content7.jpg" className='shadow-3xl' alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content8.jpg"  className='shadow-3xl'/>
+          <img src="/image/rsuvideo/content8.jpg"  className='shadow-3xl'alt=''/>
         </SwiperSlide>
       </Swiper>
     </>

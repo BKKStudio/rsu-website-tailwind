@@ -1,60 +1,73 @@
-"use client"
-import React, { useRef, useState } from 'react';
+"use client";
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-
-
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
     <>
       <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
+        spaceBetween={30}
         centeredSlides={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/image/rsuvideo/content1.jpg" className='shadow-3xl' />
+          <img
+            src="/image/rsuvideo/locationcontent1.jpg"
+            className="shadow-3xl"
+            alt=''
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content2.jpg"  className='shadow-3xl'/>
+          <img
+            src="/image/rsuvideo/locationcontent3.jpg"
+            className="shadow-3xl"
+            alt=''
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content3.jpg" className='shadow-3xl' />
+          <img
+            src="/image/rsuvideo/locationcontent4.jpg"
+            className="shadow-3xl"
+            alt=''
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content4.jpg" className='shadow-3xl' />
+          <img
+            src="/image/rsuvideo/locationcontent5.jpg"
+            className="shadow-3xl"
+            alt=''
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content5.jpg"  className='shadow-3xl'/>
+          <img
+            src="/image/rsuvideo/locationcontent6.jpg"
+            className="shadow-3xl"
+            alt=''
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/rsuvideo/content6.jpg" className='shadow-3xl' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/image/rsuvideo/content7.jpg" className='shadow-3xl' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/image/rsuvideo/content8.jpg"  className='shadow-3xl'/>
+          <img
+            src="/image/rsuvideo/locationcontent7.jpg"
+            className="shadow-3xl"
+            alt=''
+          />
         </SwiperSlide>
       </Swiper>
     </>
