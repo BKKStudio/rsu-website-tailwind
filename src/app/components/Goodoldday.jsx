@@ -18,7 +18,7 @@ export default function GoodOldday() {
           <span className="max-sm:text-xl">GOOD OLD DAY</span>
         </div>
         <div className="bg-pink-500 w-full h-1"></div>
-        <div className="mt-5">
+        <div className="mt-3">
             <SwiperGoodOldDay/>
         </div>
       </figure>
