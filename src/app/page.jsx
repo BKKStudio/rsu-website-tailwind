@@ -9,6 +9,9 @@ import Swipershowcase from "./components/Swiper";
 import { BsFillPlayFill } from "react-icons/bs";
 import Rsuvideo from "./components/Rsuvideo";
 import GoodOldday from "./components/Goodoldday";
+import CarouselRsuUpdate from "./components/CarouselRsuUpdate";
+import CarouselLifeStyles from "./components/CarouselLifeStyles";
+import {BsFillEmojiLaughingFill } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -183,12 +186,12 @@ export default function Home() {
                     นักศึกษาวิทยาลัยศิลปศาสตร์ ม.รังสิต
                   </span>
                   <span className="text-base text-gray-500 mx-5 max-sm:hidden">
-                  นายณัฎฐพงษ์ ยงกำลัง นักศึกษาชั้นปีที่ 4 สาขาวิชาภาษาอังกฤษ
-                วิทยาลัยศิลปศาสตร์ มหาวิทยาลัยรังสิต กล่าวว่า
-                ผมมีความสนใจในหลายๆ ด้านครับ ทั้งดนตรี กีฬา ภาษา
-                แต่ที่ตัดสินใจเลือกเรียนด้านภาษาเป็นหลัก
-                เพราะคิดว่าหากเรามีพื้นฐาน หรือวุฒิการศึกษาด้านนี้แล้ว
-                จะสามารถนำไปต่อยอดประกอบอาชีพได้
+                    นายณัฎฐพงษ์ ยงกำลัง นักศึกษาชั้นปีที่ 4 สาขาวิชาภาษาอังกฤษ
+                    วิทยาลัยศิลปศาสตร์ มหาวิทยาลัยรังสิต กล่าวว่า
+                    ผมมีความสนใจในหลายๆ ด้านครับ ทั้งดนตรี กีฬา ภาษา
+                    แต่ที่ตัดสินใจเลือกเรียนด้านภาษาเป็นหลัก
+                    เพราะคิดว่าหากเรามีพื้นฐาน หรือวุฒิการศึกษาด้านนี้แล้ว
+                    จะสามารถนำไปต่อยอดประกอบอาชีพได้
                   </span>
                 </div>
               </Link>
@@ -207,34 +210,69 @@ export default function Home() {
                 ></Image>
                 <div className="text-center flex flex-col gap-3 justify-center">
                   <span className="text-xl">
-                  ยกนิ้วให้ไปเลยกับ โอปอ-ธภัทรวัฒน์ โจสรรค์นุสนธิ์
-                ที่คว้าแชมป์โลกในศึกดับเบิ้ลยูจีพี วัน เจ็ตสกี
-                ทางไกลนอกชายฝั่งหรือออฟชอร์ชิงแชมป์โลก 2023
+                    ยกนิ้วให้ไปเลยกับ โอปอ-ธภัทรวัฒน์ โจสรรค์นุสนธิ์
+                    ที่คว้าแชมป์โลกในศึกดับเบิ้ลยูจีพี วัน เจ็ตสกี
+                    ทางไกลนอกชายฝั่งหรือออฟชอร์ชิงแชมป์โลก 2023
                   </span>
                   <span className="text-base text-gray-500 mx-5 max-sm:hidden">
-                  สำหรับการเดินทางบนเส้นทางนี้ โอปอ ธภัทรวัฒน์ กล่าวว่า
-                เริ่มเล่นเจ็ตสกีมาตั้งแต่อายุ 13 ปี
-                เริ่มจากขี่เล่นทั่วไปโดยการสนับสนุนจากคุณพ่อที่อยากให้ลูกได้ทำกิจกรรม
-                เรียกว่าจากเดิมที่เคยเป็นเด็กติดเกมส์
-                ก็เปลี่ยนมารักในการเล่นกีฬา กระทั่งโค้ชอับดุล เดวิเลาะห์ เห็นแวว
-                จึงได้ชักชวนมาเริ่มฝึกซ้อมและเข้าสู่สนามแข่ง
+                    สำหรับการเดินทางบนเส้นทางนี้ โอปอ ธภัทรวัฒน์ กล่าวว่า
+                    เริ่มเล่นเจ็ตสกีมาตั้งแต่อายุ 13 ปี
+                    เริ่มจากขี่เล่นทั่วไปโดยการสนับสนุนจากคุณพ่อที่อยากให้ลูกได้ทำกิจกรรม
+                    เรียกว่าจากเดิมที่เคยเป็นเด็กติดเกมส์
+                    ก็เปลี่ยนมารักในการเล่นกีฬา กระทั่งโค้ชอับดุล เดวิเลาะห์
+                    เห็นแวว จึงได้ชักชวนมาเริ่มฝึกซ้อมและเข้าสู่สนามแข่ง
                   </span>
                 </div>
               </Link>
             </div>
-            <Swipershowcase/>
+            <Swipershowcase />
           </figure>
         </article>
-        {/* Show case ---End--- */} 
+        {/* Show case ---End--- */}
 
         {/* RSU CONTENTS */}
-        <Rsuvideo/>
+        <Rsuvideo />
         {/* ----------RSU CONTENTS END--------- */}
-
-
         {/* Good old day */}
-        <GoodOldday/>
+        <GoodOldday />
         {/* Good old day  end */}
+
+        {/* RSU UPdate*/}
+        <article className="flex justify-center items-center my-4">
+          <figure className="max-w-7xl  w-full my-3">
+            <div className="text-4xl flex justify-between mb-1 items-center">
+              <span className="max-sm:text-xl">RSU UPDATE</span>
+              <Link
+                href={""}
+                className="bg-pink-500 text-sm text-white p-2 rounded-lg flex items-center max-sm:text-xs"
+              >
+                All RSU Update
+                <BsFillPlayFill size={19} />
+              </Link>
+            </div>
+            <div className="bg-pink-500 w-full h-1 "></div>
+            <div className="mt-5 flex justify-center max-lg:flex-wrap gap-4 mx-5">
+              <div className="w-9/12 max-lg:w-full ">
+                <CarouselLifeStyles />
+              </div>
+              <div className="w-1/4 flex flex-col  max-lg:w-full items-center justify-center gap-4">
+                <div className="shadow-3xl">
+                  {" "}
+                  <CarouselRsuUpdate />
+                </div>
+                <Link href={""} className="shadow-3xl flex justify-center gap-2 items-center p-5 w-full text-xl bg-sky-400 hover:animate-animation-shake text-white">
+                  {" "}
+                  <BsFillEmojiLaughingFill  size={30}  className="" />All Rsu-Styles  <BsFillPlayFill size={19} />
+                </Link>
+              </div>
+            </div>
+          </figure>
+        </article>
+        {/* -------END  RSU UPdate ----------- */}
+
+        {/* Rsu Gallary */}
+
+         {/*----------- Rsu Gallary -----------------*/}
       </main>
       <Footer />
     </div>
