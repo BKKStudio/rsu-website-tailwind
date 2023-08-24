@@ -289,18 +289,18 @@ export default function Home() {
             <div className="mt-4 flex justify-center gap-4 mx-5">
               <div className="w-3/4 flex flex-col gap-4 justify-center">
               <img
-                  src={"/image/RsuGallery/Gallery2.jpg"}
+                  src={"/image/RsuGallery/gallery2.jpg"}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
                 ></img>
                 <div className="grid grid-cols-2 gap-4 ">
                 <img
-                  src={"/image/RsuGallery/Gallery4.jpg"}
+                  src={"/image/RsuGallery/gallery4.jpg"}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
                 ></img>
                     <img
-                  src={"/image/RsuGallery/Gallery5.jpg"}
+                  src={"/image/RsuGallery/gallery5.jpg"}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
                 ></img>
@@ -308,7 +308,7 @@ export default function Home() {
               </div>
               <div className="">
               <img
-                  src={"/image/RsuGallery/Gallery1.jpg"}
+                  src={"/image/RsuGallery/gallery1.jpg"}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
                 ></img>
