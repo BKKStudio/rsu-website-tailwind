@@ -1,10 +1,10 @@
 import Link from "next/link";
 export default function ManuUnderCarousel() {
     return(
-        <article className="flex justify-center items-center">
+        <article className="flex justify-center items-center ">
           <figure className="max-w-7xl  w-full my-3">
             <div className="grid grid-cols-8 max-lg:grid-cols-4 max-sm:text-xs">
-              <Link href={""} className="flex justify-center">
+              <Link href={"/pages/Register"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/1.png"}

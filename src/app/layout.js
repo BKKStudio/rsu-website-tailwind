@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
+import SidebarModel from "./components/SidebarModel";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -44,7 +45,9 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="font-anuphan font-bold">{children}</body>
+      <body className="font-anuphan font-bold">
+        {children}
+        </body>
     </html>
   );
 }

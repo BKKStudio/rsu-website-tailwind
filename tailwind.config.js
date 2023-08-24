@@ -45,6 +45,7 @@ module.exports = {
       },  
       margin: {
         '10': '15rem',
+        '12':'20rem',
       }
 
      

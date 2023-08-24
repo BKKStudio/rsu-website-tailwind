@@ -6,9 +6,9 @@ import Image from "next/image";
 
 function MobileNav({ open, setOpen }) {
   return (
-    <div className="flex justify-center z-1">
+    <div className="flex justify-center z-2">
       <div
-        className={`absolute items-center h-72 w-screen bg-white transform shadow-lg  z-1 ${
+        className={`absolute items-center h-72 w-screen bg-white transform shadow-lg  z-2 ${
           open ? "-translate-y-0" : "-translate-y-full"
         } transition-transform duration-300 ease-in-out filter  `}
       >

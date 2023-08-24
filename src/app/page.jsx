@@ -12,11 +12,13 @@ import GoodOldday from "./components/Goodoldday";
 import CarouselRsuUpdate from "./components/CarouselRsuUpdate";
 import CarouselLifeStyles from "./components/CarouselLifeStyles";
 import {BsFillEmojiLaughingFill } from "react-icons/bs";
+import SidebarModel from "./components/SidebarModel";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <SidebarModel/>
       <Carousel />
       <main>
         <ManuUnderCarousel />
@@ -260,9 +262,9 @@ export default function Home() {
                   {" "}
                   <CarouselRsuUpdate />
                 </div>
-                <Link href={""} className="shadow-3xl flex justify-center gap-2 items-center p-5 w-full text-xl bg-sky-400 hover:animate-animation-shake text-white">
+                <Link href={""} className="shadow-3xl flex justify-center gap-2 items-center p-5 w-full text-xl bg-sky-400 hover:animate-animation-shake text-white ">
                   {" "}
-                  <BsFillEmojiLaughingFill  size={30}  className="" />All Rsu-Styles  <BsFillPlayFill size={19} />
+                  <BsFillEmojiLaughingFill  size={30}  className="" /><span className="max-sm:text-sm">All Rsu-Styles</span>  <BsFillPlayFill size={19} />
                 </Link>
               </div>
             </div>
@@ -271,7 +273,49 @@ export default function Home() {
         {/* -------END  RSU UPdate ----------- */}
 
         {/* Rsu Gallary */}
-
+        <article className="flex justify-center items-center my-4">
+          <figure className="max-w-7xl  w-full my-3 ">
+          <div className="text-4xl flex justify-between mb-1 items-center">
+          <Link
+                href={""}
+                className="bg-pink-500 text-sm text-white p-2 rounded-lg flex items-center max-sm:text-xs"
+              >
+                All Gallery 
+                <BsFillPlayFill size={19} />
+              </Link>
+              <span className="max-sm:text-xl">RSU GALLERY</span>
+            </div>
+            <div className="bg-pink-500 w-full h-1 "></div>
+            <div className="mt-4 flex justify-center gap-4 mx-5">
+              <div className="w-3/4 flex flex-col gap-4 justify-center">
+              <img
+                  src={"/image/RsuGallery/Gallery2.jpg"}
+                  alt=""
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
+                ></img>
+                <div className="grid grid-cols-2 gap-4 ">
+                <img
+                  src={"/image/RsuGallery/Gallery4.jpg"}
+                  alt=""
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
+                ></img>
+                    <img
+                  src={"/image/RsuGallery/Gallery5.jpg"}
+                  alt=""
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
+                ></img>
+                </div>
+              </div>
+              <div className="">
+              <img
+                  src={"/image/RsuGallery/Gallery1.jpg"}
+                  alt=""
+                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
+                ></img>
+              </div>
+            </div>
+          </figure>
+        </article>
          {/*----------- Rsu Gallary -----------------*/}
       </main>
       <Footer />

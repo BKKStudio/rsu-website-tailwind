@@ -57,7 +57,7 @@ export default function Carousel() {
         </div>
       </div>
       <button
-        className="carousel-control-prev z-0"
+        className="carousel-control-prev z-1"
         type="button"
         data-bs-target="#carouselExampleAutoplaying"
         data-bs-slide="prev"
