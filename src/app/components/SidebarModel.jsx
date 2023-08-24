@@ -17,7 +17,7 @@ const SidebarModel = () => {
           className="flex justify-center items-center px-10  py-3 rounded-lg   bg-pink-600 text-white gap-1 hover:animate-animation-shake"
         >
           <BsTelephone size={20}></BsTelephone>
-          <span>สมัครเรียน</span>
+          <span>02-791-6000</span>
         </Link>
         {/* Facebook */}
         <Link
