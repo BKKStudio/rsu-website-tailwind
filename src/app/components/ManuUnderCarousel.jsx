@@ -24,7 +24,7 @@ export default function ManuUnderCarousel() {
                   <p>ค่าเทอม</p>
                 </div>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"/pages/RegisterLevel/Scholarships"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/3.png"}

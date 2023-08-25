@@ -1,41 +1,23 @@
 "use client"
+import Footer from "@/app/components/Footer";
 import NavbarRegister from "@/app/components/NavbarRegister";
+import Image from "next/image";
 import Link from "next/link";
 import { BsTelephoneFill } from "react-icons/bs";
-import Image from "next/image";
-import { useState } from "react";
-import Tables from "@/app/Tablecomponents/Table";
-import Footer from "@/app/components/Footer";
 import { BsTelephone } from "react-icons/bs";
+import { BsChevronRight } from "react-icons/bs";
+import { useState } from "react";
 
-export default function AlllevelRegister() {
-    const [levelStudy,setLevelStudy] = useState("ปริญญาตรี")
-    const [colorBtn,setColorBtn] = useState("Bachelors")
+export default function RegisterAllLevel() {
+    const [colorpush,setColorpush] = useState("")
+    
 
-    const HandelBachelor = (() =>{
-        setLevelStudy("ปริญญาตรี")
-        setColorBtn("Bachelors")
-    })
 
-    const HandelMasters = (() =>{
-        setLevelStudy("ปริญญาโท")
-        setColorBtn("Masters")
-        
-    })
-    const HandelDoctors = (() =>{
-        setLevelStudy("ปริญญาเอก")
-        setColorBtn("Doctors")
-    })
-    const HandelInternational = (() =>{
-        setLevelStudy("International")
-        setColorBtn("International")
-        
-    })
-  return (
-    <>
-      <NavbarRegister />
-      <main>
-        <article className="flex justify-center items-center my-2">
+    return(
+   <>
+    <NavbarRegister/>
+    <main>
+    <article className="flex justify-center items-center my-2">
           <figure className="max-w-7xl  w-full my-1 ">
             <div className="flex justify-between items-center max-md:flex-col">
               <Image
@@ -159,42 +141,80 @@ export default function AlllevelRegister() {
         <article className="flex justify-center items-center  bg-sky-500">
             <figure  className="max-w-7xl  w-full my-3 mx-2 flex justify-between text-white">
             <span className="text-2xl max-md:text-xl">หลักสูตรที่เปิดสอน</span>
-            <span className="text-xl max-md:text-base">หน้าแรก/{levelStudy}</span>
+            <span className="text-xl max-md:text-base">หน้าแรก/สมัครเรียน</span>
             </figure>
         </article>
 
-        {/* Button Level Show */}
-        <article className="flex justify-center items-center my-4">
-            <figure  className="max-w-7xl  w-full my-3 mx-2">
-            <img  src="/image/Slideshow/slide6.jpg" alt="" className=""></img>
-            <div className="mt-4 grid grid-cols-4 gap-4  max-md:grid-cols-2">
-            <button className={`p-3 ${colorBtn === "Bachelors" ? "bg-pink-500" : "bg-gray-500"} `} onClick={HandelBachelor}> 
-            <span className="text-white text-xl max-md:text-base">ปริญญาตรี</span>
-            </button>
-            <button className={`p-3 ${colorBtn === "Masters" ? "bg-pink-500" : "bg-gray-500"}`}  onClick={HandelMasters}> 
-            <span className="text-white text-xl max-md:text-base">ปริญญาโท</span>
-            </button>
-            <button className={`p-3 ${colorBtn === "Doctors" ? "bg-pink-500" : "bg-gray-500"}`} onClick={HandelDoctors}> 
-            <span className="text-white text-xl max-md:text-base">ปริญญาเอก</span>
-            </button>
-            <button className={`p-3 ${colorBtn === "International" ? "bg-pink-500" : "bg-gray-500"}`} onClick={HandelInternational}> 
-            <span className="text-white text-xl max-md:text-base">International</span>
-            </button>
+        {/* Content */}
+        <article className="flex justify-center items-center  my-4 ">
+            <figure  className="max-w-7xl  w-full my-3 mx-2 flex justify-between ">
+           <div className="">
+            {/* List manu left */}
+            <div className="grid  grid-cols-2 gap-5 max-md:grid-cols-1">
+            <div>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"/pages/RegisterLevel/checkregister"} className={`no-underline ${colorpush === "register" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("register")}>เช็คการลงทะเบียน</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"/pages/RegisterLevel/report"} className={`no-underline ${colorpush === "report" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("report")}>กำหนดการรายงานตัว</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"/pages/Register"} className={`no-underline ${colorpush === "facultyandmajor" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("facultyandmajor")}>คณะ/สาขาที่เปิดรับ</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"http://www.dbsrsu.com/transfer.html"} className={`no-underline ${colorpush === "vocational" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("vocational")}>หลักสูตรเทียบโอน ปวส.</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"/pages/RegisterLevel/Scholarships"} className={`no-underline ${colorpush === "scholarship" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("scholarship")}>ทุนการศึกษา</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={""} className={`no-underline ${colorpush === "tuition" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("tuition")}>ค่าเทอม</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"no-underline"} className={`no-underline ${colorpush === "elearning" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("elearning")}>กองทุนเงินให้กู้ยืมเพื่อการศึกษา</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
+                <div className="flex items-center">
+                    <span><BsChevronRight size={15}/></span>
+                    <Link href={"no-underline"} className={`no-underline ${colorpush === "howtoregister" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("howtoregister")}>วิธีสมัครเรียน</Link>
+                </div>
+                <hr className="text-pink-600 border-dashed"></hr>
             </div>
+            <div className="grid grid-cols-2 gap-4">
+                <Link href={""}>
+                    <Image src={"/image/Register/1.jpg"} alt="" width={300} height={300} className="hover:animate-animation-shake"></Image>
+                </Link>
+                <Link href={""}>
+                    <Image src={"/image/Register/2.jpg"} alt="" width={300} height={300} className="hover:animate-animation-shake"></Image>
+                </Link>
+                <Link href={""}>
+                    <Image src={"/image/Register/3.jpg"} alt="" width={300} height={300} className="hover:animate-animation-shake"></Image>
+                </Link>
+                <Link href={""}>
+                    <Image src={"/image/Register/4.jpg"} alt="" width={300} height={300} className="hover:animate-animation-shake"></Image>
+                </Link>
+            </div>
+            </div>
+             {/* List manu left */}
+           </div>
             </figure>
         </article>
 
-    
-        {/* Table */}
-        <article className="flex justify-center items-center my-4">
-            <figure className="max-w-7xl  w-full my-3 mx-2">
-                <p className="mb-3 text-2xl max-md:text-xl ">หลักสูตรที่เปิดสอน ระดับ{levelStudy} | Admissions Programs</p>
-                <div className="bg-pink-500 w-full h-1 mb-4"></div>
-                <Tables colorBtn={colorBtn}/>
-            </figure>
-        </article>
-      </main>
-      <Footer/>
-    </>
-  );
-}
+    </main>
+    <Footer/>
+   </>
+    )
+}   

@@ -264,7 +264,7 @@ export default function Home() {
                 </div>
                 <Link href={""} className="shadow-3xl flex justify-center gap-2 items-center p-5 w-full text-xl bg-sky-400 hover:animate-animation-shake text-white ">
                   {" "}
-                  <BsFillEmojiLaughingFill  size={30}  className="" /><span className="max-sm:text-sm">All Rsu-Styles</span>  <BsFillPlayFill size={19} />
+                  <BsFillEmojiLaughingFill  size={30}  className="" /><span className="max-sm:text-sm max-lg:text-base">All Rsu-Styles</span>  <BsFillPlayFill size={19} />
                 </Link>
               </div>
             </div>
@@ -286,8 +286,8 @@ export default function Home() {
               <span className="max-sm:text-xl">RSU GALLERY</span>
             </div>
             <div className="bg-pink-500 w-full h-1 "></div>
-            <div className="mt-4 flex justify-center gap-4 mx-5">
-              <div className="w-3/4 flex flex-col gap-4 justify-center">
+            <div className="mt-4 flex justify-center gap-4 mx-5 max-lg:flex-col max-lg:items-center">
+              <div className="w-3/4 flex flex-col gap-4 justify-center max-lg:w-full">
               <img
                   src={"/image/RsuGallery/Gallery2.jpg"}
                   alt=""

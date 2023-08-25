@@ -23,16 +23,23 @@ module.exports = {
           '75%':{transform:'scale(110%)'},
         },
         'animation-shake':{
-          '0%,100%':{transform:'rotate(3deg)'},
+            '0%,100%':{transform:'rotate(3deg)'},
           '25%':{transform:'rotate(-3deg)'},
           '50%':{transform:'rotate(3deg)'},
           '75%':{transform:'rotate(-3deg)'},
         },
+        'animation-shakebtn':{
+          '0%,100%':{transform:'rotate(3deg)'},
+          '25%':{transform:'rotate(-3deg)'},
+          '50%':{transform:'rotate(3deg)',},
+          '75%':{transform:'rotate(-3deg)',},
+        }
 
       },
       animation:{
         'animation-manu':'animation-manu 1s ease-in infinite' ,
-        'animation-shake':'animation-shake .5s ease-in 1' 
+        'animation-shake':'animation-shake .5s ease-in 1' ,
+        'animation-shakebtn':'animation-shakebtn .5s ease-in infinite' ,
       },
       boxShadow: {
         '3xl': '0px 0px 8px 0px black',

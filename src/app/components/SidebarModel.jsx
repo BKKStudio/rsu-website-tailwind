@@ -4,25 +4,25 @@ import { BsTelephone } from "react-icons/bs";
 const SidebarModel = () => {
   return (
     <aside className="fixed  ml-8 mt-5  z-2 max-lg:hidden   animate__animated animate__bounceInLeft ">
-      <div className="flex flex-col w-full gap-2">
+      <div className="flex flex-col w-0  gap-2">
         <Link
-          href={""}
-          className="flex justify-center items-center px-10 py-3 rounded-lg   bg-red-600 text-white gap-1 hover:animate-animation-shake"
+          href={"/pages/Register"}
+          className="flex justify-center items-center w-48  h-14 rounded-lg   bg-red-600 text-white gap-1 hover:animate-animation-shake"
         >
           <BsBell size={20}></BsBell>
           <span>สมัครเรียน</span>
         </Link>
         <Link
           href={""}
-          className="flex justify-center items-center px-10  py-3 rounded-lg   bg-pink-600 text-white gap-1 hover:animate-animation-shake"
+          className="flex justify-center items-center  w-48  h-14 rounded-lg   bg-pink-600 text-white gap-1 hover:animate-animation-shake"
         >
           <BsTelephone size={20}></BsTelephone>
-          <span>สมัครเรียน</span>
+          <span>02-790-6000</span>
         </Link>
         {/* Facebook */}
         <Link
           href={"https://www.facebook.com/rangsituniversity"}
-          className="flex  items-center rounded-full text-white gap-1 w-1/2 "
+          className="flex  items-center rounded-full text-white gap-1 w-0 "
         >
           <div className="p-2 bg-blue-700 rounded-full hover:animate-animation-manu">
             <svg
@@ -41,7 +41,7 @@ const SidebarModel = () => {
         {/* Youtube */}
         <Link
           href={"https://www.youtube.com/@RangsitUniversity"}
-          className="flex  items-center rounded-full text-white gap-1 w-1/2"
+          className="flex  items-center rounded-full text-white gap-1 w-0 "
         >
           <div className="p-2 bg-red-600 rounded-full hover:animate-animation-manu">
             <svg
@@ -62,7 +62,7 @@ const SidebarModel = () => {
           href={
             "https://www.tiktok.com/@rangsituniversity?is_from_webapp=1&sender_device=pc"
           }
-          className="flex  items-center rounded-full text-white gap-1 w-1/2 "
+          className="flex  items-center rounded-full text-white gap-1 w-0 "
         >
           <div className="p-2 bg-black rounded-full hover:animate-animation-manu">
             <svg
@@ -81,7 +81,7 @@ const SidebarModel = () => {
         {/* Line */}
         <Link
           href={"https://page.line.me/jew9364z"}
-          className="flex  items-center rounded-full text-white gap-1 w-1/2"
+          className="flex  items-center rounded-full text-white gap-1 w-0"
         >
           <div className="p-2 bg-green-500 rounded-full hover:animate-animation-manu">
             <svg
@@ -100,7 +100,7 @@ const SidebarModel = () => {
         {/* Ig */}
         <Link
           href={"https://www.instagram.com/rangsitu/"}
-          className="flex  items-center rounded-full text-white gap-1  w-1/2"
+          className="flex  items-center rounded-full text-white gap-1  w-0"
         >
           <div className="p-2 bg-pink-400 rounded-full hover:animate-animation-manu">
             <svg
@@ -119,7 +119,7 @@ const SidebarModel = () => {
         {/* Twitter */}
         <Link
           href={"https://twitter.com/RangsitU"}
-          className="flex  items-center rounded-full text-white gap-1 w-1/2"
+          className="flex  items-center rounded-full text-white gap-1 w-0"
         >
           <div className="p-2 bg-sky-400 rounded-full hover:animate-animation-manu">
             <svg
@@ -138,7 +138,7 @@ const SidebarModel = () => {
         {/* linkedin */}
         <Link
           href={"https://www.linkedin.com/company/rangsit-university-thailand"}
-          className="flex  items-center rounded-full text-white gap-1 w-1/2"
+          className="flex  items-center rounded-full text-white gap-1 w-0"
         >
           <div className="p-2 bg-blue-800 rounded-full hover:animate-animation-manu">
             <svg

@@ -1,4 +1,6 @@
 import BachelorsTable from "./Bachelors";
+import DoctorsTable from "./Doctors";
+import InternationalsTable from "./International";
 import MastersTable from "./Masters";
 
 const Tables = ((params)=>{
@@ -19,11 +21,15 @@ const Tables = ((params)=>{
     }
     else if(colorBtn === "Doctors"){
         return(
-            <div>Doctors</div>
+            <div>
+                <DoctorsTable/>
+            </div>
         )
     } else if(colorBtn === "International"){
         return(
-            <div>International</div>
+            <div>
+                <InternationalsTable/>
+            </div>
         )
     }else{
         return(

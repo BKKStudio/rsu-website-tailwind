@@ -4,16 +4,16 @@ export default function NavbarRegister() {
     <nav className="flex justify-center items-center  bg-pink-500">
       <div className="max-w-7xl  w-full my-3 flex justify-between max-sm:text-sm mx-3">
         <div className="flex gap-3 text-white ">
-          <Link href={"/"} className="no-underline text-white">
+          <Link href={"/"} className="no-underline text-white max-sm:text-xs">
             หน้าแรก
           </Link>
-          <Link href={""} className="no-underline text-white">
+          <Link href={""} className="no-underline text-white max-sm:text-xs">
             อินทราเน็ต
           </Link>
-          <Link href={""} className="no-underline text-white">
+          <Link href={""} className="no-underline text-white max-sm:text-xs">
             นักศึกษา
           </Link>
-          <Link href={""} className="no-underline text-white">
+          <Link href={""} className="no-underline text-white max-sm:text-xs">
             International
           </Link>
         </div>
@@ -105,8 +105,8 @@ export default function NavbarRegister() {
             </Link>
             {/*Ig */}
           </div>
-          <span>TH</span>
-          <span>EN</span>
+          <span className="no-underline text-white max-sm:text-xs">TH</span>
+          <span className="no-underline text-white max-sm:text-xs">EN</span>
         </div>
       </div>
     </nav>
