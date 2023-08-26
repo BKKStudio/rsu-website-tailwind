@@ -251,11 +251,11 @@ export default function Scholarships() {
                     </li>
                   </ul>
                 </div>
-                <p className="w-full h-0.5 bg-pink-600"></p>
                 <span className="text-3xl mb-3 max-md:text-xl flex items-center">
                   <BsChevronRight size={25} />
                   หลักฐานประกอบการสมัคร
                 </span>
+                <p className="w-full h-0.5 bg-pink-600"></p>
               </div>
               <span className="text-black">
                 1.รูปถ่ายหน้าตรง ขนาด 1 นิ้ว 1 รูป
@@ -272,11 +272,11 @@ export default function Scholarships() {
               <span className="text-black mb-4">
                 5.แฟ้มสะสมผลงาน (Portfolio)
               </span>
-              <p className="w-full h-0.5 bg-pink-600"></p>
               <span className="text-3xl mb-3 max-md:text-xl flex items-center">
                 <BsChevronRight size={25} />
                 คณะ/สาขาวิชาที่ได้รับทุน ทุกคณะ
               </span>
+              <p className="w-full h-0.5 bg-pink-600"></p>
               <span className="text-black">
                 ยกเว้น วิทยาลัยแพทยศาสาตร์ วิทยาลัยทันตแพทยศาสตร์
                 วิทยาลัยเภสัชศาสตร์ คณะพยาบาลศาสตร์ คณะเทคนิคการแพทย์
