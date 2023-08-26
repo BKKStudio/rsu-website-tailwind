@@ -188,10 +188,11 @@ export default function AlllevelRegister() {
     
         {/* Table */}
         <article className="flex justify-center items-center my-4">
-            <figure className="max-w-7xl  w-full my-3 mx-2">
+            <figure className="max-w-7xl   w-full my-3 mx-2">
                 <p className="mb-3 text-2xl max-md:text-xl text-pink-600">ประมาณการค่าเล่าเรียนตลอดหลักสูตร ประจำปีการศึกษา 2566 {levelStudy}</p>
                 <div className="bg-pink-500 w-full h-1 mb-4"></div>
                 <TableTuitions colorBtn={colorBtn}/>
+                
             </figure>
         </article>
       </main>
