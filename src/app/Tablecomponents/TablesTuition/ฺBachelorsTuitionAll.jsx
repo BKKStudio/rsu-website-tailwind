@@ -2,7 +2,7 @@ export default function BachelorsTuitionAll() {
   return (
 <>
 <div className="overflow-auto">
-      <table className="  w-full text-center mt-4 max-lg:mx-3">
+      <table className="  w-full text-center mt-4 ">
         <thead className="bg-gray-700 text-white">
           <tr className="border ">
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">
