@@ -11,10 +11,10 @@ export default function ManuUnderCarousel() {
                     alt=""
                     className="hover:animate-animation-manu"
                   ></img>
-                  <p className="">สมัครเรียน</p>
+                  <p className="">ปริญญาตรี</p>
                 </div>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"/pages/RegisterLevel/tuition"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/2.png"}
