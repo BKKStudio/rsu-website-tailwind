@@ -363,7 +363,7 @@ export default function BachelorsAllResponsive() {
         aria-labelledby="exampleModalToggleLabel"
         tabindex="-1"
       >
-        <div className="modal-dialog modal-xl modal-dialog-centered">
+        <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-header bg-pink-600 text-white">
               <p className="modal-title fs-5" id="exampleModalToggleLabel">
@@ -384,69 +384,76 @@ export default function BachelorsAllResponsive() {
                   {data.Major}
                 </div>
                 <table className="w-full text-center">
-                  <thead className="bg-gray-200 text-black">
-                    <tr className="border ">
-                      <th className="border p-1  max-md:text-xs font-poppins">
+                  <thead className=" text-black">
+                    <tr className="border  bg-gray-200">
+                      <th className="border p-1  max-sm:text-xs font-poppins"  colspan="5">
                         ปีการศึกษาที่ 1
                       </th>
-                      <th className="border p-1   max-md:text-xs font-poppins">
+                      <th className="border p-1  max-sm:text-xs"  colspan="1">
+                      {data.term1}
+                      </th>
+                    </tr>
+                    <tr className="border ">
+                      <th className="border p-1  max-sm:text-xs font-poppins"  colspan="5">
                         ปีการศึกษาที่ 2
                       </th>
-                      <th className="border p-1   max-md:text-xs font-poppins">
+                      <th className="border p-1  max-sm:text-xs "  colspan="1">
+                      {data.term2}
+                      </th>
+                    </tr>
+                    <tr className="border bg-gray-200">
+                      <th className="border p-1  max-sm:text-xs font-poppins"  colspan="5">
                         ปีการศึกษาที่ 3
                       </th>
-                      <th className="border p-1  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-sm:text-xs "  colspan="1">
+                      {data.term3}
+                      </th>
+                    </tr>
+                    <tr className="border ">
+                      <th className="border p-1  max-sm:text-xs font-poppins"  colspan="5">
                         ปีการศึกษาที่ 4
                       </th>
-                      <th className="border p-1  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-sm:text-xs "  colspan="1">
+                      {data.term4}
+                      </th>
+                    </tr>
+                    <tr className="border bg-gray-200">
+                      <th className="border p-1  max-sm:text-xs font-poppins"  colspan="5">
                         ปีการศึกษาที่ 5
                       </th>
-                      <th className="border p-1  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-sm:text-xs "  colspan="1">
+                      {data.term5}
+                      </th>
+                    </tr>
+                    <tr className="border ">
+                      <th className="border p-1  max-sm:text-xs font-poppins"  colspan="5">
                         ปีการศึกษาที่ 6
+                      </th>
+                      <th className="border p-1  max-sm:text-xs "  colspan="1">
+                      {data.term6}
                       </th>
                     </tr>
                   </thead>
                   <tbody className="">
-                    <tr className="border">
-                      <td className="border p-1  max-md:text-xs ">
-                        {data.term1}
-                      </td>
-                      <td className="border p-1  max-md:text-xs ">
-                        {data.term2}
-                      </td>
-                      <td className="border p-1  max-md:text-xs">
-                        {data.term3}
-                      </td>
-                      <td className="border p-1  max-md:text-xs">
-                        {" "}
-                        {data.term4}
-                      </td>
-                      <td className="border p-1  max-md:text-xs">
-                        {data.term5}
-                      </td>
-                      <td className="border p-1  max-md:text-xs">
-                        {data.term6}
-                      </td>
-                    </tr>
                     <tr className="border  bg-gray-200 ">
                       <th
                         colspan="5"
-                        className="border p-1 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
+                        className="border p-1 max-lg:p-1 max-lg:text-sm max-sm:text-xs text-end font-poppins"
                       >
                         ลักษณะการกู้ยืมฯ
                       </th>
-                      <td className="border p-1   max-md:text-xs">
+                      <td className="border p-1   max-sm:text-xs">
                         {data.dsl}
                       </td>
                     </tr>
                     <tr className="border ">
                       <th
                         colspan="5"
-                        className="border p-1 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
+                        className="border p-1 max-lg:p-1 max-lg:text-sm max-sm:text-xs text-end font-poppins"
                       >
                         ค่าเทอมตลอดหลักสูตร
                       </th>
-                      <td className="border p-1   max-md:text-xs">
+                      <td className="border p-1   max-sm:text-xs">
                         {data.Allterm}
                       </td>
                     </tr>
