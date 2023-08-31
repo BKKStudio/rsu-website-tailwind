@@ -44,6 +44,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Sriracha&display=swap"
           rel="stylesheet"
         />
+        
       </head>
       <body className="font-anuphan font-bold">
         {children}

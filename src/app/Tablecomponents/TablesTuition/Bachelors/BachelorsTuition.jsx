@@ -1,6 +1,7 @@
 import { BsChevronRight } from "react-icons/bs";
 import Link from "next/link";
 import BachelorsTuitionAll from "./ฺBachelorsTuitionAll";
+import BachelorsAllResponsive from "./BachelorsAllresponsive";
 export default function BachelorsTuition() {
   return (
     <>
@@ -914,7 +915,7 @@ export default function BachelorsTuition() {
                 สาขาวิชารัฐศาสตร์
               </td>
               <td className="border p-2  max-md:text-xs">1</td>
-              <td className="border p-2  max-md:text-sm max-sm:hidden">51,200</td>
+              <td className="border p-2  max-md:text-xs ">51,200</td>
             </tr>
 
             <tr className="border ">
@@ -1132,7 +1133,14 @@ export default function BachelorsTuition() {
         <BsChevronRight />
         ประมาณการค่าเล่าเรียนตลอดหลักสูตร ประจำปีการศึกษา 2566
       </span>
-      <BachelorsTuitionAll/>
+    <div className="max-lg:hidden">
+    <BachelorsTuitionAll/>
+    </div>
+
+    {/* Table responsive  */}
+    <div className="">
+    <BachelorsAllResponsive/>
+    </div>
       {/* ค่าเล่าเรียนตลอดหลักสูตร ประจำปีการศึกษา 2566  */}
     </>
   );

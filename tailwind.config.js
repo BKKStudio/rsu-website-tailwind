@@ -14,6 +14,7 @@ module.exports = {
         'comfortaa': ['Comfortaa', 'cursive'],
         'sriracha': ['Sriracha', 'cursive'],
         'anuphan': ['Anuphan', 'sans-serif'],
+        'poppins':['Poppins','sans-serif'],
       },
       keyframes:{
         'animation-manu':{

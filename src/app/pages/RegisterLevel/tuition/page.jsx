@@ -192,7 +192,6 @@ export default function AlllevelRegister() {
                 <p className="mb-3 text-2xl max-md:text-xl text-pink-600">ประมาณการค่าเล่าเรียนตลอดหลักสูตร ประจำปีการศึกษา 2566 {levelStudy}</p>
                 <div className="bg-pink-500 w-full h-1 mb-4"></div>
                 <TableTuitions colorBtn={colorBtn}/>
-                
             </figure>
         </article>
       </main>

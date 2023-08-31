@@ -1,4 +1,5 @@
-import BachelorsTuition from "./BachelorsTuition";
+import BachelorsTuition from "./Bachelors/BachelorsTuition";
+
 
 const TableTuitions = ((params)=>{
     const {colorBtn} = params
@@ -6,7 +7,7 @@ const TableTuitions = ((params)=>{
     if(colorBtn === "Bachelors"){
         return(
             <div>
-                <BachelorsTuition/>
+              <BachelorsTuition/>
             </div>
         )
     }else if(colorBtn === "Masters"){

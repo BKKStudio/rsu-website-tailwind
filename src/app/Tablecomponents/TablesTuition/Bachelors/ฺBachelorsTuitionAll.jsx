@@ -9,7 +9,7 @@ export default function BachelorsTuitionAll() {
               คณะ/วิทยาลัย
             </th>
             <th className="border p-3 max-lg:p-2 max-lg:text-sm" >สาขา</th>
-            <th className="border p-3 max-lg:p-2 max-lg:text-sm ">ชั้นปีที่ 1</th>
+            <th className="border p-3 max-lg:p-2 max-lg:text-sm  ">ชั้นปีที่ 1</th>
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">ชั้นปีที่ 2</th>
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">ชั้นปีที่ 3</th>
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">ชั้นปีที่ 4</th>
