@@ -325,7 +325,8 @@ export default function BachelorsAllResponsive() {
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               (ไม่เปิดรับ)
             </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs flex items-center justify-center gap-1">
+            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
+            <div className="flex justify-center">
               <button
                 className="flex items-center justify-center gap-1 hover:text-pink-600"
                 data-bs-target="#exampleModalToggle"
@@ -348,6 +349,7 @@ export default function BachelorsAllResponsive() {
                 <span>641,100</span>
                 <FaSearchPlus size={15} color="green" />
               </button>
+              </div>
             </td>
           </tr>
         </tbody>
@@ -384,56 +386,56 @@ export default function BachelorsAllResponsive() {
                 <table className="w-full text-center">
                   <thead className="bg-gray-200 text-black">
                     <tr className="border ">
-                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 1
                       </th>
-                      <th className="border p-1  max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1   max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 2
                       </th>
-                      <th className="border p-1  max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1   max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 3
                       </th>
-                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 4
                       </th>
-                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 5
                       </th>
-                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 6
                       </th>
                     </tr>
                   </thead>
                   <tbody className="">
                     <tr className="border">
-                      <td className="border p-1 max-md:p-2  max-md:text-xs ">
+                      <td className="border p-1  max-md:text-xs ">
                         {data.term1}
                       </td>
-                      <td className="border p-1 max-md:p-2  max-md:text-xs ">
+                      <td className="border p-1  max-md:text-xs ">
                         {data.term2}
                       </td>
-                      <td className="border p-1 max-md:p-2  max-md:text-xs">
+                      <td className="border p-1  max-md:text-xs">
                         {data.term3}
                       </td>
-                      <td className="border p-1 max-md:p-2  max-md:text-xs">
+                      <td className="border p-1  max-md:text-xs">
                         {" "}
                         {data.term4}
                       </td>
-                      <td className="border p-1 max-md:p-2  max-md:text-xs">
+                      <td className="border p-1  max-md:text-xs">
                         {data.term5}
                       </td>
-                      <td className="border p-1 max-md:p-2  max-md:text-xs">
+                      <td className="border p-1  max-md:text-xs">
                         {data.term6}
                       </td>
                     </tr>
                     <tr className="border  bg-gray-200 ">
                       <th
                         colspan="5"
-                        className="border p-1 max-md:p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
+                        className="border p-1 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
                       >
                         ลักษณะการกู้ยืมฯ
                       </th>
-                      <td className="border p-1 max-md:p-2   max-md:text-xs">
+                      <td className="border p-1   max-md:text-xs">
                         {data.dsl}
                       </td>
                     </tr>
@@ -444,23 +446,23 @@ export default function BachelorsAllResponsive() {
                       >
                         ค่าเทอมตลอดหลักสูตร
                       </th>
-                      <td className="border p-1 max-md:p-2   max-md:text-xs">
+                      <td className="border p-1   max-md:text-xs">
                         {data.Allterm}
                       </td>
                     </tr>
                   </tbody>
                 </table>
                 <div className="flex justify-center items-center">
-                  <div className="flex gap-2 max-md:p-3">
+                  <div className="flex gap-2 p-3">
                     <Link
                       href=""
-                      className="max-md:p-2 no-underline text-white bg-gray-400 rounded-lg flex items-center gap-2"
+                      className=" p-2 no-underline text-white bg-gray-400 rounded-lg flex items-center gap-2"
                     >
                       กองทุนกู้ยืมฯ <RiShakeHandsFill size={20} />
                     </Link>
                     <Link
                       href=""
-                      className="max-md:p-2 no-underline text-white bg-pink-600 rounded-lg flex items-center gap-2"
+                      className="p-2 no-underline text-white bg-pink-600 rounded-lg flex items-center gap-2"
                     >
                       สมัครเรียน <BsPenFill size={15} />
                     </Link>
