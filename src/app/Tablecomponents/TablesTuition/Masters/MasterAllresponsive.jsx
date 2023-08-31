@@ -22,7 +22,7 @@ export default function MasterAllresponsive() {
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">
               เสาร์-อาทิตย์
             </th>
-            <th className="border p-3 max-lg:p-2 max-lg:text-sm">อาทิตย์</th>
+            <th className="border p-1 max-lg:p-2 max-lg:text-sm">อาทิตย์</th>
           </tr>
         </thead>
         <tbody className="">
