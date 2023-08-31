@@ -384,67 +384,67 @@ export default function BachelorsAllResponsive() {
                 <table className="w-full text-center">
                   <thead className="bg-gray-200 text-black">
                     <tr className="border ">
-                      <th className="border max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 1
                       </th>
-                      <th className="border   max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-md:p-2  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 2
                       </th>
-                      <th className="border  max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1  max-md:p-2  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 3
                       </th>
-                      <th className="border max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 4
                       </th>
-                      <th className="border max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 5
                       </th>
-                      <th className="border max-md:p-2  max-md:text-xs font-poppins">
+                      <th className="border p-1 max-md:p-2  max-md:text-xs font-poppins">
                         ปีการศึกษาที่ 6
                       </th>
                     </tr>
                   </thead>
                   <tbody className="">
                     <tr className="border">
-                      <td className="border max-md:p-2  max-md:text-xs ">
+                      <td className="border p-1 max-md:p-2  max-md:text-xs ">
                         {data.term1}
                       </td>
-                      <td className="border max-md:p-2  max-md:text-xs ">
+                      <td className="border p-1 max-md:p-2  max-md:text-xs ">
                         {data.term2}
                       </td>
-                      <td className="border max-md:p-2  max-md:text-xs">
+                      <td className="border p-1 max-md:p-2  max-md:text-xs">
                         {data.term3}
                       </td>
-                      <td className="border max-md:p-2  max-md:text-xs">
+                      <td className="border p-1 max-md:p-2  max-md:text-xs">
                         {" "}
                         {data.term4}
                       </td>
-                      <td className="border max-md:p-2  max-md:text-xs">
+                      <td className="border p-1 max-md:p-2  max-md:text-xs">
                         {data.term5}
                       </td>
-                      <td className="border max-md:p-2  max-md:text-xs">
+                      <td className="border p-1 max-md:p-2  max-md:text-xs">
                         {data.term6}
                       </td>
                     </tr>
-                    <tr className="border bg-gray-200 ">
+                    <tr className="border  bg-gray-200 ">
                       <th
                         colspan="5"
-                        className="border max-md:p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
+                        className="border p-1 max-md:p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
                       >
                         ลักษณะการกู้ยืมฯ
                       </th>
-                      <td className="border max-md:p-2   max-md:text-xs">
+                      <td className="border p-1 max-md:p-2   max-md:text-xs">
                         {data.dsl}
                       </td>
                     </tr>
                     <tr className="border ">
                       <th
                         colspan="5"
-                        className="border max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
+                        className="border p-1 max-lg:p-1 max-lg:text-sm max-md:text-xs text-end font-poppins"
                       >
                         ค่าเทอมตลอดหลักสูตร
                       </th>
-                      <td className="border max-md:p-2   max-md:text-xs">
+                      <td className="border p-1 max-md:p-2   max-md:text-xs">
                         {data.Allterm}
                       </td>
                     </tr>
