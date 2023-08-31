@@ -1,4 +1,7 @@
 import BachelorsTuition from "./Bachelors/BachelorsTuition";
+import DoctorsAllresponsive from "./Doctors/DoctorsAllresponsive";
+import InternationalAllresponsive from "./International/InternationalAllresponsive";
+import MastersTuition from "./Masters/MastersTuition";
 
 
 const TableTuitions = ((params)=>{
@@ -13,20 +16,20 @@ const TableTuitions = ((params)=>{
     }else if(colorBtn === "Masters"){
         return(
             <div>
-               tuition Masters
+               <MastersTuition/>
             </div>
         )
     }
     else if(colorBtn === "Doctors"){
         return(
             <div>
-                 tuition Doctors
+                 <DoctorsAllresponsive/>
             </div>
         )
     } else if(colorBtn === "International"){
         return(
             <div>
-                tuition International
+                <InternationalAllresponsive/>
             </div>
         )
     }else{
