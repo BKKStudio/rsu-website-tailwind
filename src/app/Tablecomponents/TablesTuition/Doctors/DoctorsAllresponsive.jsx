@@ -10,7 +10,7 @@ export default function DoctorsAllresponsive() {
             <th rowspan="2" className="border p-3 max-lg:p-2 max-lg:text-sm">
               คณะ/สาขาวิชา
             </th>
-            <th colspan="3" className="border p-3 max-lg:p-2 max-lg:text-sm">
+            <th colspan="2" className="border p-3 max-lg:p-2 max-lg:text-sm">
               ภาคการศึกษา
             </th>
             <th rowspan="2" className="border p-3 max-lg:p-2 max-lg:text-sm">
@@ -18,7 +18,6 @@ export default function DoctorsAllresponsive() {
             </th>
           </tr>
           <tr className="border ">
-            <th className="border p-3 max-lg:p-2 max-lg:text-sm">ปกติ</th>
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">
               เสาร์-อาทิตย์
             </th>
@@ -29,7 +28,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี  */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี
@@ -41,9 +40,6 @@ export default function DoctorsAllresponsive() {
               หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ
               (วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี) Doctor of Philosophy
               (Information Technology)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -67,9 +63,6 @@ export default function DoctorsAllresponsive() {
               Media Technology)
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
                 <BsCheckLg size={20} color="red" />
               </div>
@@ -90,9 +83,6 @@ export default function DoctorsAllresponsive() {
               Program) (Information Technology)
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
                 <BsCheckLg size={20} color="red" />
               </div>
@@ -109,7 +99,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยวิศวกรรมศาสตร์   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยวิศวกรรมศาสตร์
@@ -120,9 +110,6 @@ export default function DoctorsAllresponsive() {
               {" "}
               หลักสูตรวิศวกรรมศาสตรดุษฎีบัณฑิต สาขาวิชาวิศวกรรมโยธา
               (วิทยาลัยวิศวกรรมศาสตร์) Doctor of Engineering (Civil Engineering)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -142,7 +129,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยนิเทศศาสตร์  */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยนิเทศศาสตร์
@@ -153,9 +140,6 @@ export default function DoctorsAllresponsive() {
               {" "}
               หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชานิเทศศาสตร์
               (วิทยาลัยนิเทศศาสตร์) Doctor of Philosophy (Communication Arts)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -178,9 +162,6 @@ export default function DoctorsAllresponsive() {
               (English Program)
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
                 <BsCheckLg size={20} color="red" />
               </div>
@@ -197,7 +178,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยนวัตกรรมสังคม   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยนวัตกรรมสังคม
@@ -209,9 +190,6 @@ export default function DoctorsAllresponsive() {
               หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาผู้นำทางสังคม ธุรกิจ และการเมือง
               นวัตกรรมสังคม (วิทยาลัยนวัตกรรมสังคม) Doctor of Philosophy
               (Leadership in Society, Business and Politics)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -231,7 +209,7 @@ export default function DoctorsAllresponsive() {
           {/* รัฐประศาสนศาสตร์ */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               รัฐประศาสนศาสตร์
@@ -243,9 +221,6 @@ export default function DoctorsAllresponsive() {
               หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชารัฐประศาสนศาสตร์
               (สถาบันรัฐประศาสนศาสตร์และนโยบายสาธารณะ) Doctor of Philosophy
               (Public Administration) (Public administration)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -264,7 +239,7 @@ export default function DoctorsAllresponsive() {
           {/* คณะนิติศาสตร์   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               คณะนิติศาสตร์
@@ -274,9 +249,6 @@ export default function DoctorsAllresponsive() {
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               {" "}
               หลักสูตรนิติศาสตรดุษฎีบัณฑิต (คณะนิติศาสตร์) Doctor of Laws
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -295,7 +267,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยครูสุริยเทพ   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยครูสุริยเทพ
@@ -306,9 +278,6 @@ export default function DoctorsAllresponsive() {
               {" "}
               หลักสูตรศึกษาศาสตรดุษฎีบัณฑิต (วิทยาลัยครูสุริยเทพ) Doctor of
               Education (Educational Studies) (Suriyadhep Teachers College)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -327,7 +296,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยเภสัชศาสตร์   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยเภสัชศาสตร์
@@ -338,9 +307,6 @@ export default function DoctorsAllresponsive() {
               {" "}
               หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาเภสัชศาสตร์
               (วิทยาลัยเภสัชศาสตร์) Doctor of Philosophy
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -360,7 +326,7 @@ export default function DoctorsAllresponsive() {
           {/* คณะบริหารธุรกิจ   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               คณะบริหารธุรกิจ
@@ -371,9 +337,6 @@ export default function DoctorsAllresponsive() {
               {" "}
               หลักสูตรบริหารธุรกิจดุษฎีบัณฑิต (คณะบริหารธุรกิจ) Doctor of
               Business Administration
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -396,9 +359,6 @@ export default function DoctorsAllresponsive() {
               Administration)
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
                 <BsCheckLg size={20} color="red" />
               </div>
@@ -415,7 +375,7 @@ export default function DoctorsAllresponsive() {
           {/* คณะอาชญาวิทยาและการบริหารงานยุติธรรม   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               คณะอาชญาวิทยาและการบริหารงานยุติธรรม
@@ -428,9 +388,6 @@ export default function DoctorsAllresponsive() {
               สาขาวิชาอาชญาวิทยาและการบริหารงานยุติธรรม
               (คณะอาชญาวิทยาและการบริหารงานยุติธรรม) Doctor of Philosophy
               (Criminology and Justice Administration)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -449,7 +406,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยวิศวกรรมชีวการแพทย์   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิทยาลัยวิศวกรรมชีวการแพทย์
@@ -461,9 +418,6 @@ export default function DoctorsAllresponsive() {
               หลักสูตรวิศวกรรมศาสตรดุษฎีบัณฑิต สาขาวิชาวิศวกรรมชีวการแพทย์
               (วิทยาลัยวิศวกรรมชีวการแพทย์) Doctor of Engineering (Biomedical
               Engineering)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -483,7 +437,7 @@ export default function DoctorsAllresponsive() {
           {/* คณะเศรษฐศาสตร์   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               คณะเศรษฐศาสตร์
@@ -496,9 +450,6 @@ export default function DoctorsAllresponsive() {
               สาขาวิชาสาขาวิชาเศรษฐศาสตร์การเมืองระหว่างประเทศและการพัฒนา
               (คณะเศรษฐศาสตร์) Doctor of Philosophy (International Political
               Economy and Development) (Economics)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -520,9 +471,6 @@ export default function DoctorsAllresponsive() {
               Doctor of Philosophy (Digital Economy)
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
                 <BsCheckLg size={20} color="red" />
               </div>
@@ -539,7 +487,7 @@ export default function DoctorsAllresponsive() {
           {/* คณะเศรษฐศาสตร์   */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               คณะเศรษฐศาสตร์
@@ -552,9 +500,6 @@ export default function DoctorsAllresponsive() {
               สาขาวิชาสาขาวิชาเศรษฐศาสตร์การเมืองระหว่างประเทศและการพัฒนา
               (คณะเศรษฐศาสตร์) Doctor of Philosophy (International Political
               Economy and Development) (Economics)
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -573,7 +518,7 @@ export default function DoctorsAllresponsive() {
           {/* วิทยาลัยการกีฬา */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               คณะเศรษฐศาสตร์
@@ -585,9 +530,6 @@ export default function DoctorsAllresponsive() {
               หลักสูตรบริหารธุรกิจดุษฎีบัณฑิต สาขาวิชาการบริหารอุตสาหกรรมกอล์ฟ
               (วิทยาลัยการกีฬา) Doctor of Business Administration Program in
               Golf Industry Administration.
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
@@ -606,7 +548,7 @@ export default function DoctorsAllresponsive() {
           {/* วิชาการเมืองการปกครอง */}
           <tr className="border bg-gray-500 text-white">
             <th
-              colspan="5"
+              colspan="4"
               className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs text-start"
             >
               วิชาการเมืองการปกครอง
@@ -617,9 +559,6 @@ export default function DoctorsAllresponsive() {
               {" "}
               หลักสูตรรัฐศาสตรดุษฎีบัณฑิต สาขาวิชาการเมืองการปกครอง Doctor of
               Political Science Program in Politics and Government
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              -
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
