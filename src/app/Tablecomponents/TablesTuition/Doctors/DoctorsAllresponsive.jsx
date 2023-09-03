@@ -22,7 +22,7 @@ export default function DoctorsAllresponsive() {
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">
               เสาร์-อาทิตย์
             </th>
-            <th className="border p-2 max-lg:p-2 max-lg:text-sm">อาทิตย์</th>
+            <th className="border p-3 max-lg:p-2 max-lg:text-sm">อาทิตย์</th>
           </tr>
         </thead>
         <tbody className="">
@@ -47,7 +47,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -71,7 +71,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -94,7 +94,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -126,7 +126,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -159,7 +159,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -182,7 +182,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -215,7 +215,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -249,7 +249,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -280,7 +280,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -312,7 +312,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -344,7 +344,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -377,7 +377,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -400,7 +400,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -434,7 +434,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -467,7 +467,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -502,7 +502,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -524,7 +524,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -558,7 +558,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -591,7 +591,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -623,7 +623,7 @@ export default function DoctorsAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">

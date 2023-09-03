@@ -22,7 +22,7 @@ export default function MasterAllresponsive() {
             <th className="border p-3 max-lg:p-2 max-lg:text-sm">
               เสาร์-อาทิตย์
             </th>
-            <th className="border p-3 max-lg:p-1 max-lg:text-sm">อาทิตย์</th>
+            <th className="border p-3 max-lg:p-2 max-lg:text-sm">อาทิตย์</th>
           </tr>
         </thead>
         <tbody className="">
@@ -46,7 +46,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -68,7 +68,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -89,7 +89,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -111,7 +111,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -133,7 +133,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -157,7 +157,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -179,7 +179,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -202,7 +202,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -225,7 +225,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -248,7 +248,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -281,7 +281,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -305,7 +305,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -327,7 +327,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -348,7 +348,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -370,7 +370,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -393,7 +393,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -416,7 +416,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -440,7 +440,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -464,7 +464,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -496,7 +496,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -518,7 +518,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -539,7 +539,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -547,7 +547,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               {" "}
-              302,000 บาท
+              202,000 บาท
             </td>
           </tr>
           <tr className="border ">
@@ -561,7 +561,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -585,7 +585,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -608,7 +608,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -632,7 +632,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -657,7 +657,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -689,7 +689,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -713,7 +713,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -735,7 +735,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -756,7 +756,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -778,7 +778,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -801,7 +801,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -824,7 +824,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -848,7 +848,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -872,7 +872,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -904,7 +904,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -927,7 +927,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -950,7 +950,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -973,7 +973,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -996,7 +996,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1019,7 +1019,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1043,7 +1043,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1066,7 +1066,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1101,7 +1101,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1123,7 +1123,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1146,7 +1146,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1169,7 +1169,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1191,7 +1191,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1214,7 +1214,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1238,7 +1238,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1260,7 +1260,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1281,14 +1281,14 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
               -
             </td>
             <td className="border p-2 max-lg:p-1 text-sm max-md:text-xs">
-              กลุ่มวิชาวิทยาเอนโดดอนต์ 1,230,000 บาท / กลุ่มวิชาทันตกรรมรากเทียม
+              กลุ่มวิชาวิทยาเอนโดดอนต์ 1,220,000 บาท / กลุ่มวิชาทันตกรรมรากเทียม
               1,380,000 บาท
             </td>
           </tr>
@@ -1315,7 +1315,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1338,7 +1338,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1361,7 +1361,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1370,7 +1370,7 @@ export default function MasterAllresponsive() {
             <td className="border p-2 max-lg:p-1 text-sm max-md:text-xs">
               {" "}
               ใบประกอบวิชาชีพครู 240,000 บาท / ไม่รับใบประกอบวิชาชีพครู 204,000
-              บาท / สอนเป็นภาษาอังกฤษ 309,400 บาท
+              บาท / สอนเป็นภาษาอังกฤษ 209,400 บาท
             </td>
           </tr>
           <tr className="border ">
@@ -1385,7 +1385,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1409,7 +1409,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
@@ -1441,7 +1441,7 @@ export default function MasterAllresponsive() {
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
               <div className="flex justify-center">
-                <BsCheckLg size={30} color="red" />
+                <BsCheckLg size={20} color="red" />
               </div>
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
