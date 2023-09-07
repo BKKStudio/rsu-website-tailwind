@@ -36,7 +36,7 @@ export default function Scholarships() {
                 <BsChevronRight size={25} />
                 ทุนการศึกษา | Scholarships
               </span>
-              <p className="w-full h-0.5 bg-pink-600"></p>
+              <p className="w-full h-0.5 bg-pink-600 mb-5"></p>
               <div className="">
                 <Image
                   src={"/image/RsuGallery/gallery1.jpg"}

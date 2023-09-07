@@ -184,7 +184,7 @@ export default function RegisterAllLevel() {
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"no-underline"} className={`no-underline ${colorpush === "elearning" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("elearning")}>กองทุนเงินให้กู้ยืมเพื่อการศึกษา</Link>
+                    <Link href={"/pages/RegisterLevel/LoanFund"} className={`no-underline ${colorpush === "elearning" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("elearning")}>กองทุนเงินให้กู้ยืมเพื่อการศึกษา</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
@@ -212,7 +212,7 @@ export default function RegisterAllLevel() {
            </div>
             </figure>
         </article>
-
+        <a></a>
     </main>
     <Footer/>
    </>
