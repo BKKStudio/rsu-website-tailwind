@@ -292,25 +292,25 @@ export default function LoanFundDSL() {
           <figure className="max-w-7xl  w-full my-3 mx-2 flex justify-between text-white">
             <Link
               href={"/pages/RegisterLevel/LoanFund"}
-              className="text-2xl max-md:text- no-underline text-white max-md:text-xl"
+              className="text-2xl max-md:text- no-underline text-white max-md:text-base"
             >
               กองทุนกู้ยืมฯ
             </Link>
-            <div className="flex items-center gap-2 max-md:gap-1">
+            <div className="flex items-center gap-1 max-md:gap-0">
               <Link
                 href={"/"}
                 className="text-xl max-md:text-sm  no-underline text-white max-md:text-xs"
               >
                 หน้าแรก
               </Link>
-              <span>/</span>
+              <span className="max-md:text-xs">/</span>
               <Link
                 href={"/pages/RegisterLevel/LoanFund"}
                 className="text-xl max-md:text-sm no-underline text-white max-md:text-xs"
               >
                 กองทุนกู้ยืมฯ
               </Link>
-              <span>/</span>
+              <span className="max-md:text-xs">/</span>
               <span className="text-xl max-md:text-sm no-underline text-white  max-md:text-xs">
                 ปริญญาตรี 2566
               </span>
@@ -335,7 +335,7 @@ export default function LoanFundDSL() {
             </p>
             <div className="flex items-center justify-center gap-2 ">
               <button
-                className="bg-pink-600 p-3 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
+                className="bg-pink-600 px-3 py-2 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
                 data-bs-target="#exampleModalToggle"
                 data-bs-toggle="modal"
                 onClick={() =>
@@ -356,7 +356,7 @@ export default function LoanFundDSL() {
                 ผู้กู้ยืมฯ (ลักษณะที่ 1)
               </button>
               <button
-                className="bg-pink-600 p-3 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
+                className="bg-pink-600 px-3 py-2 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
                 data-bs-target="#exampleModalToggle"
                 data-bs-toggle="modal"
                 onClick={() =>
@@ -376,7 +376,7 @@ export default function LoanFundDSL() {
                 ผู้กู้ยืมฯ (ลักษณะที่ 2)
               </button>
               <button
-                className="bg-pink-600 p-3 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
+                className="bg-pink-600 px-3 py-2 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
                 data-bs-target="#exampleModalToggle"
                 data-bs-toggle="modal"
                 onClick={() =>
@@ -401,7 +401,7 @@ export default function LoanFundDSL() {
 
         <article className="flex justify-center items-center ">
           <figure className="max-w-7xl  w-full my-3 mx-2 ">
-          <span className="text-2xl   max-md:text-sm">
+          <span className="text-2xl   max-md:text-xl">
               ปริญญาตรี2566
             </span>
             <p className="w-full h-1 bg-pink-600 mt-1"></p>
@@ -409,7 +409,9 @@ export default function LoanFundDSL() {
               หลักสูตรและลักษณะการกู้ยืมกองทุนเงินให้กู้ยืมเพื่อการศึกษา
               ปีการศึกษา 2566
             </div>
-            <div></div>
+            <div>
+              <LoanfundTable/>
+            </div>
           </figure>
         </article>
       </main>
