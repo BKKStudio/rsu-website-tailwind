@@ -330,10 +330,10 @@ export default function LoanFundDSL() {
               />
             </div>
             <p className="w-full h-0.5 bg-pink-600 mt-4"></p>
-            <p className="mt-3 text-black text-2xl text-center  max-md:text-xl">
+            <p className="mt-3 text-black text-2xl text-center  max-md:text-xl mb-3">
               รายละเอียดการกู้ยืมเงินกองทุนกู้ยืมเพื่อการศึกษา
             </p>
-            <div className="flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2 ">
               <button
                 className="bg-pink-600 p-3 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
                 data-bs-target="#exampleModalToggle"
