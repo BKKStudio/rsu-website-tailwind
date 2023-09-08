@@ -49,25 +49,32 @@ export default function LoanFundDSL() {
                   </p>
                   <div className="flex flex-col mt-2 text-center text-sm max-md:text-xs">
                     <p>
-                      <span className="text-pink-600">-</span>{property.feature1}
+                      <span className="text-pink-600">-</span>
+                      {property.feature1}
                     </p>
                     <p>
-                    <span className="text-pink-600">-</span>{property.feature2}
+                      <span className="text-pink-600">-</span>
+                      {property.feature2}
                     </p>
                     <p>
-                    <span className="text-pink-600">-</span>{property.feature3}
+                      <span className="text-pink-600">-</span>
+                      {property.feature3}
                     </p>
                     <p>
-                    <span className="text-pink-600">-</span>{property.feature4}
+                      <span className="text-pink-600">-</span>
+                      {property.feature4}
                     </p>
                     <p>
-                    <span className="text-pink-600">-</span>{property.feature5}
+                      <span className="text-pink-600">-</span>
+                      {property.feature5}
                     </p>
                     <p>
-                    <span className="text-pink-600">-</span>{property.feature6}
+                      <span className="text-pink-600">-</span>
+                      {property.feature6}
                     </p>
                     <p>
-                    <span className="text-pink-600">-</span>{property.feature7}
+                      <span className="text-pink-600">-</span>
+                      {property.feature7}
                     </p>
                   </div>
                 </div>
@@ -92,8 +99,7 @@ export default function LoanFundDSL() {
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2"
         tabindex="-1"
-      >
-      </div>
+      ></div>
       {/* Model End */}
 
       <NavbarRegister />
@@ -290,7 +296,7 @@ export default function LoanFundDSL() {
             >
               กองทุนกู้ยืมฯ
             </Link>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 max-md:gap-1">
               <Link
                 href={"/"}
                 className="text-xl max-md:text-sm  no-underline text-white max-md:text-xs"
@@ -335,17 +341,19 @@ export default function LoanFundDSL() {
                 onClick={() =>
                   setProperty({
                     nature: "1",
-                    feature1: "รายครอบครัวไม่เกิน 360,000 บาท/ปี (ไม่หักค่าใช้จ่าย)",
+                    feature1:
+                      "รายครอบครัวไม่เกิน 360,000 บาท/ปี (ไม่หักค่าใช้จ่าย)",
                     feature2: "มีสัญชาติไทย",
                     feature3: "อายุไม่เกิน 30 ปีบริบูรณ์",
-                    feature4: "ต้องไม่เป็นผู้ปฏิบัติงานและรับเงินเดือนหรือค่าจ้างในหน่วยงานของรัฐหรือเอกชนในลักษณะเต็มเวลา",
+                    feature4:
+                      "ต้องไม่เป็นผู้ปฏิบัติงานและรับเงินเดือนหรือค่าจ้างในหน่วยงานของรัฐหรือเอกชนในลักษณะเต็มเวลา",
                     feature5: "ไม่เคยสำเร็จการศึกษาระดับปริญญาตรี",
                     feature6: "ไม่เคยเป็นหรือเป็นผู้ผิดนัดชำระหนี้กองทุนฯ",
                     feature7: "สมัครเรียนในสาขาตามประกาศที่กองทุนฯ กำหนด",
                   })
                 }
               >
-                คุณสมบัติของผู้กู้ยืมฯ (ลักษณะที่ 1)
+                ผู้กู้ยืมฯ (ลักษณะที่ 1)
               </button>
               <button
                 className="bg-pink-600 p-3 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
@@ -357,14 +365,15 @@ export default function LoanFundDSL() {
                     feature1: "ไม่จำกัดรายได้ครอบครัว",
                     feature2: "มีสัญชาติไทย",
                     feature3: "อายุไม่เกิน 30 ปีบริบูรณ์",
-                    feature4: "ต้องไม่เป็นผู้ปฏิบัติงานและรับเงินเดือนหรือค่าจ้างในหน่วยงานของรัฐหรือเอกชนในลักษณะเต็มเวลา",
+                    feature4:
+                      "ต้องไม่เป็นผู้ปฏิบัติงานและรับเงินเดือนหรือค่าจ้างในหน่วยงานของรัฐหรือเอกชนในลักษณะเต็มเวลา",
                     feature5: "ไม่เคยสำเร็จการศึกษาระดับปริญญาตรี",
                     feature6: "ไม่เคยเป็นหรือเป็นผู้ผิดนัดชำระหนี้กองทุนฯ",
                     feature7: "สมัครเรียนในสาขาตามประกาศที่กองทุนฯ กำหนด",
                   })
                 }
               >
-                คุณสมบัติของผู้กู้ยืมฯ (ลักษณะที่ 2)
+                ผู้กู้ยืมฯ (ลักษณะที่ 2)
               </button>
               <button
                 className="bg-pink-600 p-3 max-md:p-1 max-md:text-xs hover:bg-sky-500 duration-300"
@@ -376,30 +385,31 @@ export default function LoanFundDSL() {
                     feature1: "ไม่จำกัดรายได้ครอบครัว",
                     feature2: "มีสัญชาติไทย",
                     feature3: "อายุไม่เกิน 30 ปีบริบูรณ์",
-                    feature4: "ต้องไม่เป็นผู้ปฏิบัติงานและรับเงินเดือนหรือค่าจ้างในหน่วยงานของรัฐหรือเอกชนในลักษณะเต็มเวลา",
+                    feature4:
+                      "ต้องไม่เป็นผู้ปฏิบัติงานและรับเงินเดือนหรือค่าจ้างในหน่วยงานของรัฐหรือเอกชนในลักษณะเต็มเวลา",
                     feature5: "ไม่เคยสำเร็จการศึกษาระดับปริญญาตรี",
                     feature6: "ไม่เคยเป็นหรือเป็นผู้ผิดนัดชำระหนี้กองทุนฯ",
                     feature7: "สมัครเรียนในสาขาตามประกาศที่กองทุนฯ กำหนด",
                   })
                 }
               >
-                คุณสมบัติของผู้กู้ยืมฯ (ลักษณะที่ 3)
+                ผู้กู้ยืมฯ (ลักษณะที่ 3)
               </button>
             </div>
           </figure>
         </article>
 
-
         <article className="flex justify-center items-center ">
           <figure className="max-w-7xl  w-full my-3 mx-2 ">
-          <p className="w-full h-1 bg-pink-600 mt-4"></p>
-          <span className="text-2xl bg-pink-600 text-white p-3 ">ปริญญาตรี2566</span>
-          <div className="mt-5 mb-2">
-          หลักสูตรและลักษณะการกู้ยืมกองทุนเงินให้กู้ยืมเพื่อการศึกษา ปีการศึกษา 2566
-          </div>
-          <div>
-  
-          </div>
+          <span className="text-2xl   max-md:text-sm">
+              ปริญญาตรี2566
+            </span>
+            <p className="w-full h-1 bg-pink-600 mt-1"></p>
+            <div className="mt-2 mb-2 max-md:text-sm">
+              หลักสูตรและลักษณะการกู้ยืมกองทุนเงินให้กู้ยืมเพื่อการศึกษา
+              ปีการศึกษา 2566
+            </div>
+            <div></div>
           </figure>
         </article>
       </main>
