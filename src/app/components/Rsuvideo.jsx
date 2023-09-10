@@ -25,7 +25,7 @@ export default function Rsuvideo() {
           <div className="bg-pink-500 w-full h-1"></div>
           <div className="mt-4 grid grid-cols-2 p-3 max-lg:grid-cols-1 gap-5">
             <div className="flex justify-center items-center">
-              <Link href={""} className="shadow-3xl relative">
+              <Link href={"https://youtu.be/GnXc8RZadMo?si=hxIzp6jX6eRUFi3y"} className="shadow-3xl relative">
                 <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                 <Image
                   src={"/image/rsuvideo/rsuvideo01.jpg"}
@@ -40,7 +40,7 @@ export default function Rsuvideo() {
             </div>
             <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-5">
               <div className="flex justify-center items-center">
-                <Link href={""} className="shadow-3xl  relative">
+                <Link href={"https://youtu.be/KXYGR875dc4?si=_WktZUAXutTR9ykp"} className="shadow-3xl  relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
                     src={"/image/rsuvideo/Freshchy.jpg"}
@@ -54,7 +54,7 @@ export default function Rsuvideo() {
                 </Link>
               </div>
               <div className="flex justify-center items-center">
-                <Link href={""} className="shadow-3xl relative">
+                <Link href={"https://youtu.be/gTQ1D9aopAU?si=AseTnuZgrx-TkqMn"} className="shadow-3xl relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
                     src={"/image/rsuvideo/maxresdefault (4).jpg"}
@@ -68,7 +68,7 @@ export default function Rsuvideo() {
                 </Link>
               </div>
               <div className="flex justify-center items-center">
-                <Link href={""} className="shadow-3xl relative">
+                <Link href={"https://youtu.be/QtJaGbnjx3g?si=G5WaEs3rk3-81oR-"} className="shadow-3xl relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
                     src={"/image/rsuvideo/Threeword.jpg"}
@@ -82,7 +82,7 @@ export default function Rsuvideo() {
                 </Link>
               </div>
               <div className="flex justify-center items-center">
-                <Link href={""} className="shadow-3xl  relative">
+                <Link href={"https://youtu.be/4gOiUMEEPnk?si=Jdybw9ai2SQENKPF"} className="shadow-3xl  relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
                     src={"/image/rsuvideo/rsuvideo05.jpg"}
@@ -112,7 +112,7 @@ export default function Rsuvideo() {
                   className="lg:hover:animate-animation-manu"
                 ></Image>
                 <Link
-                  href={""}
+                  href={"https://www.tiktok.com/@rangsituniversity?is_from_webapp=1&sender_device=pc"}
                   className="bg-pink-500 text-sm text-white p-2 w-48 max-sm:w-full max-lg:w-full text-center rounded-lg flex justify-center items-center max-sm:text-xs"
                 >
                   All Video Tiktok <BsFillPlayFill size={19} />
@@ -120,7 +120,7 @@ export default function Rsuvideo() {
               </div>
             </div>
             <div className="grid grid-cols-3 gap-4 max-lg:grid max-md:grid-cols-1 max-lg:justify-center max-lg:mt-4">
-              <Link href={""} className="flex justify-center">
+              <Link href={"https://www.tiktok.com/@rangsituniversity/video/7242903677822930182?is_from_webapp=1&sender_device=pc&web_id=7043781851769259521"} className="flex justify-center">
                 <Image
                   src={"/image/rsuvideo/tt1.jpg"}
                   alt=""
@@ -129,7 +129,7 @@ export default function Rsuvideo() {
                   className="rounded-lg shadow-3xl lg:hover:animate-animation-shake "
                 ></Image>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"https://www.tiktok.com/@rangsituniversity/video/7235106599155617029?is_from_webapp=1&sender_device=pc&web_id=7043781851769259521"} className="flex justify-center">
                 <Image
                   src={"/image/rsuvideo/tt2.jpg"}
                   alt=""
@@ -138,7 +138,7 @@ export default function Rsuvideo() {
                   className="rounded-lg shadow-3xl lg:hover:animate-animation-shake"
                 ></Image>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"https://www.tiktok.com/@rangsituniversity/video/7257837474888600837?is_from_webapp=1&sender_device=pc&web_id=7043781851769259521"} className="flex justify-center">
                 <Image
                   src={"/image/rsuvideo/tt3.jpg"}
                   alt=""
