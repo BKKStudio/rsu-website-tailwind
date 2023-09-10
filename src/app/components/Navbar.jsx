@@ -46,7 +46,7 @@ function MobileNav({ open, setOpen }) {
           <div className=" flex justify-center w-full text-center hover:bg-gray-500 hover:text-white h-11 duration-300 ease-in-out z-1">
             <Link
               className="flex justify-center items-center  text-lg font-bold "
-              href="#"
+              href="/pages/MaptoRsu"
             >
               แผนที่ ม.รังสิต
             </Link>
@@ -233,12 +233,12 @@ const Navbar = (() => {
                   </button>
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
-                      <Link className="dropdown-item font-bold " href="#">
+                      <Link className="dropdown-item font-bold " href="/pages/MaptoRsu">
                         เส้นทางมา ม.รังสิต
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item font-bold" href="#">
+                      <Link className="dropdown-item font-bold" href="/pages/MapInRsu">
                         แผนที่ใน ม.รังสิต
                       </Link>
                     </li>

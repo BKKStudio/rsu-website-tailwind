@@ -11,7 +11,7 @@ export default function ManuUnderCarousel() {
                     alt=""
                     className="hover:animate-animation-manu"
                   ></img>
-                  <p className="">ปริญญาตรี</p>
+                  <p className="">หลักสูตรที่เปิดสอน</p>
                 </div>
               </Link>
               <Link href={"/pages/RegisterLevel/tuition"} className="flex justify-center">
@@ -34,7 +34,7 @@ export default function ManuUnderCarousel() {
                   <p>ทุนการศึกษา</p>
                 </div>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"/pages/CalendarPage"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/4.png"}
@@ -44,7 +44,7 @@ export default function ManuUnderCarousel() {
                   <p>ปฎิทินการศึกษา</p>
                 </div>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"/pages/MaptoRsu"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/5.png"}
@@ -54,7 +54,7 @@ export default function ManuUnderCarousel() {
                   <p>เส้นทางมา ม.รังสิต</p>
                 </div>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"https://itsc.rsu.ac.th/"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/6.png"}
@@ -74,7 +74,7 @@ export default function ManuUnderCarousel() {
                   <p>ติดต่อคณะ</p>
                 </div>
               </Link>
-              <Link href={""} className="flex justify-center">
+              <Link href={"https://www.sbs.ac.th/"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
                     src={"/image/Manu/8.png"}

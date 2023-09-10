@@ -154,42 +154,42 @@ export default function RegisterAllLevel() {
             <div>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/RegisterLevel/checkregister"} className={`no-underline ${colorpush === "register" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("register")}>เช็คการลงทะเบียน</Link>
+                    <Link href={"/pages/RegisterLevel/checkregister"} className={`no-underline ${colorpush === "register" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("register")}>เช็คการลงทะเบียน</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/RegisterLevel/report"} className={`no-underline ${colorpush === "report" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("report")}>กำหนดการรายงานตัว</Link>
+                    <Link href={"/pages/RegisterLevel/report"} className={`no-underline ${colorpush === "report" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("report")}>กำหนดการรายงานตัว</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/Register"} className={`no-underline ${colorpush === "facultyandmajor" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("facultyandmajor")}>คณะ/สาขาที่เปิดรับ</Link>
+                    <Link href={"/pages/Register"} className={`no-underline ${colorpush === "facultyandmajor" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("facultyandmajor")}>คณะ/สาขาที่เปิดรับ</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"http://www.dbsrsu.com/transfer.html"} className={`no-underline ${colorpush === "vocational" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("vocational")}>หลักสูตรเทียบโอน ปวส.</Link>
+                    <Link href={"http://www.dbsrsu.com/transfer.html"} className={`no-underline ${colorpush === "vocational" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("vocational")}>หลักสูตรเทียบโอน ปวส.</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/RegisterLevel/Scholarships"} className={`no-underline ${colorpush === "scholarship" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("scholarship")}>ทุนการศึกษา</Link>
+                    <Link href={"/pages/RegisterLevel/Scholarships"} className={`no-underline ${colorpush === "scholarship" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("scholarship")}>ทุนการศึกษา</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/RegisterLevel/tuition"} className={`no-underline ${colorpush === "tuition" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("tuition")}>ค่าเทอม</Link>
+                    <Link href={"/pages/RegisterLevel/tuition"} className={`no-underline ${colorpush === "tuition" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("tuition")}>ค่าเทอม</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/RegisterLevel/LoanFund"} className={`no-underline ${colorpush === "elearning" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("elearning")}>กองทุนเงินให้กู้ยืมเพื่อการศึกษา</Link>
+                    <Link href={"/pages/RegisterLevel/LoanFund"} className={`no-underline ${colorpush === "elearning" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("elearning")}>กองทุนเงินให้กู้ยืมเพื่อการศึกษา</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"/pages/RegisterLevel/StepRegisters"} className={`no-underline ${colorpush === "howtoregister" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("howtoregister")}>วิธีสมัครเรียน</Link>
+                    <Link href={"/pages/RegisterLevel/StepRegisters"} className={`no-underline ${colorpush === "howtoregister" ? "text-pink-500" : "text-gray-700"}` }  onClick={() => setColorpush("howtoregister")}>วิธีสมัครเรียน</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
             </div>

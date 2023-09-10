@@ -7,7 +7,7 @@ export default function NavbarRegister() {
           <Link href={"/"} className="no-underline text-white max-sm:text-xs">
             หน้าแรก
           </Link>
-          <Link href={""} className="no-underline text-white max-sm:text-xs">
+          <Link href={"https://intranet.rsu.ac.th/"} className="no-underline text-white max-sm:text-xs">
             อินทราเน็ต
           </Link>
           <Link href={""} className="no-underline text-white max-sm:text-xs">
