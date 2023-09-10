@@ -104,7 +104,7 @@ export default function LoanFundDSL() {
 
       <NavbarRegister />
       <main>
-        <article className="flex justify-center items-center my-2">
+      <article className="flex justify-center items-center my-2">
           <figure className="max-w-7xl  w-full my-1 ">
             <div className="flex justify-between items-center max-md:flex-col">
               <Image
@@ -185,23 +185,13 @@ export default function LoanFundDSL() {
                       </li>
                     </ul>
                   </div>
-                  <Link href={""} className="no-underline text-black">
+                  <Link href={"/pages/RegisterLevel/tuition"} className="no-underline text-black">
                     ค่าเทอม
                   </Link>
                 </div>
                 <div className=" mt-4 flex text-center  max-md:grid">
-                  <Link
-                    href={"/pages/RegisterLevel"}
-                    className="no-underline text-white py-3 px-5 bg-pink-500 text-lg "
-                  >
-                    สมัครเรียน
-                  </Link>
-                  <Link
-                    href={""}
-                    className="no-underline text-black text-lg p-3 flex items-center gap-2"
-                  >
-                    <BsTelephoneFill size={20} /> <span>02-791-6000</span>
-                  </Link>
+                    <Link href={"/pages/RegisterLevel"} className="no-underline text-white py-3 px-5 bg-pink-500 text-lg ">สมัครเรียน</Link>
+                    <span  className="no-underline text-black text-lg p-3 flex items-center gap-2">< BsTelephoneFill size={20}/> <span>02-791-6000</span></span>
                 </div>
               </div>
             </div>
@@ -401,17 +391,87 @@ export default function LoanFundDSL() {
 
         <article className="flex justify-center items-center ">
           <figure className="max-w-7xl  w-full my-3 mx-2 ">
-          <span className="text-2xl   max-md:text-xl">
-              ปริญญาตรี2566
-            </span>
+            <span className="text-2xl   max-md:text-xl">ปริญญาตรี2566</span>
             <p className="w-full h-1 bg-pink-600 mt-1"></p>
             <div className="mt-2 mb-2 max-md:text-sm">
               หลักสูตรและลักษณะการกู้ยืมกองทุนเงินให้กู้ยืมเพื่อการศึกษา
               ปีการศึกษา 2566
             </div>
             <div>
-              <LoanfundTable/>
+              <LoanfundTable />
             </div>
+            <div className="mt-5">
+              <p className="text-pink-600 text-2xl max-md:text-xl">
+                หมายเหตุ :
+              </p>
+              <p className=" text-base max-md:text-sm">
+                1. <span className="text-pink-600">Human*</span>{" "}
+                คือสาขาที่ร่วมโครงการส่งเสริมการพัฒนาทุนมนุษย์{" "}
+                <span className="text-pink-600">(Human Capital)</span> ผู้กู้ยืม
+                รับเงื่อนไขพิเศษ 2 ต่อ{" "}
+              </p>
+              <p className=" text-base max-md:text-sm">-เมื่อจบการศึกษา</p>
+              <p className=" text-base max-md:text-sm">
+                -ต่อที่ 1 ลดเงินต้น 30%{" "}
+              </p>
+              <p className=" text-base max-md:text-sm">
+                -ต่อที่ 2 ลดดอกเบี้ย 0.5% ต่อปี (จากปกติ 1% ต่อปี)
+              </p>
+              <p className="text-pink-600 text-2xl max-md:text-xl mt-2">
+                เอกสารและขั้นตอนการกู้ยืม :
+              </p>
+              <div className="flex flex-col text-black  ">
+                <Link
+                  href={"/pages/RegisterLevel/LoanFund/DocumentsPage"}
+                  className=" text-base max-md:text-sm  text-black no-underline "
+                >
+                  <span className="hover:text-pink-600">
+                    เอกสารประกอบการยื่นคำขอกู้ยืม คลิก
+                  </span>
+                </Link>
+                <Link
+                  href={"/pages/RegisterLevel/LoanFund/StepPage"}
+                  className=" text-base max-md:text-sm  text-black no-underline"
+                >
+                  <span className="hover:text-pink-600">
+                    ขั้นตอนการยื่นกู้ในระบบ DSL คลิก
+                  </span>
+                </Link>
+              </div>
+              <p className="text-pink-600 text-2xl max-md:text-xl mt-3">
+                ระบบกองทุนเงินให้กู้ยืมเพื่อการศึกษาแบบดิจิทัล :
+              </p>
+              <Link
+                href={"https://wsa.dsl.studentloan.or.th/#/rms/rms-login"}
+                className=" text-base max-md:text-sm  text-black no-underline"
+              >
+                <span className="hover:text-pink-600">
+                  ระบบการกู้ยืม (DSL) : Digital Student Loan Fund System
+                </span>
+              </Link>
+              <p className="text-pink-600 text-2xl max-md:text-xl mt-3">
+              สอบถามรายละเอียดเพิ่มเติม :
+              </p>
+              <p className=" text-base max-md:text-sm">
+              สำนักงานรับสมัครนักศึกษา ตึก 1 อาคารอาทิตย์ อุไรรัตน์ (BUILDING 1)
+              </p>
+              <p className=" text-base max-md:text-sm">
+              มหาวิทยาลัยรังสิต 52 347 ถ. พหลโยธิน ตำบล หลักหก อำเภอเมืองปทุมธานี ปทุมธานี 12000
+              </p>
+              <p className=" text-base max-md:text-sm">
+              โทร : 02-791-6000
+              </p>
+              <p className=" text-base max-md:text-sm">
+              แฟ็กซ์ : 02-791-5577
+              </p>
+              <p className=" text-base max-md:text-sm">
+              อีเมล : info@rsu.ac.th
+              </p>
+              <p className=" text-base max-md:text-sm">
+              รับสมัครนักศึกษา : 02-791-5510 ต่อ 15
+              </p>
+            </div>
+            <p className="w-full h-0.5 bg-pink-600 mt-4"></p>
           </figure>
         </article>
       </main>

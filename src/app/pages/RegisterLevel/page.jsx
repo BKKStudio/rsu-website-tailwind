@@ -98,13 +98,13 @@ export default function RegisterAllLevel() {
                       </li>
                     </ul>
                   </div>
-                  <Link href={""} className="no-underline text-black">
+                  <Link href={"/pages/RegisterLevel/tuition"} className="no-underline text-black">
                     ค่าเทอม
                   </Link>
                 </div>
                 <div className=" mt-4 flex text-center  max-md:grid">
                     <Link href={"/pages/RegisterLevel"} className="no-underline text-white py-3 px-5 bg-pink-500 text-lg ">สมัครเรียน</Link>
-                    <Link href={""} className="no-underline text-black text-lg p-3 flex items-center gap-2">< BsTelephoneFill size={20}/> <span>02-791-6000</span></Link>
+                    <span  className="no-underline text-black text-lg p-3 flex items-center gap-2">< BsTelephoneFill size={20}/> <span>02-791-6000</span></span>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function RegisterAllLevel() {
 
         <article className="flex justify-center items-center  bg-sky-500">
             <figure  className="max-w-7xl  w-full my-3 mx-2 flex justify-between text-white">
-            <span className="text-2xl max-md:text-xl">หลักสูตรที่เปิดสอน</span>
+            <span className="text-2xl max-md:text-xl">อื่นๆ</span>
             <span className="text-xl max-md:text-base">หน้าแรก/สมัครเรียน</span>
             </figure>
         </article>
@@ -189,7 +189,7 @@ export default function RegisterAllLevel() {
                 <hr className="text-pink-600 border-dashed"></hr>
                 <div className="flex items-center">
                     <span><BsChevronRight size={15}/></span>
-                    <Link href={"no-underline"} className={`no-underline ${colorpush === "howtoregister" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("howtoregister")}>วิธีสมัครเรียน</Link>
+                    <Link href={"/pages/RegisterLevel/StepRegisters"} className={`no-underline ${colorpush === "howtoregister" ? "text-pink-500" : "text-gray-700"}` } target="_blank" onClick={() => setColorpush("howtoregister")}>วิธีสมัครเรียน</Link>
                 </div>
                 <hr className="text-pink-600 border-dashed"></hr>
             </div>

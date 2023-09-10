@@ -35,7 +35,7 @@ export default function AlllevelRegister() {
     <>
       <NavbarRegister />
       <main>
-        <article className="flex justify-center items-center my-2">
+      <article className="flex justify-center items-center my-2">
           <figure className="max-w-7xl  w-full my-1 ">
             <div className="flex justify-between items-center max-md:flex-col">
               <Image
@@ -116,18 +116,19 @@ export default function AlllevelRegister() {
                       </li>
                     </ul>
                   </div>
-                  <Link href={""} className="no-underline text-black">
+                  <Link href={"/pages/RegisterLevel/tuition"} className="no-underline text-black">
                     ค่าเทอม
                   </Link>
                 </div>
                 <div className=" mt-4 flex text-center  max-md:grid">
                     <Link href={"/pages/RegisterLevel"} className="no-underline text-white py-3 px-5 bg-pink-500 text-lg ">สมัครเรียน</Link>
-                    <Link href={""} className="no-underline text-black text-lg p-3 flex items-center gap-2">< BsTelephoneFill size={20}/> <span>02-791-6000</span></Link>
+                    <span  className="no-underline text-black text-lg p-3 flex items-center gap-2">< BsTelephoneFill size={20}/> <span>02-791-6000</span></span>
                 </div>
               </div>
             </div>
           </figure>
         </article>
+
 
         <article className="hidden max-md:flex justify-center items-center bg-gray-500 ">
           <figure className="w-full  my-3 mx-2  text-white">

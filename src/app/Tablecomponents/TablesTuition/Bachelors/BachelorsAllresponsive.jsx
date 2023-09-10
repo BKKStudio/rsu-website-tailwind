@@ -333,8 +333,8 @@ export default function BachelorsAllResponsive() {
                   data-bs-toggle="modal"
                   onClick={() =>
                     setData({
-                      Faculty: "คณะพยาบาลศาสตร์",
-                      Major: "สาขาวิชาพยาบาลศาสตร์",
+                      Faculty: "คณะรังสีเทคนิค",
+                      Major: "สาขาวิชารังสีเทคนิค",
                       term1: "158,200",
                       term2: "144,400",
                       term3: "184,500",
@@ -794,7 +794,7 @@ export default function BachelorsAllResponsive() {
             </td>
           </tr>
 
-          {/* คณะทัศนมาตรศาสตร*/}
+          {/* คณะเทคโนโลยีอาหาร*/}
           <tr className="border bg-gray-500 text-white">
             <th
               colspan="4"
@@ -1609,44 +1609,6 @@ export default function BachelorsAllResponsive() {
                   }
                 >
                   <span>333,700</span>
-                  <FaSearchPlus size={15} color="green" />
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr className="border ">
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              {" "}
-              สาขาวิชาการออกแบบภายใน
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              3
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-              56,000
-            </td>
-            <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
-              <div className="flex justify-center">
-                <button
-                  className="flex items-center justify-center gap-1 hover:text-pink-600"
-                  data-bs-target="#exampleModalToggle"
-                  data-bs-toggle="modal"
-                  onClick={() =>
-                    setData({
-                      Faculty: "วิทยาลัยการออกแบบ",
-                      Major: "สาขาวิชาการออกแบบภายใน",
-                      term1: "83,600",
-                      term2: "110,900",
-                      term3: "103,600",
-                      term4: "64,200",
-                      term5: "-",
-                      term6: "-",
-                      dsl: "3",
-                      Allterm: "362,300",
-                    })
-                  }
-                >
-                  <span>362,300</span>
                   <FaSearchPlus size={15} color="green" />
                 </button>
               </div>
@@ -3402,7 +3364,7 @@ export default function BachelorsAllResponsive() {
               </div>
             </td>
           </tr>
-          {/* คณะรัฐศาสตร์*/}
+          {/*  คณะอาชญาวิทยาและการบริหารงานยุติธรรม*/}
           <tr className="border bg-gray-500 text-white">
             <th
               colspan="4"
@@ -3467,7 +3429,7 @@ export default function BachelorsAllResponsive() {
               3
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs">
-            84,800
+              84,800
             </td>
             <td className="border p-2 max-lg:p-1 max-lg:text-sm max-md:text-xs ">
               <div className="flex justify-center">
