@@ -216,9 +216,8 @@ export default function SciencHealth() {
                       <span className="text-white text-xl max-md:text-base">
                         " อยากเป็นหมอ ชอบช่วยเหลือผู้อื่น เปิดเทอมนี้
                         <span className="text-2xl text-pink-600  max-md:text-base">
-                          มาอยู่ทีมเดียวกับเรานะ
+                          มาอยู่ทีมเดียวกับเรานะ"
                         </span>
-                        "
                       </span>
                     </div>
                   </div>
