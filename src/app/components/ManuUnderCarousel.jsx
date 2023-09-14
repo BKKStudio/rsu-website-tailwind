@@ -34,6 +34,16 @@ export default function ManuUnderCarousel() {
                   <p>ทุนการศึกษา</p>
                 </div>
               </Link>
+              <Link href={"/pages/RegisterLevel/LoanFund"} className="flex justify-center">
+                <div className={"text-center"}>
+                  <img
+                    src={"/image/Manu/7.png"}
+                    alt=""
+                    className="hover:animate-animation-manu"
+                  ></img>
+                  <p>กองทุนกู้ยืมฯ</p>
+                </div>
+              </Link>
               <Link href={"/pages/CalendarPage"} className="flex justify-center">
                 <div className={"text-center"}>
                   <img
@@ -62,16 +72,6 @@ export default function ManuUnderCarousel() {
                     className="hover:animate-animation-manu"
                   ></img>
                   <p>RSU-NET</p>
-                </div>
-              </Link>
-              <Link href={""} className="flex justify-center">
-                <div className={"text-center"}>
-                  <img
-                    src={"/image/Manu/7.png"}
-                    alt=""
-                    className="hover:animate-animation-manu"
-                  ></img>
-                  <p>ติดต่อคณะ</p>
                 </div>
               </Link>
               <Link href={"https://www.sbs.ac.th/"} className="flex justify-center">
