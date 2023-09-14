@@ -214,10 +214,10 @@ export default function SciencHealth() {
                         COLLEGE OF MEDICINE
                       </span>
                       <span className="text-white text-xl max-md:text-base">
-                        " อยากเป็นหมอ ชอบช่วยเหลือผู้อื่น เปิดเทอมนี้{" "}
+                        " อยากเป็นหมอ ชอบช่วยเหลือผู้อื่น เปิดเทอมนี้
                         <span className="text-2xl text-pink-600  max-md:text-base">
                           มาอยู่ทีมเดียวกับเรานะ
-                        </span>{" "}
+                        </span>
                         "
                       </span>
                     </div>
@@ -258,16 +258,16 @@ export default function SciencHealth() {
                   </Link>
                 </div>
                 <p className="mt-4 text-base text-center">
-                  <span className="text-xl text-pink-500">วิสัยทัศน์:</span>{" "}
+                  <span className="text-xl text-pink-500">วิสัยทัศน์:</span>
                   สถาบันผลิตแพทย์รัฐร่วมเอกชนชั้นนำระดับสากล
                 </p>
                 <p className="mt-4 text-base text-center">
-                  <span className="text-xl text-pink-500">ปรัชญา:</span>{" "}
+                  <span className="text-xl text-pink-500">ปรัชญา:</span>
                   ผลิตแพทย์ที่ได้มาตรฐาน มีคุณธรรม จริยธรรม
                   เพื่อสร้างสรรค์สิ่งที่ดีให้กับสังคม
                 </p>
                 <p className="mt-4 text-base text-center">
-                  <span className="text-xl text-pink-500">ปณิธาน:</span>{" "}
+                  <span className="text-xl text-pink-500">ปณิธาน:</span>
                   ผลิตแพทย์ที่มีความสามารถในการส่งเสริม ป้องกัน รักษา
                   และฟื้นฟูสุขภาพให้ประชาชนมีคุณภาพชีวิตที่ดี
                 </p>
