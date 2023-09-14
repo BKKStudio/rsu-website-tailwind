@@ -150,7 +150,7 @@ const Navbar = (() => {
                   </button>
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
-                      <Link className="dropdown-item font-bold " href="pages\Faculty\Science_health">
+                      <Link className="dropdown-item font-bold " href="pages\Faculty\Sciencehealth">
                         วิทยาศาสตร์ - สุขภาพ
                       </Link>
                     </li>
