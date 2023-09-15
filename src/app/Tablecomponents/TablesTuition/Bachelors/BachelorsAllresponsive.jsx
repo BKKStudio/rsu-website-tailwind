@@ -19,7 +19,6 @@ export default function BachelorsAllResponsive() {
     dsl: "",
     Allterm: "",
   });
-  console.log(data);
   return (
     <>
       <table className="  w-full text-center mt-4 ">

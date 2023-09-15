@@ -366,11 +366,11 @@ export default function SciencHealth() {
         {/* Content Sciencehealth*/}
         <article className="flex justify-center items-center">
           <figure className="w-full  ">
-            <div className="bg-sky-300 w-full flex justify-center  relative">
+            <div className=" w-full flex justify-center  relative bg-sky-300">
               <div className="max-w-7xl w-full ">
                 <div className="flex justify-between mt-5 ">
                   <div className=" flex justify-center">
-                    <div className="flex flex-col mt-5 max-lg:ml-5 max-md:mt-0">
+                    <div className="flex flex-col md:mt-5 max-lg:ml-5 max-md:mt-0">
                       <span className="text-pink-600 text-4xl max-md:text-2xl">
                         วิทยาลัยแพทยศาสตร์
                       </span>
@@ -395,7 +395,7 @@ export default function SciencHealth() {
                   </div>
                 </div>
               </div>
-              <div className="absolute  flex items-end h-full ">
+              <div className="absolute h-full flex items-end border-b border-white">
                 <img
                   src={"/image/Faculty/WaveTemplate/wave.png"}
                   alt=""
@@ -641,11 +641,11 @@ export default function SciencHealth() {
                     ></img>
                   </div>
                   <div className=" flex justify-center">
-                    <div className="flex flex-col mt-5 max-lg:ml-5 max-md:mt-0">
-                      <span className="text-pink-600 text-4xl max-md:text-2xl">
+                    <div className="flex flex-col md:mt-5 max-lg:ml-5 max-md:mt-0">
+                      <span className="text-pink-600 text-3xl max-md:text-xl">
                         วิทยาลัยการแพทย์แผนตะวันออก
                       </span>
-                      <span className="text-5xl max-md:text-3xl max-sm:text-base">
+                      <span className="text-5xl max-md:text-2xl max-sm:text-base">
                         COLLEGE OF ORIENTAL MEDICINE
                       </span>
                       <span className="text-white text-xl max-md:text-base">
@@ -658,7 +658,7 @@ export default function SciencHealth() {
                   </div>
                 </div>
               </div>
-              <div className="absolute  flex items-end h-full ">
+              <div className="absolute h-full flex items-end  border-b border-white">
                 <img
                   src={"/image/Faculty/WaveTemplate/wave.png"}
                   alt=""
@@ -791,7 +791,7 @@ export default function SciencHealth() {
                   ></img>
                   <div className="flex justify-center items-center  text-white py-5">
                     <button
-                      className="bg-gray-500 px-5  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
+                      className="bg-gray-500 px-4  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -814,14 +814,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-5  py-4  flex items-center gap-2 max-md:flex-col"
+                      className="no-underline text-white bg-gray-700 px-3  py-4  flex items-center gap-2 max-md:flex-col"
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-5  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col"
+                      className="no-underline text-white bg-pink-600 px-3  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -846,7 +846,7 @@ export default function SciencHealth() {
                   ></img>
                   <div className="flex justify-center items-center  text-white py-5">
                     <button
-                      className="bg-gray-500 px-5  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
+                      className="bg-gray-500 px-4  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -869,14 +869,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-5  py-4  flex items-center gap-2 max-md:flex-col"
+                      className="no-underline text-white bg-gray-700 px-3  py-4  flex items-center gap-2 max-md:flex-col"
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-5  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col"
+                      className="no-underline text-white bg-pink-600 px-3  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -997,7 +997,7 @@ export default function SciencHealth() {
                   ></img>
                   <div className="flex justify-center items-center  text-white py-5">
                     <button
-                      className="bg-gray-500 px-5  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
+                      className="bg-gray-500 px-4  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1020,14 +1020,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-5  py-4  flex items-center gap-2 max-md:flex-col"
+                      className="no-underline text-white bg-gray-700 px-3  py-4  flex items-center gap-2 max-md:flex-col"
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-5  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col "
+                      className="no-underline text-white bg-pink-600 px-3  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col "
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
