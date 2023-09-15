@@ -717,7 +717,7 @@ export default function SciencHealth() {
               </span>
               <div className="flex justify-center max-lg:hidden">
                 <img
-                  src={"/image/Faculty/WaveTemplate/line.png"}
+                  src={"/image/Faculty/WaveTemplate/Line.png"}
                   alt=""
                   className=""
                 ></img>
@@ -934,7 +934,7 @@ export default function SciencHealth() {
               </div>
               <div className="flex justify-center max-lg:hidden">
                 <img
-                  src={"/image/Faculty/WaveTemplate/line2.png"}
+                  src={"/image/Faculty/WaveTemplate/Line2.png"}
                   alt=""
                   className=""
                 ></img>
