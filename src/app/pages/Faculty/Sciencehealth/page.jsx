@@ -38,7 +38,7 @@ export default function SciencHealth() {
         id="exampleModalToggle"
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
+        tabIndex="-1"
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
@@ -282,7 +282,6 @@ export default function SciencHealth() {
             </div>
           </figure>
         </article>
-
         <article className="hidden max-md:flex justify-center items-center bg-gray-500 ">
           <figure className="w-full  my-3 mx-2  text-white">
             {/* Responsive menu mobile */}
@@ -385,7 +384,7 @@ export default function SciencHealth() {
                       </span>
                     </div>
                   </div>
-                  <div className="top ">
+                  <div className="top overflow-hidden">
                     <img
                       src={"/image/Faculty/Scienc/Medicine/1.png"}
                       alt=""
@@ -396,11 +395,14 @@ export default function SciencHealth() {
                 </div>
               </div>
               <div className="absolute h-full flex items-end border-b border-white">
-                <img
+                <Image
                   src={"/image/Faculty/WaveTemplate/wave.png"}
                   alt=""
                   className=""
-                ></img>
+                  width={2000}
+                  height={550}
+                  layout="responsive" // This maintains aspect ratio
+                ></Image>
               </div>
             </div>
             <div className="w-full flex justify-center pb-4">
@@ -442,7 +444,7 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-2 mt-3 max-md:grid-cols-1 items-center">
-                <div className="flex flex-col justify-center items-center px-5 pb-4">
+                <div className="flex flex-col text-center justify-center items-center px-5 pb-4">
                   <span className="text-3xl text-sky-500 mb-2">
                     คุณสมบัติของผู้เข้าศึกษา
                   </span>
@@ -452,29 +454,35 @@ export default function SciencHealth() {
                     กรณีเทียบเท่าให้มหาวิทยาลัยพิจารณา
                   </span>
                 </div>
-                <div className="p-2">
-                  <img
+                <div className="p-2 overflow-hidden">
+                  <Image
                     src={"/image/Faculty/Scienc/Medicine/2.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-left"
-                  ></img>
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
                 </div>
               </div>
-              <div className="grid grid-cols-2 mt-3  max-md:grid-cols-1 items-center">
-                <div className="p-2 ">
-                  <img
+              <div className="grid grid-cols-2 mt-3  max-md:grid-cols-1 items-center ">
+                <div className="p-2 overflow-hidden">
+                  <Image
                     src={"/image/Faculty/Scienc/Medicine/3.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-right"
-                  ></img>
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:py-5 px-5">
                   <span className="text-2xl text-sky-500">
                     การคัดเลือกผู้เข้าศึกษา
                   </span>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-base text-center max-md:px-5 ">
                     มีช่องทางการรับนักศึกษาเข้าศึกษา 2 ช่องทาง 3 รอบการรับสมัคร
                     คือ ผ่านการรับของรอบมหาวิทยาลัยรังสิตรับตรง 2 รอบ ดังนี้
                   </span>
@@ -490,7 +498,7 @@ export default function SciencHealth() {
                 </div>
               </div>
               <div className="grid grid-cols-2 mt-3  max-lg:grid-cols-1 items-center">
-                <div className="hidden p-2 max-lg:block mb-3">
+                <div className="hidden p-2 max-lg:block mb-3 overflow-hidden">
                   <img
                     src={"/image/Faculty/Scienc/Medicine/4.jpg"}
                     alt=""
@@ -498,7 +506,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                   ></img>
                 </div>
-                <div className="flex flex-col justify-center items-center  max-md:pb-5 px-5">
+                <div className="flex flex-col justify-center text-center items-center  max-md:pb-5 px-5">
                   <span className="text-2xl text-sky-500 pb-2">
                     โดยมีขั้นตอนการคัดเลือกดังต่อไปนี้
                   </span>
@@ -542,11 +550,11 @@ export default function SciencHealth() {
                     ผู้มีรายชื่อลงทะเบียนการเป็นนักศึกษา
                   </span>
                 </div>
-                <div className="p-2 max-lg:hidden">
+                <div className=" max-lg:hidden overflow-hidden">
                   <img
                     src={"/image/Faculty/Scienc/Medicine/4.jpg"}
                     alt=""
-                    className="rounded-lg shadow-lg max-md:shadow-none"
+                    className="rounded-lg shadow-lg max-md:shadow-none "
                     data-aos="fade-left"
                   ></img>
                 </div>
@@ -555,12 +563,14 @@ export default function SciencHealth() {
           </figure>
         </article>
         <article className="flex justify-center items-center bg-sky-200 ">
-          <figure className="w-full">
-            <img
-              src={"/image/Faculty/WaveTemplate/waveflip.png"}
+          <figure className="w-full overflow-hidden">
+            <Image
+              src="/image/Faculty/WaveTemplate/waveflip.png"
               alt=""
-              className=""
-            ></img>
+              width={2000}
+              height={550}
+              layout="responsive" // This maintains aspect ratio
+            />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
                 <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
@@ -581,9 +591,9 @@ export default function SciencHealth() {
                   <Link href={"www.rsu.ac.th/medicine"}>
                     www.rsu.ac.th/medicine
                   </Link>
-                  <div className="flex justify-center items-center  text-white pt-3">
+                  <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -613,7 +623,7 @@ export default function SciencHealth() {
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -626,13 +636,13 @@ export default function SciencHealth() {
         </article>
         {/* Content Sciencehealth*/}
         <div className="bg-sky-200 bg-gradient-to-b from-sky-200 via-transparent to-orange-300 w-full h-64"></div>
-        {/* Content College of Oriental Medicine*/}
+        {/* Content COLLEGE OF ORIENTAL MEDICINE*/}
         <article className="flex justify-center items-center">
           <figure className="w-full  ">
-            <div className="bg-orange-300 w-full flex justify-center  relative">
+            <div className=" w-full flex justify-center  relative bg-orange-300">
               <div className="max-w-7xl w-full ">
                 <div className="flex justify-between mt-5 ">
-                  <div className="top ">
+                  <div className="top overflow-hidden">
                     <img
                       src={"/image/Faculty/Scienc/OrientalMedicine/11.png"}
                       alt=""
@@ -641,11 +651,11 @@ export default function SciencHealth() {
                     ></img>
                   </div>
                   <div className=" flex justify-center">
-                    <div className="flex flex-col md:mt-5 max-lg:ml-5 max-md:mt-0">
+                    <div className="flex flex-col md:mt-5 max-lg:mr-5 max-md:mt-0">
                       <span className="text-pink-600 text-3xl max-md:text-xl">
                         วิทยาลัยการแพทย์แผนตะวันออก
                       </span>
-                      <span className="text-5xl max-md:text-2xl max-sm:text-base">
+                      <span className="text-5xl max-md:text-3xl max-sm:text-base">
                         COLLEGE OF ORIENTAL MEDICINE
                       </span>
                       <span className="text-white text-xl max-md:text-base">
@@ -658,18 +668,25 @@ export default function SciencHealth() {
                   </div>
                 </div>
               </div>
-              <div className="absolute h-full flex items-end  border-b border-white">
-                <img
+              <div className="absolute h-full flex items-end border-b border-white">
+                <Image
                   src={"/image/Faculty/WaveTemplate/wave.png"}
                   alt=""
                   className=""
-                ></img>
+                  width={2000}
+                  height={550}
+                  layout="responsive" // This maintains aspect ratio
+                ></Image>
               </div>
             </div>
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center pb-4">
               <div>
-                <div className="flex justify-center p-4">
-                  <Link href={"https://www.facebook.com/orientalmedrsu"}>
+                <div className="flex justify-center m-3 ">
+                  <Link
+                    href={
+                      "https://www.facebook.com/profile.php?id=100057508117641&ref=embed_page"
+                    }
+                  >
                     <Image
                       src={"/image/Faculty/Scienc/OrientalMedicine/Logo.jpg"}
                       alt=""
@@ -679,12 +696,12 @@ export default function SciencHealth() {
                     ></Image>
                   </Link>
                 </div>
-                <p className="mt-4 text-base text-center max-md:px-5  mx-10 max-lg:mx-2">
+                <p className="mt-4 text-base text-center max-md:px-5">
                   <span className="text-xl text-orange-500">วิสัยทัศน์:</span>
                   มุ่งสู่การเป็นสถาบันชั้นนำในการผลิตบัณฑิตด้านการแพทย์แผนตะวันออกในสาขาการแพทย์แผนไทย
                   การแพทย์แผนจีน และวิทยาศาสตรบัณฑิตสาขาการแพทย์แผนตะวันออก
                 </p>
-                <p className="mt-4 text-base text-center max-md:px-5 mx-10 max-lg:mx-2">
+                <p className="mt-4 text-base text-center max-md:px-5">
                   <span className="text-xl text-orange-500">อัตลักษณ์:</span>
                   อนุรักษ์องค์ความรู้ดั้งเดิมของการแพทย์แผนไทย การแพทย์แผนจีน
                   และภูมิปัญญาการแพทย์แผนตะวันออก และพัฒนาสู่สากล ที่มุ่งเน้น
@@ -692,18 +709,7 @@ export default function SciencHealth() {
                   พร้อมเสริมสร้างองค์ความรู้ใหม่ที่สามารถบูรณาการทางการแพทย์และการพัฒนาผลิตภัณฑ์สมุนไพรเพิ่มมูลค่าทางเศรษฐกิจ
                   เพื่อประโยชน์ในการฟื้นฟู บำรุง ป้องกัน และรักษาโรคต่างๆ
                   แก่มวลมนุษยชาติด้วยความรู้ คู่คุณธรรม และ
-                  สร้างสรรค์อย่างรับผิดชอบ วิทยาลัยการแพทย์แผนตะวันออก
-                  เปิดสอนหลักสูตรระดับปริญญาตรี 3 หลักสูตร คือ แพทย์แผนไทยบัณฑิต
-                  (พ.ทบ.) แพทย์แผนจีนบัณฑิต (พ.จบ.) และ
-                  วิทยาศาสตร์บัณฑิตสาขาการแพทย์แผนตะวันออก (ว.ทบ.
-                  (การแพทย์แผนตะวันออก)) หลักสูตรระดับปริญญาโทจำนวน 1 หลักสูตร
-                  คือ วิทยาศาสตรมหาบัณฑิต สาขาการแพทย์แผนตะวันออก มี 6 แขนงวิชา
-                  ที่เกี่ยวข้องกับการป้องกันส่งเสริมสุขภาพและการรักษาโรค
-                  การพัฒนาผลิตภัณฑ์สมุนไพร คือ ด้านการพัฒนาการรักษาโรค
-                  ด้านการพัฒนาผลิตภัณฑ์สมุนไพร
-                  ด้านการประเมินความปลอดภัยและประสิทธิผล ด้านการประเมินคุณภาพ
-                  ด้านการควบคุมการผลิตและการค้าผลิตภัณฑ์สมุนไพร
-                  และด้านสุขภาพและความงาม
+                  สร้างสรรค์อย่างรับผิดชอบ
                 </p>
               </div>
             </div>
@@ -711,345 +717,273 @@ export default function SciencHealth() {
         </article>
         <article className="flex justify-center items-center">
           <figure className="max-w-7xl w-full">
-            <div className="mb-4 text-center">
-              <span className="text-3xl text-center text-orange-500 mb-2">
-                หลักสูตรระดับปริญญาตรี
-              </span>
-              <div className="flex justify-center max-lg:hidden">
-                <img
-                  src={"/image/Faculty/WaveTemplate/Line.png"}
-                  alt=""
-                  className=""
-                ></img>
-              </div>
-              <div className="grid grid-cols-2 mt-3 max-lg:grid-cols-1 items-center">
-                <div className="flex flex-col justify-center items-center px-5 pb-4">
-                  <span className="text-xl text-orange-500 mb-2">
-                    หลักสูตรที่ 1 วิทยาศาสตรบัณฑิต สาขาการแพทย์แผนตะวันออก ว.ทบ.
-                    (การแพทย์แผนตะวันออก) Bachelor of Science (Oriental
-                    Medicine) B.SC.(Oriental Medicine)
+            <div className="mb-4">
+              <div className="grid grid-cols-1 items-center">
+                <div className="flex flex-col justify-center text-center items-center px-5 max-md:pb-4">
+                  <span className="text-3xl text-orange-500 mb-2">
+                    หลักสูตรระดับปริญญาตรี
                   </span>
-                  <span className="text-xl text-center max-md:px-5 pb-2">
-                    ระยะเวลา 4 ปี จำนวน 132 หน่วยกิต
-                  </span>
-                  <span className="text-base text-center text-gray-600 max-md:px-5 max-md:">
-                    <li className="text-gray-600">
-                      จุดเด่นของหลักสูตรนี้คือมุ่งเน้น
-                      “นวัตกรรมสมุนไพรสร้างเศรษฐกิจ”
-                      โดยศึกษาเทคโนโลยีสมุนไพรสำหรับการสร้างนวัตกรรมสมุนไพรเพื่อเพิ่มมูลค่าทางเศรษฐกิจบนพื้นฐานความต้องการของตลาดทั้งในประเทศและตลาดโลก
-                      โดยการบูรณาการองค์ความรู้เทคโนโลยีสมุนไพรและนำไปพัฒนาต่อยอดภูมิปัญญาสมุนไพรไทยที่มีความหลากหลาย
-                      และภูมิปัญญาการแพทย์แผนตะวันออก
-                      รวมถึงกัญชาศาสตร์ทางการแพทย์เพื่อให้เป็นที่ยอมรับในระดับสากลอันจะส่งผลให้เกิดการสร้างมูลค่าเพิ่มทางเศรษฐกิจที่อิงกับจุดแข็งของประเทศไทย
-                    </li>
-                    <li className="text-gray-600">
-                      ฝึกปฏิบัติงานทางด้านการวิจัยและพัฒนาผลิตภัณฑ์สมุนไพร
-                      การผลิตและควบคุมคุณภาพผลิตภัณฑ์สมุนไพรในสถานที่ผลิตยาสมุนไพรมาตรฐานสากล
-                    </li>
-                    <li className="text-gray-600">
-                      มีสิทธิ์สอบใบประกอบโรคศิลป์แพทย์แผนไทย 2 สาขา คือ{" "}
-                      <span className="text-red-500">เวชกรรมไทย</span> และ{" "}
-                      <span className="text-red-500">เภสัชกรรมไทย</span>
-                    </li>
-                    <li className="text-gray-600">
-                      เป็นหลักสูตรที่ได้รับการรับรองคุณวุฒิจากกระทรวงอุดมศึกษา
-                      วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) และ
-                      คณะกรรมการข้าราชการพลเรือน (กพ.)
-                    </li>
-                  </span>
-                  <span className="text-xl text-center max-md:px-5  py-2">
-                    แนวทางประกอบอาชีพ
-                  </span>
-                  <li className="text-gray-600">
-                    บัณฑิตที่จบการศึกษาสามารถทำงานในโรงงานผลิตยาสมุนไพรในระดับอุตสาหกรรม
-                  </li>
-                  <li className="text-gray-600">
-                    ทำงานฝ่ายวิจัยและพัฒนาผลิตภัณฑ์สมุนไพรเพื่อการเพิ่มมูลค่าทางเศรษฐกิจในภาคเอกชนและภาครัฐ
-                  </li>
-                  <li className="text-gray-600">
-                    ประกอบธุรกิจผลิตภัณฑ์สมุนไพรที่เป็นยา ผลิตภัณฑ์เสริมอาหาร
-                    และเครื่องสำอาง
-                  </li>
-                  <li className="text-gray-600">
-                    เป็นผู้ปฏิบัติหน้าที่ในร้านขายยาสมุนไพร
-                    และโรงงานผลิตยาสมุนไพรตาม พ.ร.บ.ยา และพ.ร.บ.
-                    การประกอบโรคศิลปะสาขาเภสัชกรรมไทย
-                  </li>
-                  <li className="text-gray-600">
-                    เปิดคลินิกแพทย์แผนไทยของตัวเองและเป็นผู้ประกอบวิชาชีพในคลินิกแพทย์แผนไทย
-                    ตาม พ.ร.บ. การประกอบโรคศิลปะสาขาเวชกรรมไทย
-                  </li>
-                  <li className="text-gray-600">
-                    บัณฑิตที่จบการศึกษาสามารถศึกษต่อในระดับปริญญาโทสาขาการแพทย์แผนตะวันออกและสาขาทางวิทยาศาสตร์สุขภาพอื่นๆ
-                  </li>
                 </div>
-                <div className="p-2">
-                  <img
+                <div className="flex justify-center max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/WaveTemplate/Line.png"}
+                    alt=""
+                    className=""
+                    width={800}
+                    height={200}
+                  ></Image>
+                </div>
+                <div className="p-2 overflow-hidden hidden  max-md:block">
+                  <Image
                     src={"/image/Faculty/Scienc/OrientalMedicine/1.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-left"
-                  ></img>
-                  <div className="flex justify-center items-center  text-white py-5">
-                    <button
-                      className="bg-gray-500 px-4  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
-                      data-bs-target="#exampleModalToggle"
-                      data-bs-toggle="modal"
-                      onClick={() =>
-                        setData({
-                          Faculty: "วิทยาลัยการแพทย์แผนตะวันออก",
-                          Major: "สาขาการแพทย์แผนตะวันออก ว.ทบ.",
-                          term1: "172,000",
-                          term2: "165,500",
-                          term3: "102,900",
-                          term4: "116,500",
-                          term5: "-",
-                          term6: "-",
-                          dsl: "2",
-                          Allterm: "553,900",
-                        })
-                      }
-                    >
-                      <FaMoneyBillWave size={20} />
-                      <span className="max-md:text-xs ">ค่าเทอม</span>
-                    </button>
-                    <Link
-                      href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-4  flex items-center gap-2 max-md:flex-col"
-                    >
-                      <FaMoneyCheckAlt size={20} />
-                      <span className="max-md:text-xs">ทุนการศึกษา</span>
-                    </Link>
-                    <Link
-                      href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col"
-                    >
-                      <BsPeopleFill size={20} />
-                      <span className="max-md:text-xs">สมัครเรียน</span>
-                    </Link>
-                  </div>
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
                 </div>
               </div>
+              {/* หลักสูตร 1 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
+                  <span className="text-xl text-center text-orange-500">
+                    หลักสูตรที่ 1 วิทยาศาสตรบัณฑิต สาขาการแพทย์แผนตะวันออก ว.ทบ.
+                    (การแพทย์แผนตะวันออก) Bachelor of Science (Oriental
+                    Medicine) B.SC.(Oriental Medicine)
+                  </span>
+                  <span className="text-xl text-center max-md:px-5 ">
+                    ระยะเวลา 4 ปี จำนวน 132 หน่วยกิต
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    ฝึกปฏิบัติงานทางด้านการวิจัยและพัฒนาผลิตภัณฑ์สมุนไพร
+                    การผลิตและควบคุมคุณภาพผลิตภัณฑ์สมุนไพรในสถานที่ผลิตยาสมุนไพรมาตรฐานสากล
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    มีสิทธิ์สอบใบประกอบโรคศิลป์แพทย์แผนไทย 2 สาขา คือ
+                    เวชกรรมไทยและเภสัชกรรมไทย
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    เป็นหลักสูตรที่ได้รับการรับรองคุณวุฒิจากกระทรวงอุดมศึกษา
+                    วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) และ
+                    คณะกรรมการข้าราชการพลเรือน (กพ.)
+                  </li>
+                </div>
+                <div className="overflow-hidden max-md:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/OrientalMedicine/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
+                </div>
+              </div>
+              {/* Line */}
               <div className="flex justify-center max-lg:hidden">
-                <img
+                <Image
                   src={"/image/Faculty/WaveTemplate/line3.png"}
                   alt=""
                   className=""
-                ></img>
+                  width={800}
+                  height={200}
+                ></Image>
               </div>
-              <div className="grid grid-cols-2 mt-3  max-md:grid-cols-1 items-center">
-                <div className="p-2 ">
-                  <img
+              {/* หลักสูตร 1 */}
+
+              {/* หลักสูตร 2 */}
+              <div className="grid grid-cols-2 md:mt-3  max-lg:grid-cols-1 items-center">
+                <div className="hidden px-2  max-lg:block mb-3 overflow-hidden">
+                  <Image
                     src={"/image/Faculty/Scienc/OrientalMedicine/2.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-right"
-                  ></img>
-                  <div className="flex justify-center items-center  text-white py-5">
-                    <button
-                      className="bg-gray-500 px-4  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
-                      data-bs-target="#exampleModalToggle"
-                      data-bs-toggle="modal"
-                      onClick={() =>
-                        setData({
-                          Faculty: "วิทยาลัยการแพทย์แผนตะวันออก",
-                          Major: "สาขาการแพทย์แผนตะวันออก ว.ทบ.",
-                          term1: "172,000",
-                          term2: "165,500",
-                          term3: "102,900",
-                          term4: "116,500",
-                          term5: "-",
-                          term6: "-",
-                          dsl: "2",
-                          Allterm: "553,900",
-                        })
-                      }
-                    >
-                      <FaMoneyBillWave size={20} />
-                      <span className="max-md:text-xs ">ค่าเทอม</span>
-                    </button>
-                    <Link
-                      href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-4  flex items-center gap-2 max-md:flex-col"
-                    >
-                      <FaMoneyCheckAlt size={20} />
-                      <span className="max-md:text-xs">ทุนการศึกษา</span>
-                    </Link>
-                    <Link
-                      href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col"
-                    >
-                      <BsPeopleFill size={20} />
-                      <span className="max-md:text-xs">สมัครเรียน</span>
-                    </Link>
-                  </div>
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
                 </div>
-                <div className="flex flex-col justify-center items-center max-md:py-5 px-5">
-                  <span className="text-xl text-orange-500 mb-2">
+                <div className=" max-lg:hidden overflow-hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/OrientalMedicine/2.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-right"
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
+                </div>
+                <div className="flex flex-col justify-center text-center items-center  max-md:pb-5 px-5">
+                  <span className="text-xl text-orange-500 pb-2">
                     หลักสูตรที่ 2. การแพทย์แผนจีนบัณฑิต (พจ.บ.) Bachelor of
                     Traditional Chinese Medicine (B.CM.)
                   </span>
-                  <span className="text-xl text-center max-md:px-5 pb-2">
-                    ได้รับปริญญา 2 ใบ (มหาวิทยาลัยรังสิต และ
-                    มหาวิทยาลัยการแพทย์แผนจีนนานกิง สาธารณรัฐประชาชนจีน)
-                  </span>
-                  <span className="text-base text-center max-md:px-5 pb-2">
+                  <span className="text-xl text-center max-md:px-5 ">
                     ระยะเวลา 6 ปีการศึกษา จำนวน 192 หน่วยกิต
-                    โดยศึกษาที่มหาวิทยาลัยรังสิตประมาณ 3.5 ปีการศึกษา
+                  </span>
+                  <li className="text-red-500 text-base text-center py-2">
+                    ศึกษาที่มหาวิทยาลัยรังสิตประมาณ 3.5 ปีการศึกษา
+                  </li>
+                  <li className="text-red-500 text-base text-center py-2">
                     และที่มหาวิทยาลัยการแพทย์แผนจีนนานกิงประมาณ 2.5 ปีการศึกษา
-                  </span>
-                  <span className="text-base text-center  max-md:px-5 max-md:">
-                    <span className="text-xl text-center max-md:px-5 pb-2">
-                      จุดเด่นของหลักสูตร
-                    </span>
-                    <li className="text-gray-600">
-                      มุ่งผลิตบัณฑิตการแพทย์แผนจีนที่มีความรู้และความเข้าใจศาสตร์การแพทย์แผนจีนอย่าง
-                      มีความสามารถ คุณธรรม และ จริยธรรม
-                      ในการดูแลรักษาผู้ป่วยอย่างมีคุณภาพเท่าเทียมกับแพทย์จีนจากสาธารณรัฐประชาชนจีน
-                      ทั้งทางด้านการใช้ยาจีน ตำรับยาจีน ฝังเข็ม ครอบแก้ว
-                      การนวดทุยหนา ฯลฯ
-                    </li>
-                    <li className="text-gray-600">
-                      เรียนรู้การตรวจวินิจฉัยทางการแพทย์แผนปัจจุบันและสมุนไพรไทยเพื่อบูรณาการทางการแพทย์
-                    </li>
-                    <li className="text-gray-600">
-                      เรียนรู้และฝึกปฏิบัติทางด้านการผลิตและการควบคุณภาพตำรับยาจีนตามหลักการทางเภสัชกรรมแผนปัจจุบัน
-                    </li>
-                    <li className="text-gray-600">
-                    สามารถกู้เงินค่าเล่าเรียนจากกองทุนเงินให้กู้ยืมเพื่อการศึกษา (กยศ., กรอ.) ได้ 200,000 บาท/ปี
-                    </li>
-                  </span>
-                  <span className="text-base text-center  max-md:px-5 max-md:">
-                    <span className="text-xl text-center max-md:px-5 pb-2">
-                      ภาษาที่ใช้
-                    </span>
-                    <li className="text-gray-600">
-                      ภาษาไทยสำหรับวิชาศึกษาทั่วไปและวิชาพื้นฐานทางการแพทย์
-                    </li>
-                    <li className="text-gray-600">
-                      ภาษาจีนสำหรับวิชาภาษาจีน วิชาชีพเฉพาะการแพทย์แผนจีน
-                      และวิชาฝึกเวชปฏิบัติ
-                    </li>
-                  </span>
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    เป็นหลักสูตรที่ได้รับการรับรองคุณวุฒิจากกระทรวงอุดมศึกษา
+                    วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) และ
+                    คณะกรรมการข้าราชการพลเรือน (กพ.)
+                  </li>
                 </div>
               </div>
-              <div className="flex justify-center max-lg:hidden">
-                <img
+              {/* Line */}
+              <div className="flex justify-center max-lg:hidden mt-3">
+                <Image
                   src={"/image/Faculty/WaveTemplate/Line2.png"}
                   alt=""
                   className=""
-                ></img>
+                  width={800}
+                  height={200}
+                ></Image>
               </div>
-              <div className="grid grid-cols-2 mt-3  max-md:grid-cols-1 items-center">
-                <div className="flex flex-col justify-center items-center max-md:py-5 px-5">
-                  <span className="text-xl text-orange-500 mb-2">
-                    หลักสูตรที่ 2. การแพทย์แผนจีนบัณฑิต (พจ.บ.) Bachelor of
-                    Traditional Chinese Medicine (B.CM.)
-                  </span>
-                  <span className="text-xl text-center max-md:px-5 pb-2">
-                    ได้รับปริญญา 2 ใบ (มหาวิทยาลัยรังสิต และ
-                    มหาวิทยาลัยการแพทย์แผนจีนนานกิง สาธารณรัฐประชาชนจีน)
-                  </span>
-                  <span className="text-base text-center max-md:px-5 pb-2">
-                    ระยะเวลา 6 ปีการศึกษา จำนวน 192 หน่วยกิต
-                    โดยศึกษาที่มหาวิทยาลัยรังสิตประมาณ 3.5 ปีการศึกษา
-                    และที่มหาวิทยาลัยการแพทย์แผนจีนนานกิงประมาณ 2.5 ปีการศึกษา
-                  </span>
-                  <span className="text-base text-center  max-md:px-5 max-md:">
-                    <span className="text-xl text-center max-md:px-5 pb-2">
-                      จุดเด่นของหลักสูตร
-                    </span>
-                    <li className="text-gray-600">
-                      มุ่งผลิตบัณฑิตการแพทย์แผนจีนที่มีความรู้และความเข้าใจศาสตร์การแพทย์แผนจีนอย่าง
-                      มีความสามารถ คุณธรรม และ จริยธรรม
-                      ในการดูแลรักษาผู้ป่วยอย่างมีคุณภาพเท่าเทียมกับแพทย์จีนจากสาธารณรัฐประชาชนจีน
-                      ทั้งทางด้านการใช้ยาจีน ตำรับยาจีน ฝังเข็ม ครอบแก้ว
-                      การนวดทุยหนา ฯลฯ
-                    </li>
-                    <li className="text-gray-600">
-                      เรียนรู้การตรวจวินิจฉัยทางการแพทย์แผนปัจจุบันและสมุนไพรไทยเพื่อบูรณาการทางการแพทย์
-                    </li>
-                    <li className="text-gray-600">
-                      เรียนรู้และฝึกปฏิบัติทางด้านการผลิตและการควบคุณภาพตำรับยาจีนตามหลักการทางเภสัชกรรมแผนปัจจุบัน
-                    </li>
-                    <li className="text-gray-600">
-                    สามารถกู้เงินค่าเล่าเรียนจากกองทุนเงินให้กู้ยืมเพื่อการศึกษา (กยศ., กรอ.) ได้ 200,000 บาท/ปี
-                    </li>
-                  </span>
-                  <span className="text-base text-center  max-md:px-5 max-md:">
-                    <span className="text-xl text-center max-md:px-5 pb-2">
-                      ภาษาที่ใช้
-                    </span>
-                    <li className="text-gray-600">
-                      ภาษาไทยสำหรับวิชาศึกษาทั่วไปและวิชาพื้นฐานทางการแพทย์
-                    </li>
-                    <li className="text-gray-600">
-                      ภาษาจีนสำหรับวิชาภาษาจีน วิชาชีพเฉพาะการแพทย์แผนจีน
-                      และวิชาฝึกเวชปฏิบัติ
-                    </li>
-                  </span>
+              {/* หลักสูตร 2 */}
+
+              {/* หลักสูตร 3 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="hidden px-2  max-lg:block  overflow-hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/OrientalMedicine/3.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-right"
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
                 </div>
-                <div className="p-2 ">
-                  <img
+                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
+                  <span className="text-xl text-center text-orange-500">
+                    หลักสูตรที่ 3 การแพทย์แผนไทยบัณฑิต (พท.บ.) Bachelor of Thai
+                    Traditional Medicine (B.TM.)
+                  </span>
+                  <span className="text-xl text-center max-md:px-5 ">
+                    ระยะเวลา 4 ปี จำนวน 143 หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-5 ">
+                    เนื้อหาหลักสูตรเป็นไปตามมาตรฐานของสภาการแพทย์แผนไทย
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    เวชกรรมไทย
+                    การตรวจรักษาโดยศาสตร์การแพทย์แผนไทยผสมผสานกับการแพทย์แผนปัจจุบัน
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    นวดไทย การนวดรักษา นวดส่งเสริมสุขภาพ นวดผ่อนคลาย นวดสปา
+                    นวดเท้า
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    ผดุงครรภ์ไทย การดูแลสุขภาพแม่ ก่อนและหลังคลอด
+                    ด้วยศาสตร์การแพทย์แผนไทย
+                  </li>
+                </div>
+                <div className=" overflow-hidden max-md:hidden">
+                  <Image
                     src={"/image/Faculty/Scienc/OrientalMedicine/3.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-left"
-                  ></img>
-                  <div className="flex justify-center items-center  text-white py-5">
-                    <button
-                      className="bg-gray-500 px-4  py-4 rounded-l-lg  flex items-center gap-2 max-md:flex-col"
-                      data-bs-target="#exampleModalToggle"
-                      data-bs-toggle="modal"
-                      onClick={() =>
-                        setData({
-                          Faculty: "วิทยาลัยการแพทย์แผนตะวันออก",
-                          Major: "สาขาวิชาการแพทย์แผนจีน",
-                          term1: "136,800",
-                          term2: "129,200",
-                          term3: "118,000",
-                          term4: "173,000",
-                          term5: "174,200",
-                          term6: "237,000",
-                          dsl: "2",
-                          Allterm: "968,200",
-                        })
-                      }
-                    >
-                      <FaMoneyBillWave size={20} />
-                      <span className="max-md:text-xs ">ค่าเทอม</span>
-                    </button>
-                    <Link
-                      href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-4  flex items-center gap-2 max-md:flex-col"
-                    >
-                      <FaMoneyCheckAlt size={20} />
-                      <span className="max-md:text-xs">ทุนการศึกษา</span>
-                    </Link>
-                    <Link
-                      href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-4  flex items-center gap-2 rounded-r-lg max-md:flex-col "
-                    >
-                      <BsPeopleFill size={20} />
-                      <span className="max-md:text-xs">สมัครเรียน</span>
-                    </Link>
-                  </div>
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
                 </div>
               </div>
-             
+              <div className="flex justify-center max-lg:hidden">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/line3.png"}
+                  alt=""
+                  className=""
+                  width={800}
+                  height={200}
+                ></Image>
+              </div>
+              {/* หลักสูตร 3 */}
+
+              {/* หลักสูตร 4 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="hidden px-2  max-lg:block  overflow-hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/OrientalMedicine/4.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-right"
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
+                </div>
+                <div className=" overflow-hidden max-md:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/OrientalMedicine/4.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                    layout="responsive" // This maintains aspect ratio
+                  ></Image>
+                </div>
+                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
+                  <span className="text-xl text-center text-orange-500">
+                    หลักสูตรประกาศนียบัตรวิชาชีพการแพทย์แผนไทย
+                  </span>
+                  <span className="text-xl text-center max-md:px-5 ">
+                    เรียนเสาร์-อาทิตย์ 3 ปี สำหรับคนทำงานแล้ว
+                    ผู้ประกอบการและผู้สนใจ
+                  </span>
+                  <span className="text-base text-center max-md:px-5 ">
+                    หลักสูตรประกาศนียบัตรวิชาชีพการแพทย์แผนไทย (ก)
+                    ด้านเภสัชกรรมไทย และ เวชกรรมไทย
+                    เป็นหลักสูตรมาตรฐานที่ได้รับการรับรองจากสภาการแพทย์แผนไทย
+                    การจัดการเรียนการสอนในหลักสูตรนี้{" "}
+                    <span className="text-red-500">
+                      เหมาะสำหรับผู้ที่ต้องการ
+                    </span>
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    เป็นเภสัชกรแผนไทยที่มีใบอนุญาตเป็นผู้ประกอบวิชาชีพ
+                    สามารถทำงานในโรงงานผลิตยาแผนไทย ร้านขายยาแผนไทย
+                    หรือเจ้าของผลิตภัณฑ์สมุนไพร
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    เป็นแพทย์แผนไทย ที่มีใบอนุญาตประกอบวิชาชีพ
+                    สามารถทำงานในสถานพยาบาลและเปิดคลินิกแพทย์แผนไทยของตนเอง
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-2">
+                    เป็นผู้ประกอบการธุรกิจด้านสุขภาพ พัฒนาต่อยอดผลิตภัณฑ์ใหม่
+                  </li>
+                </div>
+              </div>
+
+              {/* หลักสูตร 4 */}
             </div>
           </figure>
         </article>
-        <article className="flex justify-center items-center bg-orange-200 pb-5">
-          <figure className="w-full">
-            <img
-              src={"/image/Faculty/WaveTemplate/waveflip.png"}
+        <article className="flex justify-center items-center bg-orange-200 ">
+          <figure className="w-full overflow-hidden">
+            <Image
+              src="/image/Faculty/WaveTemplate/waveflip.png"
               alt=""
-              className=""
-            ></img>
+              width={2000}
+              height={550}
+              layout="responsive" // This maintains aspect ratio
+            />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
-                <div className="flex justify-center items-center flex-col shadow-lg p-5">
-                  <span className="text-center  text-3xl">
+                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                  <span className="text-center text-orange-500  text-3xl">
                     รายละเอียดเพิ่มเติม
                   </span>
                   <span className="text-center text-xl">การรับสมัคร</span>
@@ -1066,9 +1000,9 @@ export default function SciencHealth() {
                   <Link href={"www.rsu.ac.th/medicine"}>
                     www.rsu.ac.th/medicine
                   </Link>
-                  <div className="flex justify-center items-center  text-white pt-3">
+                  <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1091,14 +1025,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2 flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -1109,7 +1043,7 @@ export default function SciencHealth() {
             </div>
           </figure>
         </article>
-        {/* Content College of Oriental Medicine*/}
+        {/* Content Sciencehealth*/}
       </main>
       <Footer />
     </>

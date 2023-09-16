@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
-import SidebarModel from "./components/SidebarModel";
+
 
 export default function RootLayout({ children }) {
   useEffect(() => {
