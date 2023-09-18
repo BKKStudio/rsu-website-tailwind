@@ -1121,10 +1121,7 @@ export default function SciencHealth() {
           </figure>
         </article>
         {/* Content Sciencehealth*/}
-
         <div className="bg-orange-200 bg-gradient-to-b from-orange-200 via-transparent to-lime-700 w-full h-64"></div>
-
-    
       </main>
       <Footer />
     </>
