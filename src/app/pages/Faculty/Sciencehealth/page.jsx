@@ -401,7 +401,7 @@ export default function SciencHealth() {
                   className=""
                   width={2000}
                   height={550}
-                  layout="responsive" // This maintains aspect ratio
+
                 ></Image>
               </div>
             </div>
@@ -462,7 +462,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -475,7 +475,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:py-5 px-5">
@@ -675,7 +675,7 @@ export default function SciencHealth() {
                   className=""
                   width={2000}
                   height={550}
-                  layout="responsive" // This maintains aspect ratio
+
                 ></Image>
               </div>
             </div>
@@ -741,7 +741,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -816,7 +816,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -843,7 +843,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className=" max-lg:hidden overflow-hidden">
@@ -854,7 +854,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center text-center items-center  max-md:pb-5 ">
@@ -938,7 +938,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
@@ -1011,7 +1011,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -1036,7 +1036,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className=" overflow-hidden max-md:hidden">
@@ -1047,7 +1047,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
@@ -1163,7 +1163,7 @@ export default function SciencHealth() {
                   className=""
                   width={2000}
                   height={550}
-                  layout="responsive" // This maintains aspect ratio
+
                 ></Image>
               </div>
             </div>
@@ -1230,7 +1230,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -1305,7 +1305,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -1332,7 +1332,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className=" max-lg:hidden overflow-hidden">
@@ -1343,7 +1343,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center text-center items-center  max-md:pb-5 ">
@@ -1427,7 +1427,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
@@ -1500,7 +1500,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
               </div>
@@ -1525,7 +1525,7 @@ export default function SciencHealth() {
                     data-aos="fade-right"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className=" overflow-hidden max-md:hidden">
@@ -1536,7 +1536,7 @@ export default function SciencHealth() {
                     data-aos="fade-left"
                     width={2000}
                     height={550}
-                    layout="responsive" // This maintains aspect ratio
+  
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
