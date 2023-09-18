@@ -1599,7 +1599,7 @@ export default function SciencHealth() {
                     www.facebook.com/rangsituniversity
                   </Link>
                   <Link href={"https://www.facebook.com/orientalmedrsu"}>
-                    https://www.facebook.com/orientalmedrsu
+                   www.facebook.com/orientalmedrsu
                   </Link>
                 </div>
               </div>
