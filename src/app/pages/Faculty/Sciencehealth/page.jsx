@@ -569,7 +569,6 @@ export default function SciencHealth() {
               alt=""
               width={2000}
               height={550}
-              layout="responsive" // This maintains aspect ratio
             />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
@@ -1093,7 +1092,6 @@ export default function SciencHealth() {
               alt=""
               width={2000}
               height={550}
-              layout="responsive" // This maintains aspect ratio
             />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
@@ -1582,7 +1580,6 @@ export default function SciencHealth() {
               alt=""
               width={2000}
               height={550}
-              layout="responsive" // This maintains aspect ratio
             />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
