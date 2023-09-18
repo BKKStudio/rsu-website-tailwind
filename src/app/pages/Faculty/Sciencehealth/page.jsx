@@ -1004,15 +1004,12 @@ export default function SciencHealth() {
                   </div>
                 </div>
                 <div className=" overflow-hidden max-md:hidden">
-                  <Image
+                  <img
                     src={"/image/Faculty/Scienc/OrientalMedicine/3.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-left"
-                    width={2000}
-                    height={550}
-                    layout="responsive" // This maintains aspect ratio
-                  ></Image>
+                  ></img>
                 </div>
               </div>
               <div className="flex justify-center max-lg:hidden">
@@ -1029,26 +1026,20 @@ export default function SciencHealth() {
               {/* หลักสูตร 4 */}
               <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
                 <div className="hidden px-2  max-lg:block  overflow-hidden">
-                  <Image
-                    src={"/image/Faculty/Scienc/OrientalMedicine/4.jpg"}
-                    alt=""
-                    className="rounded-lg md:shadow-lg"
-                    data-aos="fade-right"
-                    width={2000}
-                    height={550}
-                    layout="responsive" // This maintains aspect ratio
-                  ></Image>
-                </div>
-                <div className=" overflow-hidden max-md:hidden">
-                  <Image
+                <img
                     src={"/image/Faculty/Scienc/OrientalMedicine/4.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-left"
-                    width={2000}
-                    height={550}
-                    layout="responsive" // This maintains aspect ratio
-                  ></Image>
+                  ></img>
+                </div>
+                <div className=" overflow-hidden max-md:hidden">
+                  <img
+                    src={"/image/Faculty/Scienc/OrientalMedicine/4.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                  ></img>
                 </div>
                 <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
                   <span className="text-xl text-center text-orange-500">
@@ -1088,12 +1079,9 @@ export default function SciencHealth() {
         </article>
         <article className="flex justify-center items-center bg-orange-200 pb-5">
           <figure className="w-full overflow-hidden">
-            <Image
+            <img
               src="/image/Faculty/WaveTemplate/waveflip.png"
               alt=""
-              width={2000}
-              height={550}
-              layout="responsive" // This maintains aspect ratio
             />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
@@ -1157,14 +1145,11 @@ export default function SciencHealth() {
                 </div>
               </div>
               <div className="absolute h-full flex items-end border-b border-white">
-                <Image
+                <img
                   src={"/image/Faculty/WaveTemplate/wave.png"}
                   alt=""
                   className=""
-                  width={2000}
-                  height={550}
-                  layout="responsive" // This maintains aspect ratio
-                ></Image>
+                ></img>
               </div>
             </div>
             <div className="w-full flex justify-center pb-4">
@@ -1223,15 +1208,12 @@ export default function SciencHealth() {
                   ></Image>
                 </div>
                 <div className="p-2 overflow-hidden hidden  max-md:block">
-                  <Image
+                  <img
                     src={"/image/Faculty/Scienc/OrientalMedicine/1.jpg"}
                     alt=""
                     className="rounded-lg md:shadow-lg"
                     data-aos="fade-left"
-                    width={2000}
-                    height={550}
-                    layout="responsive" // This maintains aspect ratio
-                  ></Image>
+                  ></img>
                 </div>
               </div>
               {/* หลักสูตร 1 */}
