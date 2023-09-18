@@ -7,14 +7,14 @@ const SidebarModel = () => {
       <div className="flex flex-col w-0  gap-2">
         <Link
           href={"/pages/Register"}
-          className="flex justify-center items-center w-48  h-14 rounded-lg   bg-red-600 text-white gap-1 hover:animate-animation-shake"
+          className="flex justify-center items-center w-48  h-14 rounded-lg no-underline  bg-red-600 text-white gap-1 hover:animate-animation-shake"
         >
           <BsBell size={20}></BsBell>
           <span>สมัครเรียน</span>
         </Link>
         <Link
           href={""}
-          className="flex justify-center items-center  w-48  h-14 rounded-lg   bg-pink-600 text-white gap-1 hover:animate-animation-shake"
+          className="flex justify-center items-center  w-48  h-14 rounded-lg no-underline    bg-pink-600 text-white gap-1 hover:animate-animation-shake"
         >
           <BsTelephone size={20}></BsTelephone>
           <span>02-790-6000</span>
