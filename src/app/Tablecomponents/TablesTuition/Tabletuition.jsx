@@ -6,7 +6,6 @@ import MastersTuition from "./Masters/MastersTuition";
 
 const TableTuitions = ((params)=>{
     const {colorBtn} = params
-    console.log(colorBtn);
     if(colorBtn === "Bachelors"){
         return(
             <div>

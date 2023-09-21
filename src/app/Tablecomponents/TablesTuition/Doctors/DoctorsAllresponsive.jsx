@@ -3,7 +3,7 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default function DoctorsAllresponsive() {
   return (
-    <>
+    <> 
       <table className="  w-full text-center mt-4 ">
         <thead className="bg-gray-700 text-white">
           <tr className="border ">

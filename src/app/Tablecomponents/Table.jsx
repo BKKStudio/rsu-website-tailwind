@@ -5,7 +5,6 @@ import MastersTable from "./Masters";
 
 const Tables = ((params)=>{
     const {colorBtn} = params
-    console.log(colorBtn);
     if(colorBtn === "Bachelors"){
         return(
             <div>

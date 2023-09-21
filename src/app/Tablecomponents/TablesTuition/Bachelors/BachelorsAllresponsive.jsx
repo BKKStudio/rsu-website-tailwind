@@ -169,7 +169,7 @@ export default function BachelorsAllResponsive() {
                       term5: "458,200",
                       term6: "228,000",
                       dsl: "2",
-                      Allterm: "1,812,800",
+                      Allterm: "1,812,800", 
                     })
                   }
                 >
@@ -284,8 +284,8 @@ export default function BachelorsAllResponsive() {
                   data-bs-toggle="modal"
                   onClick={() =>
                     setData({
-                      Faculty: "วิทยาลัยเภสัชศาสตร์",
-                      Major: "สาขาวิชาเภสัชกรรมอุตสาหการ",
+                      Faculty: "คณะพยาบาลศาสตร์",
+                      Major: "สาขาวิชาพยาบาลศาสตร์ (Bilingual)",
                       term1: "210,000",
                       term2: "210,000",
                       term3: "210,000",

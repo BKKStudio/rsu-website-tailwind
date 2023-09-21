@@ -8,7 +8,7 @@ export default function Carousel() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="/image/Slideshow/slide1.jpg"
+            src="/image/Slideshow/slide9.jpg"
             className="d-block w-100 h-100"
             alt="..."
           />

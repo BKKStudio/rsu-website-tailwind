@@ -21,6 +21,7 @@ export default function Home() {
       <SidebarModel/>
       <Carousel />
       <main>
+  
         <ManuUnderCarousel />
         {/* Open House  */}
         <article className="flex justify-center items-center my-4">

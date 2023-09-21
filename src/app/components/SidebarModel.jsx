@@ -3,7 +3,7 @@ import { BsBell } from "react-icons/bs";
 import { BsTelephone } from "react-icons/bs";
 const SidebarModel = () => {
   return (
-    <aside className="fixed  ml-8 mt-5  z-2 max-lg:hidden   animate__animated animate__bounceInLeft ">
+    <aside className="fixed  ml-8 mt-5  z-2 max-xl:hidden   animate__animated animate__bounceInLeft ">
       <div className="flex flex-col w-0  gap-2">
         <Link
           href={"/pages/Register"}
