@@ -7,7 +7,7 @@ export default function GoodOldday() {
   return (
     <article className="flex justify-center items-center my-5">
       <figure className="max-w-7xl  w-full my-1">
-        <div className="text-4xl flex justify-between mb-1 items-center">
+        <div className="text-4xl flex justify-between mb-1 items-center px-3">
           <Link
             href={""}
             className="bg-pink-500 text-sm text-white p-2 rounded-lg flex items-center max-sm:text-xs"

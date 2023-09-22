@@ -446,11 +446,11 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-2 mt-3 max-md:grid-cols-1 items-center">
-                <div className="flex flex-col text-center justify-center items-center px-5 pb-4">
+                <div className="flex flex-col text-center justify-center items-center px-3 pb-4">
                   <span className="text-3xl text-sky-500 mb-2">
                     คุณสมบัติของผู้เข้าศึกษา
                   </span>
-                  <span className="text-base text-center max-md:px-5 max-md:">
+                  <span className="text-base text-center max-md:px-3 ">
                     เป็นผู้สำเร็จการศึกษามัธยมศึกษาตอนปลาย หรือ
                     กำลังศึกษาในชั้นมัธยมศึกษาตอนปลายชั้นปีสุดท้ายตามหลักสูตรของกระทรวงศึกษาธิการ
                     กรณีเทียบเท่าให้มหาวิทยาลัยพิจารณา
@@ -478,7 +478,7 @@ export default function SciencHealth() {
                     height={550}
                   ></Image>
                 </div>
-                <div className="flex flex-col justify-center items-center max-md:py-5 px-5">
+                <div className="flex flex-col justify-center items-center max-md:py-5 max-md:px-3">
                   <span className="text-2xl text-sky-500">
                     การคัดเลือกผู้เข้าศึกษา
                   </span>
@@ -508,46 +508,37 @@ export default function SciencHealth() {
                     height={550}
                   ></Image>
                 </div>
-                <div className="flex flex-col justify-center text-center items-center  max-md:pb-5 px-5">
-                  <span className="text-2xl text-sky-500 pb-2">
+                <div className="flex flex-col justify-center text-center items-center  max-md:pb-5 px-4">
+                  <span className="text-2xl text-sky-500 pb-2 max-md:px-4">
                     โดยมีขั้นตอนการคัดเลือกดังต่อไปนี้
                   </span>
-                  <span className=" text-base text-center">
-                    <span className="text-gray-600 text-xl">
-                      {" "}
-                      ขั้นตอนที่ 1.
-                    </span>
+                  <span className=" text-base text-center max-md:px-3">
+                    <span className="text-red-600 text-xl"> ขั้นตอนที่ 1.</span>
                     สมัครเข้ารับการสอบตามคุณสมบัติและเงื่อนไขในแต่ละรอบการสอบ
                     (รอบมหาวิทยาลัยรังสิตรับตรง / รอบ กสพท.)
                   </span>
                   <span className=" text-base text-center">
-                    <span className="text-gray-600 text-xl">ขั้นตอนที่ 2.</span>
+                    <span className="text-red-600 text-xl">ขั้นตอนที่ 2.</span>
                     ผ่านการสอบข้อเขียนของมหาวิทยาลัยรังสิต หรือ
                     ผ่านการคัดเลือกตามระบบรับตรงของ กสพท.
                   </span>
                   <span className=" text-base text-center">
-                    <span className="text-gray-600 text-xl">
-                      {" "}
-                      ขั้นตอนที่ 3.
-                    </span>
+                    <span className="text-red-600 text-xl"> ขั้นตอนที่ 3.</span>
                     ผ่านเกณฑ์การสอบวิชาเฉพาะทางการแพทย์และแบบทดสอบทางจิตวิทยาตามที่คณะกรรมการสอบ
                     สัมภาษณ์คัดเลือกผู้เข้าศึกษาวิทยาลัยแพทยศาสตร์กำหนด
                   </span>
                   <span className=" text-base text-center">
-                    <span className="text-gray-600 text-xl">ขั้นตอนที่ 4.</span>
+                    <span className="text-red-600 text-xl">ขั้นตอนที่ 4.</span>
                     ผ่านการตรวจสุขภาพ
                     ตามที่คณะกรรมการสอบสัมภาษณ์คัดเลือกผู้เข้าศึกษาวิทยาลัยแพทยศาสตร์กำหนด
                   </span>
                   <span className=" text-base text-center">
-                    <span className="text-gray-600 text-xl">ขั้นตอนที่ 5.</span>
+                    <span className="text-red-600 text-xl">ขั้นตอนที่ 5.</span>
                     ผ่านการสอบสัมภาษณ์
                     โดยคณะกรรมการสอบสัมภาษณ์คัดเลือกผู้เข้าศึกษาวิทยาลัยแพทยศาสตร์
                   </span>
                   <span className=" text-base text-center">
-                    <span className="text-gray-600 text-xl">
-                      {" "}
-                      ขั้นตอนที่ 6.
-                    </span>
+                    <span className="text-red-600 text-xl"> ขั้นตอนที่ 6.</span>
                     วิทยาลัยแพทยศาสตร์ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษา
                     ผู้มีรายชื่อลงทะเบียนการเป็นนักศึกษา
                   </span>
@@ -576,7 +567,7 @@ export default function SciencHealth() {
             />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
-                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                <div className="flex justify-center items-center flex-col shadow-lg = py-5">
                   <span className="text-center text-sky-500  text-3xl">
                     รายละเอียดเพิ่มเติม
                   </span>
@@ -596,7 +587,7 @@ export default function SciencHealth() {
                   </Link>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg max-md:flex-col"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -619,14 +610,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 max-md:flex-col"
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg max-md:flex-col"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -724,8 +715,8 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-1 items-center">
-                <div className="flex flex-col justify-center text-center items-center px-5 max-md:pb-4">
-                  <span className="text-3xl text-orange-500 mb-2">
+                <div className="flex flex-col justify-center text-center items-center  max-md:pb-4">
+                  <span className="text-3xl text-orange-500 mb-1">
                     หลักสูตรระดับปริญญาตรี
                   </span>
                 </div>
@@ -751,7 +742,7 @@ export default function SciencHealth() {
               </div>
               {/* หลักสูตร 1 */}
               <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
-                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 py-4">
                   <span className="text-xl text-center text-orange-500">
                     หลักสูตรที่ 1 วิทยาศาสตรบัณฑิต สาขาการแพทย์แผนตะวันออก ว.ทบ.
                     (การแพทย์แผนตะวันออก) Bachelor of Science (Oriental
@@ -775,7 +766,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1  rounded-l-lg justify-center"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -798,14 +789,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2 gap-1 flex items-center justify-center  "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2 gap-1  flex items-center  justify-center rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -879,7 +870,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -902,14 +893,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -966,7 +957,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -989,14 +980,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -1205,7 +1196,7 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-2 mt-3 max-md:grid-cols-1 items-center">
-                <div className="flex flex-col text-center justify-center items-center px-5 pb-4">
+                <div className="flex flex-col text-center justify-center items-center px-3 pb-4">
                   <span className="text-3xl text-yellow-500 mb-2">
                     คุณสมบัติของผู้เข้าศึกษา
                   </span>
@@ -1233,15 +1224,6 @@ export default function SciencHealth() {
                     ผ่านเกณฑ์การคัดเลือกของสำนักงานคณะกรรมการการอุดมศึกษาหรือผ่านเกณฑ์ที่คณะทันตแพทยศาสตร์
                     กำหนด
                   </li>
-                  <li className="text-gray-500 text-base text-center py-2">
-                    ผ่านการสอบความถนัดทางวิชาชีพ
-                  </li>
-                  <li className="text-gray-500 text-base text-center py-2">
-                    ผ่านเกณฑ์การสอบสัมภาษณ์
-                  </li>
-                  <li className="text-gray-500 text-base text-center py-2">
-                    ผ่านการทดสอบสุขภาพจิต
-                  </li>
                 </div>
                 <div className="p-2 overflow-hidden">
                   <Image
@@ -1265,7 +1247,7 @@ export default function SciencHealth() {
                     height={550}
                   ></Image>
                 </div>
-                <div className="flex flex-col justify-center items-center max-md:py-5 px-5">
+                <div className="flex flex-col justify-center items-center max-md:py-5 px-3">
                   <span className="text-2xl text-yellow-500">
                     หลักสูตรทันตแพทยศาสตรบัณฑิต
                   </span>
@@ -1273,7 +1255,7 @@ export default function SciencHealth() {
                     ระยะเวลาการศึกษา ตลอดหลักสูตร 6 ปี จำนวนหน่วยกิต 238
                     หน่วยกิต
                   </span>
-                  <span className="text-base text-center max-md:px-5 ">
+                  <span className="text-md text-red-500 text-center max-md:px-5 ">
                     วัตถุประสงค์ของหลักสูตร
                   </span>
                   <span className="text-gray-500 text-base text-center">
@@ -1303,7 +1285,7 @@ export default function SciencHealth() {
             />
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
-                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                <div className="flex justify-center items-center flex-col shadow-lg px-3 py-5">
                   <span className="text-center text-yellow-500  text-3xl">
                     รายละเอียดเพิ่มเติม
                   </span>
@@ -1333,7 +1315,7 @@ export default function SciencHealth() {
                   </span>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg max-md:flex-col"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1356,14 +1338,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 max-md:flex-col"
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg max-md:flex-col"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -1389,21 +1371,21 @@ export default function SciencHealth() {
                       alt=""
                       className="animation"
                       data-aos="fade-right"
-                      width={2000}
+                      width={1000}
                       height={550}
                     ></Image>
                   </div>
                   <div className=" flex justify-center">
-                    <div className="flex flex-col md:mt-5 max-lg:mr-5">
+                    <div className="flex flex-col md:mt-5 max-lg:mr-3">
                       <span className="text-white text-3xl max-md:text-xl">
                         วิทยาลัยเภสัชศาสตร์
                       </span>
                       <span className="text-5xl max-md:text-3xl max-sm:text-base">
                         COLLEGE OF PHARMACY
                       </span>
-                      <span className="text-white text-xl max-md:text-base">
+                      <span className="text-white text-xl max-md:text-sm">
                         ใครอยากเป็นเภสัชกร สนใจเรื่องยา เปิดเทอมนี้
-                        <span className="text-2xl text-white  max-md:text-base">
+                        <span className="text-2xl text-red-300  max-md:text-sm ">
                           มาอยู่ทีมเดียวกับเรานะ
                         </span>
                       </span>
@@ -1438,15 +1420,15 @@ export default function SciencHealth() {
                     ></Image>
                   </Link>
                 </div>
-                <p className="mt-4 text-base text-center  max-md:px-5">
+                <p className="mt-4 text-base text-center  max-md:px-1">
                   <span className="text-xl text-lime-500">วิสัยทัศน์:</span>
                   มุ่งผลิตเภสัชกรที่รอบรู้ คู่คุณธรรม บูรณาการความรู้สู่สังคม
                 </p>
-                <p className="mt-4 text-base text-center mx-5 max-md:px-5">
+                <p className="mt-4 text-base text-center md:mx-5 max-md:px-1">
                   <span className="text-xl text-lime-500">อัตลักษณ์:</span>
                   ความรู้ คู่คุณธรรม สร้างสรรค์อย่างรับผิดชอบ
                 </p>
-                <p className="mt-4 text-base text-center px-5 max-md:px-5">
+                <p className="mt-4 text-base text-center md:mx-5 ">
                   <span className="text-xl text-lime-500">
                     จุดเด่นของหลักสูตร:
                   </span>
@@ -1466,7 +1448,7 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-1 items-center">
-                <div className="flex flex-col justify-center text-center items-center px-5 max-md:pb-4">
+                <div className="flex flex-col justify-center text-center items-center px-2 max-md:pb-4">
                   <span className="text-3xl text-lime-500 mb-2">
                     หลักสูตรระดับปริญญาตรี
                   </span>
@@ -1493,7 +1475,7 @@ export default function SciencHealth() {
               </div>
               {/* หลักสูตร 1 */}
               <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
-                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
+                <div className="flex flex-col justify-center items-center max-md:px-3 py-4">
                   <span className="text-3xl text-center text-lime-500">
                     สาขาวิชาเภสัชกรรมอุตสาหการ
                   </span>
@@ -1515,7 +1497,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg max-"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1538,14 +1520,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -1598,7 +1580,7 @@ export default function SciencHealth() {
                     height={550}
                   ></Image>
                 </div>
-                <div className="flex flex-col justify-center text-center items-center  px-5 max-md:pb-5 ">
+                <div className="flex flex-col justify-center text-center items-center  px-2 max-md:pb-5 ">
                   <span className="text-3xl text-center text-lime-500">
                     สาขาวิชาการบริบาลทางเภสัชกรรม
                   </span>
@@ -1620,7 +1602,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1643,14 +1625,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -1706,7 +1688,7 @@ export default function SciencHealth() {
                 <div className="flex justify-between mt-5 ">
                   <div className=" flex justify-center">
                     <div className="flex flex-col md:mt-5 max-lg:ml-5">
-                      <span className="text-white text-3xl max-md:text-xl">
+                      <span className="text-white text-3xl max-md:text-2xl mt-4">
                         คณะพยาบาลศาสตร์
                       </span>
                       <span className="text-5xl max-md:text-3xl max-sm:text-base">
@@ -1759,7 +1741,7 @@ export default function SciencHealth() {
                     ></Image>
                   </Link>
                 </div>
-                <p className="mt-4 text-base text-center px-5  max-md:px-5">
+                <p className="mt-4 text-base text-center md:px-3  max-md:px-2">
                   <span className="text-xl text-pink-500">วิสัยทัศน์:</span>
                   คณะพยาบาลศาสตร์ มหาวิทยาลัยรังสิต
                   มุ่งผลิตบัณฑิตที่มีความสามารถในการปฏิบัติงานอย่างมีคุณภาพในทุกระดับของการบริการสุขภาพ
@@ -1767,7 +1749,7 @@ export default function SciencHealth() {
                   เข้าสู่ความเป็นสถาบันแห่งการเรียนรู้
                   เพื่อการมีส่วนร่วมในการพัฒนาสังคมและวิชาชีพ
                 </p>
-                <p className="mt-4 text-base text-center px-5 max-md:px-5">
+                <p className="mt-4 text-base text-center md:px-3  max-md:px-2">
                   <span className="text-xl text-pink-500">พันธกิจ:</span>
                   คณะพยาบาลศาสตร์
                   มุ่งผลิตบัณฑิตที่มีความรู้ความสามารถที่สอดคล้องกับความต้องการของสังคมและการพัฒนาประเทศ
@@ -1787,7 +1769,7 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-1 items-center">
-                <div className="flex flex-col justify-center text-center items-center px-5 max-md:pb-4">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
                   <span className="text-3xl text-pink-500 mb-2">
                     หลักสูตรระดับปริญญาตรี
                   </span>
@@ -1814,14 +1796,14 @@ export default function SciencHealth() {
               </div>
               {/* หลักสูตร 1 */}
               <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
-                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 py-4">
                   <span className="text-3xl text-center text-pink-500">
                     หลักสูตรพยาบาลศาสตรบัณฑิต
                   </span>
                   <span className="text-xl text-center max-md:px-5 ">
                     ระยะเวลาหลักสูตร 4 ปีการศึกษา จำนวนหน่วยกิต 141 หน่วยกิต
                   </span>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-xl text-red-500 text-center max-md:px-5 ">
                     เกณฑ์การคัดเลือก
                   </span>
                   <li className="text-gray-500 text-base text-center py-1">
@@ -1833,7 +1815,7 @@ export default function SciencHealth() {
                   <li className="text-gray-500 text-base text-center py-1">
                     สอบตรงโดยการสัมภาษณ์และทดสอบ
                   </li>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-xl text-red-500 text-center max-md:px-5 ">
                     จุดเด่นของหลักสูตร
                   </span>
                   <li className="text-gray-500 text-base text-center py-1">
@@ -1847,7 +1829,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1870,14 +1852,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -1930,7 +1912,7 @@ export default function SciencHealth() {
                     height={550}
                   ></Image>
                 </div>
-                <div className="flex flex-col justify-center text-center items-center  px-5 max-md:pb-5 ">
+                <div className="flex flex-col justify-center text-center items-center  md:px-3 max-md:px-2 max-md:pb-5 ">
                   <span className="text-3xl text-center text-pink-500">
                     หลักสูตรพยาบาลศาสตรบัณฑิต (2 ภาษา)
                   </span>
@@ -1940,7 +1922,7 @@ export default function SciencHealth() {
                   <li className="text-gray-500 text-base text-center py-2">
                     ภาษาที่ใช้ในการเรียนการสอน ภาษาอังกฤษ และภาษาไทย
                   </li>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-xl text-red-500 text-center max-md:px-5 ">
                     เกณฑ์การคัดเลือก
                   </span>
                   <li className="text-gray-500 text-base text-center py-1">
@@ -1952,7 +1934,7 @@ export default function SciencHealth() {
                   <li className="text-gray-500 text-base text-center py-1">
                     สอบตรงโดยการสัมภาษณ์และทดสอบ
                   </li>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-xl text-red-500 text-center max-md:px-5 ">
                     จุดเด่นของหลักสูตร
                   </span>
                   <li className="text-gray-500 text-base text-center py-1">
@@ -1971,7 +1953,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -1994,14 +1976,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>

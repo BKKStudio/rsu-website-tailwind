@@ -3,6 +3,7 @@ import { BsList, BsXLg } from "react-icons/bs";
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import LogoUniverse from "../../../public/image/Logo_universe/Rsu_logo.png";
 
 function MobileNav({ open, setOpen }) {
   const [FacBtn, setFacBtn] = useState(false);
@@ -162,10 +163,8 @@ const Navbar = () => {
           <div className="flex items-center justify-between  p-1 ">
             <Link className="text-black text-lg font-semibold" href="#">
               <Image
-                src="/image/Logo_universe/Rsu_logo.png"
+                src={LogoUniverse}
                 alt=""
-                width={200}
-                height={200}
               />
             </Link>
             <button

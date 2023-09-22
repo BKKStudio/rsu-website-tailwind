@@ -9,6 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-flip";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import GoodOlddayImg1 from "../../../public/image/GoodOldday/Good1.jpg";
+import GoodOlddayImg2 from "../../../public/image/GoodOldday/Good2.jpg";
+import GoodOlddayImg3 from "../../../public/image/GoodOldday/Good3.jpg";
+import GoodOlddayImg4 from "../../../public/image/GoodOldday/Good4.jpg";
+
 
 // import required modules
 import { EffectFlip, Pagination, Navigation } from "swiper/modules";
@@ -32,10 +37,8 @@ export default function SwiperGoodOldDay() {
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
               <Image
-                src={"/image/GoodOldday/Good1.jpg"}
+                src={GoodOlddayImg1}
                 alt=""
-                width={1200}
-                height={400}
                 className="rounded-lg  w-full mb-4"
               ></Image>
               <span className="text-2xl mb-2 max-md:text-xl">
@@ -61,10 +64,8 @@ export default function SwiperGoodOldDay() {
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
               <Image
-                src={"/image/GoodOldday/Good2.jpg"}
+                src={GoodOlddayImg2}
                 alt=""
-                width={1200}
-                height={400}
                 className="rounded-lg  w-full mb-4"
               ></Image>
               <span className="text-2xl mb-2 max-md:text-xl">
@@ -91,10 +92,8 @@ export default function SwiperGoodOldDay() {
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
               <Image
-                src={"/image/GoodOldday/Good3.jpg"}
+                src={GoodOlddayImg3}
                 alt=""
-                width={1200}
-                height={400}
                 className="rounded-lg  w-full mb-4"
               ></Image>
               <span className="text-2xl mb-2 max-md:text-xl">
@@ -119,10 +118,8 @@ export default function SwiperGoodOldDay() {
               className="flex flex-col p-3 bg-white shadow-3xl m-5 max-lg:h-full  rounded-lg text-center text-lg"
             >
               <Image
-                src={"/image/GoodOldday/Good4.jpg"}
+                src={GoodOlddayImg4}
                 alt=""
-                width={1200}
-                height={400}
                 className="rounded-lg  w-full mb-4"
               ></Image>
               <span className="text-2xl mb-2 max-md:text-xl">
@@ -142,4 +139,3 @@ export default function SwiperGoodOldDay() {
     </div>
   );
 }
-  

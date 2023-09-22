@@ -11,17 +11,28 @@ import Rsuvideo from "./components/Rsuvideo";
 import GoodOldday from "./components/Goodoldday";
 import CarouselRsuUpdate from "./components/CarouselRsuUpdate";
 import CarouselLifeStyles from "./components/CarouselLifeStyles";
-import {BsFillEmojiLaughingFill } from "react-icons/bs";
+import { BsFillEmojiLaughingFill } from "react-icons/bs";
 import SidebarModel from "./components/SidebarModel";
-
+import OpenhouseImg1 from "../../public/image/openhouse/artdesign.jpg";
+import OpenhouseImg2 from "../../public/image/openhouse/economybusiness.jpg";
+import OpenhouseImg3 from "../../public/image/openhouse/engineertech.jpg";
+import OpenhouseImg4 from "../../public/image/openhouse/healthsciences.jpg";
+import OpenhouseImg5 from "../../public/image/openhouse/Humanities.jpg";
+import OpenhouseImg6 from "../../public/image/openhouse/Online.jpg";
+import ShowCaseImg1 from "../../public/image/showcase/showcase1.jpg";
+import ShowCaseImg2 from "../../public/image/showcase/showcase2.jpg";
+import ShowCaseImg3 from "../../public/image/showcase/showcase3.jpg";
+import GallaryImg1 from "../../public/image/RsuGallery/gallery2.jpg";
+import GallaryImg2 from "../../public/image/RsuGallery/gallery4.jpg";
+import GallaryImg3 from "../../public/image/RsuGallery/gallery5.jpg";
+import GallaryImg4 from "../../public/image/RsuGallery/gallery1.jpg";
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <SidebarModel/>
+      <SidebarModel />
       <Carousel />
       <main>
-  
         <ManuUnderCarousel />
         {/* Open House  */}
         <article className="flex justify-center items-center my-4">
@@ -37,18 +48,17 @@ export default function Home() {
             </div>
             <div className="bg-pink-500 w-full h-1"></div>
             <div className=" w-full mt-5 flex justify-center">
-              <div className="grid grid-cols-3 w-full gap-5 max-lg:grid-cols-2 max-sm:grid-cols-1">
+              <div className="grid grid-cols-3 w-full gap-5 max-lg:grid-cols-2 max-sm:grid-cols-1 px-5">
                 {/* Art-design */}
                 <Link
                   className="hover:animate-animation-shake flex justify-center"
                   href={""}
                 >
                   <Image
-                    src="/image/openhouse/artdesign.jpg"
+                    src={OpenhouseImg1}
                     alt=""
-                    className="rounded-lg shadow-3xl "
-                    width={300}
-                    height={300}
+                    className="rounded-lg shadow-3xl max-md:w-4/5"
+                    layout="responsive"
                   ></Image>
                 </Link>
                 {/*  Art-design ---ENd----*/}
@@ -58,11 +68,10 @@ export default function Home() {
                   href={""}
                 >
                   <Image
-                    src="/image/openhouse/economybusiness.jpg"
+                    src={OpenhouseImg2}
                     alt=""
-                    className="rounded-lg shadow-3xl "
-                    width={300}
-                    height={300}
+                    className="rounded-lg shadow-3xl max-md:w-4/5"
+                    layout="responsive"
                   ></Image>
                 </Link>
                 {/*  economybusiness ---ENd----*/}
@@ -72,11 +81,10 @@ export default function Home() {
                   href={""}
                 >
                   <Image
-                    src="/image/openhouse/engineertech.jpg"
+                    src={OpenhouseImg3}
                     alt=""
-                    className="rounded-lg shadow-3xl "
-                    width={300}
-                    height={300}
+                    className="rounded-lg shadow-3xl max-md:w-4/5"
+                    layout="responsive"
                   ></Image>
                 </Link>
                 {/*  engineertech ---ENd----*/}
@@ -86,11 +94,10 @@ export default function Home() {
                   href={""}
                 >
                   <Image
-                    src="/image/openhouse/healthsciences.jpg"
+                    src={OpenhouseImg4}
                     alt=""
-                    className="rounded-lg shadow-3xl "
-                    width={300}
-                    height={300}
+                    className="rounded-lg shadow-3xl max-md:w-4/5"
+                    layout="responsive"
                   ></Image>
                 </Link>
                 {/*  healthsciences ---ENd----*/}
@@ -100,11 +107,10 @@ export default function Home() {
                   href={""}
                 >
                   <Image
-                    src="/image/openhouse/Humanities.jpg"
+                    src={OpenhouseImg5}
                     alt=""
-                    className="rounded-lg shadow-3xl "
-                    width={300}
-                    height={300}
+                    className="rounded-lg shadow-3xl max-md:w-4/5"
+                    layout="responsive"
                   ></Image>
                 </Link>
                 {/* Humanities ---ENd----*/}
@@ -114,11 +120,10 @@ export default function Home() {
                   href={""}
                 >
                   <Image
-                    src="/image/openhouse/Online.jpg"
+                    src={OpenhouseImg6}
                     alt=""
-                    className="rounded-lg shadow-3xl "
-                    width={300}
-                    height={300}
+                    className="rounded-lg shadow-3xl max-md:w-4/5"
+                    layout="responsive"
                   ></Image>
                 </Link>
                 {/* Online.---ENd----*/}
@@ -147,10 +152,8 @@ export default function Home() {
                 className="shadow-3xl p-3 w-full grid grid-flow-col rounded-lg max-lg:hidden"
               >
                 <Image
-                  src={"/image/showcase/showcase1.jpg"}
+                  src={ShowCaseImg1}
                   alt=""
-                  width={400}
-                  height={400}
                   className="rounded-lg lg:hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
                 ></Image>
                 <div className="text-center flex flex-col gap-3 justify-center">
@@ -176,10 +179,8 @@ export default function Home() {
                 className="shadow-3xl p-3 w-full grid grid-flow-col rounded-lg max-lg:hidden"
               >
                 <Image
-                  src={"/image/showcase/showcase3.jpg"}
+                  src={ShowCaseImg3}
                   alt=""
-                  width={400}
-                  height={400}
                   className="rounded-lg lg:hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
                 ></Image>
                 <div className="text-center flex flex-col gap-3 justify-center">
@@ -205,11 +206,9 @@ export default function Home() {
                 className="shadow-3xl p-3 w-full grid grid-flow-col rounded-lg max-lg:hidden"
               >
                 <Image
-                  src={"/image/showcase/showcase2.jpg"}
+                  src={ShowCaseImg2}
                   alt=""
-                  width={400}
-                  height={400}
-                  className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
+                  className="rounded-lg lg:hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4"
                 ></Image>
                 <div className="text-center flex flex-col gap-3 justify-center">
                   <span className="text-xl">
@@ -243,7 +242,7 @@ export default function Home() {
         {/* RSU UPdate*/}
         <article className="flex justify-center items-center my-4">
           <figure className="max-w-7xl  w-full my-3">
-            <div className="text-4xl flex justify-between mb-1 items-center">
+            <div className="text-4xl flex justify-between mb-1 items-center px-3">
               <span className="max-sm:text-xl">RSU UPDATE</span>
               <Link
                 href={""}
@@ -263,9 +262,16 @@ export default function Home() {
                   {" "}
                   <CarouselRsuUpdate />
                 </div>
-                <Link href={""} className="shadow-3xl flex justify-center gap-2 items-center p-5 w-full text-xl bg-sky-400 hover:animate-animation-shake text-white ">
+                <Link
+                  href={""}
+                  className="shadow-3xl flex justify-center gap-2 items-center p-5 w-full text-xl bg-sky-400 hover:animate-animation-shake text-white "
+                >
                   {" "}
-                  <BsFillEmojiLaughingFill  size={30}  className="" /><span className="max-sm:text-sm max-lg:text-base">All Rsu-Styles</span>  <BsFillPlayFill size={19} />
+                  <BsFillEmojiLaughingFill size={30} className="" />
+                  <span className="max-sm:text-sm max-lg:text-base">
+                    All Rsu-Styles
+                  </span>{" "}
+                  <BsFillPlayFill size={19} />
                 </Link>
               </div>
             </div>
@@ -276,12 +282,12 @@ export default function Home() {
         {/* Rsu Gallary */}
         <article className="flex justify-center items-center my-4">
           <figure className="max-w-7xl  w-full my-3 ">
-          <div className="text-4xl flex justify-between mb-1 items-center">
-          <Link
+            <div className="text-4xl flex justify-between mb-1 items-center px-3">
+              <Link
                 href={""}
                 className="bg-pink-500 text-sm text-white p-2 rounded-lg flex items-center max-sm:text-xs"
               >
-                All Gallery 
+                All Gallery
                 <BsFillPlayFill size={19} />
               </Link>
               <span className="max-sm:text-xl">RSU GALLERY</span>
@@ -289,35 +295,35 @@ export default function Home() {
             <div className="bg-pink-500 w-full h-1 "></div>
             <div className="mt-4 flex justify-center gap-4 mx-5 max-lg:flex-col max-lg:items-center">
               <div className="w-3/4 flex flex-col gap-4 justify-center max-lg:w-full">
-              <img
-                  src={"/image/RsuGallery/gallery2.jpg"}
+                <Image
+                  src={GallaryImg1}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
-                ></img>
+                ></Image>
                 <div className="grid grid-cols-2 gap-4 ">
-                <img
-                  src={"/image/RsuGallery/gallery4.jpg"}
+                <Image
+                  src={GallaryImg2}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
-                ></img>
-                    <img
-                  src={"/image/RsuGallery/gallery5.jpg"}
+                ></Image>
+                <Image
+                  src={GallaryImg3}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
-                ></img>
+                ></Image>
                 </div>
               </div>
               <div className="">
-              <img
-                  src={"/image/RsuGallery/gallery1.jpg"}
+              <Image
+                  src={GallaryImg4}
                   alt=""
                   className="rounded-lg hover:scale-125 duration-300 max-lg:w-full max-lg:mb-4 shadow-3xl"
-                ></img>
+                ></Image>
               </div>
             </div>
           </figure>
         </article>
-         {/*----------- Rsu Gallary -----------------*/}
+        {/*----------- Rsu Gallary -----------------*/}
       </main>
       <Footer />
     </div>

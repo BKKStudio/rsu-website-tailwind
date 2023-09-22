@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsFillPlayFill } from "react-icons/bs";
-
 import Swipercontent from "./Swipercontent";
 import Swipernewgen from "./Swipernewgen";
-
-
+import RsuContentImg1 from "../../../public/image/rsuvideo/rsuvideo01.jpg";
+import RsuContentImg2 from "../../../public/image/rsuvideo/Freshchy.jpg";
+import RsuContentImg3 from "../../../public/image/rsuvideo/maxresdefault (4).jpg";
+import RsuContentImg4 from "../../../public/image/rsuvideo/Threeword.jpg";
+import RsuContentImg5 from "../../../public/image/rsuvideo/rsuvideo05.jpg";
+import RsuLogotiktokImg6 from "../../../public/image/rsuvideo/logotiktok.png";
+import RsuContentImg7 from "../../../public/image/rsuvideo/tt1.jpg";
+import RsutiktokImg1 from "../../../public/image/rsuvideo/tt2.jpg";
+import RsutiktokImg2 from "../../../public/image/rsuvideo/tt3.jpg";
 export default function Rsuvideo() {
   return (
     <>
@@ -28,10 +34,8 @@ export default function Rsuvideo() {
               <Link href={"https://youtu.be/GnXc8RZadMo?si=hxIzp6jX6eRUFi3y"} className="shadow-3xl relative">
                 <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                 <Image
-                  src={"/image/rsuvideo/rsuvideo01.jpg"}
+                  src={RsuContentImg1}
                   alt=""
-                  width={700}
-                  height={500}
                 ></Image>
                 <p className="text-center bg-black text-white p-3">
                   นิเทศศาสตร์การกีฬา ม.รังสิต ท้าดวล ขอบสนาม ในงาน Gaming Sport
@@ -43,10 +47,8 @@ export default function Rsuvideo() {
                 <Link href={"https://youtu.be/KXYGR875dc4?si=_WktZUAXutTR9ykp"} className="shadow-3xl  relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
-                    src={"/image/rsuvideo/Freshchy.jpg"}
+                    src={RsuContentImg2}
                     alt=""
-                    width={400}
-                    height={200}
                   ></Image>
                   <p className="text-center bg-black text-white p-3 ">
                     RANGSIT NEW GEN 2023
@@ -57,10 +59,8 @@ export default function Rsuvideo() {
                 <Link href={"https://youtu.be/gTQ1D9aopAU?si=AseTnuZgrx-TkqMn"} className="shadow-3xl relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
-                    src={"/image/rsuvideo/maxresdefault (4).jpg"}
+                    src={RsuContentImg3}
                     alt=""
-                    width={400}
-                    height={200}
                   ></Image>
                   <p className="text-center bg-black text-white p-3">
                     How To .. สมัครเรียน ม.รังสิต
@@ -71,10 +71,8 @@ export default function Rsuvideo() {
                 <Link href={"https://youtu.be/QtJaGbnjx3g?si=G5WaEs3rk3-81oR-"} className="shadow-3xl relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
-                    src={"/image/rsuvideo/Threeword.jpg"}
+                    src={RsuContentImg4}
                     alt=""
-                    width={400}
-                    height={200}
                   ></Image>
                   <p className="text-center bg-black text-white p-3">
                     สามคำให้ ม.รังสิต | รับปริญญา 2565
@@ -85,10 +83,8 @@ export default function Rsuvideo() {
                 <Link href={"https://youtu.be/4gOiUMEEPnk?si=Jdybw9ai2SQENKPF"} className="shadow-3xl  relative">
                   <div className="bg-white opacity-5  hover:opacity-50  w-full h-full absolute z-1"></div>
                   <Image
-                    src={"/image/rsuvideo/rsuvideo05.jpg"}
+                    src={RsuContentImg5}
                     alt=""
-                    width={400}
-                    height={200}
                   ></Image>
                   <p className="text-center bg-black text-white p-3">
                     มหาวิทยาลัยแห่งความหลากหลาย
@@ -105,10 +101,9 @@ export default function Rsuvideo() {
             <div className="flex justify-center items-center">
               <div className="flex flex-col items-center">
                 <Image
-                  src={"/image/rsuvideo/logotiktok.png"}
+                  src={RsuLogotiktokImg6}
                   alt=""
-                  width={400}
-                  height={300}
+                  width={500}
                   className="lg:hover:animate-animation-manu"
                 ></Image>
                 <Link
@@ -122,28 +117,22 @@ export default function Rsuvideo() {
             <div className="grid grid-cols-3 gap-4 max-lg:grid max-md:grid-cols-1 max-lg:justify-center max-lg:mt-4">
               <Link href={"https://www.tiktok.com/@rangsituniversity/video/7242903677822930182?is_from_webapp=1&sender_device=pc&web_id=7043781851769259521"} className="flex justify-center">
                 <Image
-                  src={"/image/rsuvideo/tt1.jpg"}
+                  src={RsuContentImg7}
                   alt=""
-                  width={400}
-                  height={300}
                   className="rounded-lg shadow-3xl lg:hover:animate-animation-shake "
                 ></Image>
               </Link>
               <Link href={"https://www.tiktok.com/@rangsituniversity/video/7235106599155617029?is_from_webapp=1&sender_device=pc&web_id=7043781851769259521"} className="flex justify-center">
                 <Image
-                  src={"/image/rsuvideo/tt2.jpg"}
+                  src={RsutiktokImg1}
                   alt=""
-                  width={400}
-                  height={300}
                   className="rounded-lg shadow-3xl lg:hover:animate-animation-shake"
                 ></Image>
               </Link>
               <Link href={"https://www.tiktok.com/@rangsituniversity/video/7257837474888600837?is_from_webapp=1&sender_device=pc&web_id=7043781851769259521"} className="flex justify-center">
                 <Image
-                  src={"/image/rsuvideo/tt3.jpg"}
+                  src={ RsutiktokImg2}
                   alt=""
-                  width={400}
-                  height={300}
                   className="rounded-lg shadow-3xl lg:hover:animate-animation-shake"
                 ></Image>
               </Link>

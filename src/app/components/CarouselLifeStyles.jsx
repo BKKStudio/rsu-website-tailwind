@@ -1,4 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
+import LifeStyleImg1 from "../../../public/image/RsuUpdate/RsuLifeStyles/Lifestyles1.jpg";
+import LifeStyleImg2 from "../../../public/image/RsuUpdate/RsuLifeStyles/Lifestyles2.jpg";
+import LifeStyleImg3 from "../../../public/image/RsuUpdate/RsuLifeStyles/Lifestyles3.jpg";
 
 const CarouselLifeStyles = () => {
   return (
@@ -31,8 +35,8 @@ const CarouselLifeStyles = () => {
       </div>
       <div className="carousel-inner">
         <Link href={""} className="carousel-item active">
-          <img
-            src="/image/RsuUpdate/RsuLifeStyles/Lifestyles1.jpg"
+          <Image
+            src={LifeStyleImg1}
             className="d-block w-100 "
             alt="..."
           />
@@ -45,8 +49,8 @@ const CarouselLifeStyles = () => {
           </div>
         </Link>
         <Link href={""} className="carousel-item">
-          <img
-            src="/image/RsuUpdate/RsuLifeStyles/Lifestyles2.jpg"
+        <Image
+            src={LifeStyleImg2}
             className="d-block w-100 "
             alt="..."
           />
@@ -61,8 +65,8 @@ const CarouselLifeStyles = () => {
           </div>
         </Link>
         <Link href={""} className="carousel-item">
-          <img
-            src="/image/RsuUpdate/RsuLifeStyles/Lifestyles3.jpg"
+        <Image
+            src={LifeStyleImg3}
             className="d-block w-100 "
             alt="..."
           />
