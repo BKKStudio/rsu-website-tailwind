@@ -1678,12 +1678,12 @@ export default function SciencHealth() {
           </figure>
         </article>
         {/*  Content COLLEGE OF Phimacy*/}
-        <div className="bg-lime-500 bg-gradient-to-b from-lime-500 via-transparent to-pink-400 w-full h-64"></div>
+        <div className="bg-lime-500 bg-gradient-to-b from-lime-500 via-transparent to-sky-400 w-full h-64"></div>
 
         {/* Content SCHOOL OF NURSING */}
         <article className="flex justify-center items-center">
           <figure className="w-full  ">
-            <div className=" w-full flex justify-center  relative bg-pink-400">
+            <div className=" w-full flex justify-center  relative bg-sky-400">
               <div className="max-w-7xl w-full ">
                 <div className="flex justify-between mt-5 ">
                   <div className=" flex justify-center">
@@ -1742,7 +1742,7 @@ export default function SciencHealth() {
                   </Link>
                 </div>
                 <p className="mt-4 text-base text-center md:px-3  max-md:px-2">
-                  <span className="text-xl text-pink-500">วิสัยทัศน์:</span>
+                  <span className="text-xl text-sky-500">วิสัยทัศน์:</span>
                   คณะพยาบาลศาสตร์ มหาวิทยาลัยรังสิต
                   มุ่งผลิตบัณฑิตที่มีความสามารถในการปฏิบัติงานอย่างมีคุณภาพในทุกระดับของการบริการสุขภาพ
                   ทั้งภายในประเทศและต่างประเทศ มีเป้าหมายในการพัฒนาตนเอง
@@ -1750,7 +1750,7 @@ export default function SciencHealth() {
                   เพื่อการมีส่วนร่วมในการพัฒนาสังคมและวิชาชีพ
                 </p>
                 <p className="mt-4 text-base text-center md:px-3  max-md:px-2">
-                  <span className="text-xl text-pink-500">พันธกิจ:</span>
+                  <span className="text-xl text-sky-500">พันธกิจ:</span>
                   คณะพยาบาลศาสตร์
                   มุ่งผลิตบัณฑิตที่มีความรู้ความสามารถที่สอดคล้องกับความต้องการของสังคมและการพัฒนาประเทศ
                   โดยการออกแบบหลักสูตรที่ทันสมัย
@@ -1770,7 +1770,7 @@ export default function SciencHealth() {
             <div className="mb-4">
               <div className="grid grid-cols-1 items-center">
                 <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
-                  <span className="text-3xl text-pink-500 mb-2">
+                  <span className="text-3xl text-sky-500 mb-2">
                     หลักสูตรระดับปริญญาตรี
                   </span>
                 </div>
@@ -1797,7 +1797,7 @@ export default function SciencHealth() {
               {/* หลักสูตร 1 */}
               <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
                 <div className="flex flex-col justify-center items-center max-md:px-2 py-4">
-                  <span className="text-3xl text-center text-pink-500">
+                  <span className="text-3xl text-center text-sky-500">
                     หลักสูตรพยาบาลศาสตรบัณฑิต
                   </span>
                   <span className="text-xl text-center max-md:px-5 ">
@@ -1913,7 +1913,7 @@ export default function SciencHealth() {
                   ></Image>
                 </div>
                 <div className="flex flex-col justify-center text-center items-center  md:px-3 max-md:px-2 max-md:pb-5 ">
-                  <span className="text-3xl text-center text-pink-500">
+                  <span className="text-3xl text-center text-sky-500">
                     หลักสูตรพยาบาลศาสตรบัณฑิต (2 ภาษา)
                   </span>
                   <span className="text-xl text-center max-md:px-5 ">
@@ -1995,7 +1995,7 @@ export default function SciencHealth() {
             </div>
           </figure>
         </article>
-        <article className="flex justify-center items-center bg-pink-400 pb-5">
+        <article className="flex justify-center items-center bg-sky-400 pb-5">
           <figure className="w-full overflow-hidden">
             <Image
               src="/image/Faculty/WaveTemplate/waveflip.png"
@@ -2006,7 +2006,7 @@ export default function SciencHealth() {
             <div className="flex justify-center items-center px-3">
               <div className="max-w-7xl w-full bg-white rounded-lg text-center">
                 <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
-                  <span className="text-center text-pink-500  text-3xl">
+                  <span className="text-center text-sky-500  text-3xl">
                     รายละเอียดเพิ่มเติม
                   </span>
                   <span className="text-center text-xl">การรับสมัคร</span>
@@ -2027,7 +2027,7 @@ export default function SciencHealth() {
           </figure>
         </article>
         {/*  Content SCHOOL OF SCIENCE */}
-        <div className="bg-pink-400 bg-gradient-to-b from-pink-400 via-transparent to-purple-400 w-full h-64"></div>
+        <div className="bg-sky-400 bg-gradient-to-b from-sky-400 via-transparent to-purple-400 w-full h-64"></div>
 
         {/* Content FACULTY OF SCIENCE */}
         <article className="flex justify-center items-center">
@@ -2090,13 +2090,13 @@ export default function SciencHealth() {
                     ></Image>
                   </Link>
                 </div>
-                <p className="mt-4 text-base text-center px-5  max-md:px-5">
+                <p className="mt-4 text-base text-center px-2  max-md:px-2">
                   <span className="text-xl text-purple-500">ปณิธาน:</span>
                   ผลิตบัณฑิตสาขาวิทยาศาสตร์สุขภาพ และเทคโนโลยี
                   โดยมีความเพรียบพร้อมทั้งด้านวิทยาการ ด้านคุณธรรมจริยธรรม
                   เพื่อรับใช้สังคม
                 </p>
-                <p className="mt-4 text-base text-center px-5 max-md:px-5">
+                <p className="mt-4 text-base text-center px-2 max-md:px-2">
                   <span className="text-xl text-purple-500">
                     ประวัติความเป็นมา:
                   </span>
@@ -2117,7 +2117,7 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-1 items-center">
-                <div className="flex flex-col justify-center text-center items-center px-5 max-md:pb-4">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
                   <span className="text-3xl text-purple-500 mb-2">
                     หลักสูตรระดับปริญญาตรี
                   </span>
@@ -2258,12 +2258,12 @@ export default function SciencHealth() {
           </figure>
         </article>
         {/*  Content FACULTY OF SCIENCE*/}
-        <div className="bg-purple-400 bg-gradient-to-b from-purple-400 via-transparent to-red-400 w-full h-64"></div>
+        <div className="bg-purple-400 bg-gradient-to-b from-purple-400 via-transparent to-pink-400 w-full h-64"></div>
 
         {/* Content FACULTY OF PHYSICAL THERAPY AND SPORT MEDICINE */}
         <article className="flex justify-center items-center">
           <figure className="w-full  ">
-            <div className=" w-full flex justify-center  relative bg-red-400">
+            <div className=" w-full flex justify-center  relative bg-pink-400">
               <div className="max-w-7xl w-full ">
                 <div className="flex justify-between mt-5 ">
                   <div className=" flex justify-center">
@@ -2321,15 +2321,15 @@ export default function SciencHealth() {
                     ></Image>
                   </Link>
                 </div>
-                <p className="mt-4 text-base text-center px-5  max-md:px-5">
-                  <span className="text-xl text-red-500">ปรัชญา:</span>
+                <p className="mt-4 text-base text-center px-2  max-md:px-2">
+                  <span className="text-xl text-pink-500">ปรัชญา:</span>
                   คณะกายภาพบำบัดและเวชศาสตร์การกีฬา มหาวิทยาลัยรังสิต
                   มีความเชื่อว่าคุณภาพคือสิ่งที่ดี เป็นที่ยอมรับ เชื่อถือได้
                   และตรวจสอบได้
                   การประกันคุณภาพการศึกษาจึงเป็นหนทางหนึ่งซึ่งนำไปสู่การจัดการศึกษาที่มีคุณภาพ
                 </p>
-                <p className="mt-4 text-base text-center px-5 max-md:px-5">
-                  <span className="text-xl text-red-500">วิสัยทัศน์:</span>
+                <p className="mt-4 text-base text-center px-2 max-md:px-5">
+                  <span className="text-xl text-pink-500">วิสัยทัศน์:</span>
                   คณะกายภาพบำบัดและเวชศาสตร์การกีฬา มหาวิทยาลัยรังสิต
                   เป็นสถาบันชั้นนำในระดับชาติด้านการผลิตบัณฑิตที่มีคุณธรรมและคุณภาพจากภายใน
                   สร้างและบูรณาการความรู้โดยเน้นความเป็นสากล ธรรมชาติ
@@ -2343,8 +2343,8 @@ export default function SciencHealth() {
           <figure className="max-w-7xl w-full">
             <div className="mb-4">
               <div className="grid grid-cols-1 items-center">
-                <div className="flex flex-col justify-center text-center items-center px-5 max-md:pb-4">
-                  <span className="text-3xl text-red-500 mb-2">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
+                  <span className="text-3xl text-pink-500 mb-2">
                     หลักสูตรระดับปริญญาตรี
                   </span>
                 </div>
@@ -2370,16 +2370,16 @@ export default function SciencHealth() {
               </div>
               {/* หลักสูตร 1 */}
               <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
-                <div className="flex flex-col justify-center items-center max-md:px-2 p-4">
-                  <span className="text-3xl text-center text-red-500">
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-pink-500">
                     วิทยาศาสตรบัณฑิต (กายภาพบำบัด) Bachelor of Science (Physical
                     Therapy) วท.บ. (กายภาพบำบัด) B.Sc. (Physical Therapy)
                   </span>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-xl text-center max-md:px-2 ">
                     ระยะเวลาการศึกษา ตลอดหลักสูตร 4 ปี โดยใช้เวลาศึกษาไม่เกิน 8
                     ปี จำนวนหน่วยกิต 144 หน่วยกิต
                   </span>
-                  <span className="text-xl text-center max-md:px-5 ">
+                  <span className="text-xl text-center max-md:px-2 ">
                     คุณสมบัติของผู้เข้าศึกษา
                   </span>
                   <li className="text-gray-500 text-base text-center py-1">
@@ -2395,7 +2395,7 @@ export default function SciencHealth() {
                   </li>
                   <div className="flex justify-center items-center  text-white pt-3 ">
                     <button
-                      className="bg-gray-500 px-3  py-2  flex items-center gap-2 rounded-l-lg"
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
                       data-bs-target="#exampleModalToggle"
                       data-bs-toggle="modal"
                       onClick={() =>
@@ -2418,14 +2418,14 @@ export default function SciencHealth() {
                     </button>
                     <Link
                       href={"/pages/RegisterLevel/Scholarships"}
-                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-2 "
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
                     >
                       <FaMoneyCheckAlt size={20} />
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
                       href={"/pages/RegisterLevel"}
-                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
                       <span className="max-md:text-xs">สมัครเรียน</span>
@@ -2444,12 +2444,424 @@ export default function SciencHealth() {
                 </div>
               </div>
               {/* Line */}
+              <div className="flex justify-center max-lg:hidden">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/Line3.png"}
+                  alt=""
+                  className=""
+                  width={800}
+                  height={200}
+                ></Image>
+              </div>
+              {/* หลักสูตร 1 */}
+
+              {/* หลักสูตร 2 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="overflow-hidden max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/PHYSICALTHERAPY/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-right"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+                <div className="overflow-hidden lg:hidden px-2 py-3">
+                  <Image
+                    src={"/image/Faculty/Scienc/PHYSICALTHERAPY/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-right"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-pink-500">
+                    วิทยาศาสตร์การออกกำลังกายและสมรรถภาพทางการกีฬา
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ระยะเวลาการศึกษา ตลอดหลักสูตร 4 ปี โดยใช้เวลาศึกษาไม่เกิน 8
+                    ปี จำนวนหน่วยกิต 144 หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    คุณสมบัติของผู้เข้าศึกษา
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    สำเร็จการศึกษาไม่ต่ำกว่าชั้นมัธยมศึกษาตอนปลายสายสามัญที่เน้นวิทยาศาสตร์และคณิตศาสตร์หรือเทียบเท่า
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    มีสุขภาพสมบูรณ์ทั้งร่างกายและจิตใจ
+                    ไม่เจ็บป่วยหรือเป็นโรคติดต่อร้ายแรงหรือมีความผิดปกติอื่น ๆ
+                    ที่เป็นอุปสรรคต่อการศึกษา
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    มีคุณสมบัติอื่นๆ ตามที่สถาบันการศึกษากำหนด
+                  </li>
+                  <div className="flex justify-center items-center  text-white pt-3 ">
+                    <button
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      onClick={() =>
+                        setData({
+                          Faculty: "คณะกายภาพบำบัดและเวชศาสตร์การกีฬา",
+                          Major:
+                            "สาขาวิชาวิทยาศาสตร์การออกกำลังกายและสมรรถภาพทางการกีฬา",
+                          term1: "106,200",
+                          term2: "123,300",
+                          term3: "119,200",
+                          term4: "90,200",
+                          term5: "-",
+                          term6: "-",
+                          dsl: "1",
+                          Allterm: "438,900",
+                        })
+                      }
+                    >
+                      <FaMoneyBillWave size={20} />
+                      <span className="max-md:text-xs ">ค่าเทอม</span>
+                    </button>
+                    <Link
+                      href={"/pages/RegisterLevel/Scholarships"}
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
+                    >
+                      <FaMoneyCheckAlt size={20} />
+                      <span className="max-md:text-xs">ทุนการศึกษา</span>
+                    </Link>
+                    <Link
+                      href={"/pages/RegisterLevel"}
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
+                    >
+                      <BsPeopleFill size={20} />
+                      <span className="max-md:text-xs">สมัครเรียน</span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              {/* Line */}
+              <div className="flex justify-center max-lg:hidden">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/Line2.png"}
+                  alt=""
+                  className=""
+                  width={800}
+                  height={200}
+                ></Image>
+              </div>
+              {/* หลักสูตร 2 */}
+
+              {/* หลักสูตร 3 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="overflow-hidden lg:hidden px-2 py-3">
+                  <Image
+                    src={"/image/Faculty/Scienc/PHYSICALTHERAPY/3.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-pink-500">
+                    วิทยาศาสตรบัณฑิต (ชรัณสุขศาสตร์)
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ระยะเวลาการศึกษา ตลอดหลักสูตร 4 ปี โดยใช้เวลาศึกษาไม่เกิน 8
+                    ปี จำนวนหน่วยกิต 144 หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    คุณสมบัติของผู้เข้าศึกษา
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    สำเร็จการศึกษาไม่ต่ำกว่าชั้นมัธยมศึกษาตอนปลายสายสามัญที่เน้นวิทยาศาสตร์และคณิตศาสตร์หรือเทียบเท่า
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    มีสุขภาพสมบูรณ์ทั้งร่างกายและจิตใจ
+                    ไม่เจ็บป่วยหรือเป็นโรคติดต่อร้ายแรงหรือมีความผิดปกติอื่น ๆ
+                    ที่เป็นอุปสรรคต่อการศึกษา
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    มีคุณสมบัติอื่นๆ ตามที่สถาบันการศึกษากำหนด
+                  </li>
+                  <div className="flex justify-center items-center  text-white pt-3 ">
+                    <button
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      onClick={() =>
+                        setData({
+                          Faculty: "คณะกายภาพบำบัดและเวชศาสตร์การกีฬา",
+                          Major: " สาขาวิชาชรัณสุขศาสตร์",
+                          term1: "114,600",
+                          term2: "146,900",
+                          term3: "110,000",
+                          term4: "67,500",
+                          term5: "-",
+                          term6: "-",
+                          dsl: "1",
+                          Allterm: "439,000",
+                        })
+                      }
+                    >
+                      <FaMoneyBillWave size={20} />
+                      <span className="max-md:text-xs ">ค่าเทอม</span>
+                    </button>
+                    <Link
+                      href={"/pages/RegisterLevel/Scholarships"}
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
+                    >
+                      <FaMoneyCheckAlt size={20} />
+                      <span className="max-md:text-xs">ทุนการศึกษา</span>
+                    </Link>
+                    <Link
+                      href={"/pages/RegisterLevel"}
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
+                    >
+                      <BsPeopleFill size={20} />
+                      <span className="max-md:text-xs">สมัครเรียน</span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="overflow-hidden max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/PHYSICALTHERAPY/3.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* Line */}
+              {/* หลักสูตร 3*/}
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center bg-pink-400 pb-5">
+          <figure className="w-full overflow-hidden">
+            <Image
+              src="/image/Faculty/WaveTemplate/waveflip.png"
+              alt=""
+              width={2000}
+              height={550}
+            />
+            <div className="flex justify-center items-center px-3">
+              <div className="max-w-7xl w-full bg-white rounded-lg text-center">
+                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                  <span className="text-center text-pink-400 text-3xl">
+                    รายละเอียดเพิ่มเติม
+                  </span>
+                  <span className="text-center text-xl">การรับสมัคร</span>
+                  <span className="text-center text-gray-500">
+                    ขอรับใบสมัครได้ที่ สำนักงานรับนักศึกษา มหาวิทยาลัยรังสิต
+                    อาคารอาทิตย์ อุไรรัตน์ (ตึก 1) ชั้น 1
+                  </span>
+                  <span className="text-center text-gray-500">
+                    โทร. 0-2791-5500-10 โทรสาร 0-2997-2394
+                  </span>
+                  <Link href={"www.facebook.com/rangsituniversity"}>
+                    www.facebook.com/rangsituniversity
+                  </Link>
+                  <Link href={"https://www.facebook.com/PhysicalTherapyRsu/"}>
+                    https://www.facebook.com/PhysicalTherapyRsu/
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </article>
+        {/*  Content FACULTY OF PHYSICAL THERAPY AND SPORT MEDICINE*/}
+
+        <div className="bg-pink-400 bg-gradient-to-b from-pink-400 via-transparent to-red-600 w-full h-64"></div>
+
+        {/* Content FACULTY OF MEDICAL TECHNOLOGY */}
+        <article className="flex justify-center items-center">
+          <figure className="w-full  ">
+            <div className=" w-full flex justify-center  relative bg-red-600">
+              <div className="max-w-7xl w-full ">
+                <div className="flex justify-between mt-5 ">
+                  <div className="top overflow-hidden">
+                    <Image
+                      src={"/image/Faculty/Scienc/MedicalTechnology/1.png"}
+                      alt=""
+                      className="animation"
+                      data-aos="fade-right"
+                      width={500}
+                      height={550}
+                    ></Image>
+                  </div>
+                  <div className=" flex justify-center">
+                    <div className="flex flex-col ml-5 md:mt-5 max-lg:mr-5">
+                      <span className="text-white text-5xl max-md:text-xl">
+                        คณะเทคนิคการแพทย์
+                      </span>
+                      <span className="text-3xl max-md:text-base ">
+                        FACULTY OF MEDICAL TECHNOLOGY
+                      </span>
+                      <span className="text-white text-xl ">
+                        ใครที่ชอบวิชาเคมีและชีววิทยา เปิดเทอมนี้
+                        <span className="text-2xl text-white  max-md:text-base">
+                          มาอยู่ทีมเดียวกับเรานะ
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-full flex items-end border-b border-white">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/wave.png"}
+                  alt=""
+                  className=""
+                  width={2000}
+                  height={550}
+                ></Image>
+              </div>
+            </div>
+            <div className="w-full flex justify-center pb-4">
+              <div className="mx-5">
+                <div className="flex justify-center m-3 ">
+                  <Link href={"https://www.facebook.com/mtrsu"}>
+                    <Image
+                      src={"/image/Faculty/Scienc/MedicalTechnology/Logo.png"}
+                      alt=""
+                      width={200}
+                      height={400}
+                      className="p-3"
+                    ></Image>
+                  </Link>
+                </div>
+                <p className="mt-4 text-base text-center px-2  max-md:px-2">
+                  <span className="text-xl text-red-500">ปรัชญา:</span>
+                  คณะเทคนิคการแพทย์ มหาวิทยาลัยรังสิต เป็นสถาบันชั้นนำของประเทศ
+                  ในการผลิตบัณฑิตเทคนิคการแพทย์ ที่มีความเป็นเลิศทางด้านวิชาการ
+                </p>
+                <p className="mt-4 text-base text-center px-2 max-md:px-5">
+                  <span className="text-xl text-red-500">วิสัยทัศน์:</span>
+                  ผลิตบัณฑิตเทคนิคการแพทย์ ที่มีคุณภาพเป็นเลิศ เชิดชูคุณธรรม
+                  มุ่งสู่มาตรฐานสากล
+                </p>
+              </div>
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center">
+          <figure className="max-w-7xl w-full">
+            <div className="mb-4">
+              <div className="grid grid-cols-1 items-center">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
+                  <span className="text-3xl text-red-500 mb-2">
+                    หลักสูตรระดับปริญญาตรี
+                  </span>
+                </div>
+                <div className="flex justify-center max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/WaveTemplate/Line.png"}
+                    alt=""
+                    className=""
+                    width={800}
+                    height={200}
+                  ></Image>
+                </div>
+                <div className="p-2 overflow-hidden hidden  max-lg:block">
+                  <Image
+                    src={"/image/Faculty/Scienc/MedicalTechnology/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* หลักสูตร 1 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-red-500">
+                    วิทยาศาสตรบัณฑิต (เทคนิคการแพทย์)
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ระยะเวลาในการศึกษาตลอดหลักสูตร 4 ปี จำนวนหน่วยกิต รวม 141
+                    หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    จุดเด่นของคณะเทคนิคการแพทย์
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    หลักสูตรมีมาตรฐานตามเกณฑ์สภาวิชาชีพ ทันสมัย
+                    ตรงตามความต้องการของสังคม
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    มีความพร้อมทั้งบุคลากรและอุปกรณ์ทันสมัย
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    มีการจัดการเรียนการสอนที่มีบูรณาการความรู้ในสหสาขาวิชาชีพ
+                    บริการวิชาการและการวิจัย
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    บัณฑิตสามารถประกอบอาชีพได้หลากหลายสาขา
+                  </li>
+                  <div className="flex justify-center items-center  text-white pt-3 ">
+                    <button
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      onClick={() =>
+                        setData({
+                          Faculty: "คณะเทคนิคการแพทย์",
+                          Major: "สาขาวิชาเทคนิคการแพทย์",
+                          term1: "109,500",
+                          term2: "127,800",
+                          term3: "244,000",
+                          term4: "143,000",
+                          term5: "-",
+                          term6: "-",
+                          dsl: "2",
+                          Allterm: "624,300",
+                        })
+                      }
+                    >
+                      <FaMoneyBillWave size={20} />
+                      <span className="max-md:text-xs ">ค่าเทอม</span>
+                    </button>
+                    <Link
+                      href={"/pages/RegisterLevel/Scholarships"}
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
+                    >
+                      <FaMoneyCheckAlt size={20} />
+                      <span className="max-md:text-xs">ทุนการศึกษา</span>
+                    </Link>
+                    <Link
+                      href={"/pages/RegisterLevel"}
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
+                    >
+                      <BsPeopleFill size={20} />
+                      <span className="max-md:text-xs">สมัครเรียน</span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="overflow-hidden max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/MedicalTechnology/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* Line */}
 
               {/* หลักสูตร 1 */}
             </div>
           </figure>
         </article>
-        <article className="flex justify-center items-center bg-red-300 pb-5">
+        <article className="flex justify-center items-center bg-red-500 pb-5">
           <figure className="w-full overflow-hidden">
             <Image
               src="/image/Faculty/WaveTemplate/waveflip.png"
@@ -2474,15 +2886,447 @@ export default function SciencHealth() {
                   <Link href={"www.facebook.com/rangsituniversity"}>
                     www.facebook.com/rangsituniversity
                   </Link>
-                  <Link href={"https://www.rsu.ac.th/science/"}>
-                    https://www.rsu.ac.th/science/
+                  <Link href={"https://www.facebook.com/mtrsu"}>
+                    https://www.facebook.com/mtrsu
                   </Link>
                 </div>
               </div>
             </div>
           </figure>
         </article>
-        {/*  Content FACULTY OF PHYSICAL THERAPY AND SPORT MEDICINE*/}
+        {/*  Content FACULTY OF MEDICAL TECHNOLOGY */}
+
+        <div className="bg-red-500 bg-gradient-to-b from-red-500 via-transparent to-orange-400 w-full h-64"></div>
+
+        {/* Content Faculty of Optometry */}
+        <article className="flex justify-center items-center">
+          <figure className="w-full  ">
+            <div className=" w-full flex justify-center  relative bg-orange-400">
+              <div className="max-w-7xl w-full ">
+                <div className="flex justify-between mt-5 ">
+                  <div className=" flex justify-center">
+                    <div className="flex flex-col ml-5 md:mt-5 max-lg:ml-5">
+                      <span className="text-white text-5xl max-md:text-xl">
+                        คณะทัศนมาตรศาสตร์
+                      </span>
+                      <span className="text-3xl max-md:text-base ">
+                        Faculty of Optometry
+                      </span>
+                      <span className="text-white text-xl ">
+                        ใครอยากเป็นผู้เชี่ยวชาญด้านสายตา เปิดเทอมนี้
+                        <span className="text-2xl text-white  max-md:text-base">
+                          มาอยู่ทีมเดียวกับเรานะ
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="top overflow-hidden">
+                    <Image
+                      src={"/image/Faculty/Scienc/Optometry/1.png"}
+                      alt=""
+                      className="animation"
+                      data-aos="fade-left"
+                      width={600}
+                      height={550}
+                    ></Image>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-full flex items-end border-b border-white">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/wave.png"}
+                  alt=""
+                  className=""
+                  width={2000}
+                  height={550}
+                ></Image>
+              </div>
+            </div>
+            <div className="w-full flex justify-center pb-4">
+              <div className="mx-5">
+                <div className="flex justify-center m-3 ">
+                  <Link href={"https://www.facebook.com/OPTOMETRYRSU"}>
+                    <Image
+                      src={"/image/Faculty/Scienc/Optometry/Logo.png"}
+                      alt=""
+                      width={200}
+                      height={400}
+                      className="p-3"
+                    ></Image>
+                  </Link>
+                </div>
+                <p className="mt-4 text-base text-center px-2  max-md:px-2">
+                  <span className="text-xl text-orange-500">ปณิธาน:</span>
+                  คณะทัศนมาตรศาสตร์มีปณิธานที่จะสร้างบุคลากรสาธารณสุขขั้นพื้นฐานทางตาและสายตาให้ทัดเทียมกับนานาประเทศตามมาตรฐานสากลเพื่อให้ประชาชนทุกคนได้รับการบริการต่างๆเกี่ยวกับปัญหาสายตาอย่างทั่วถึงมีการให้บริการอย่างมีนวัตกรรมซึ่งสอดคล้องกับปณิธานของมหาวิทยาลัยรังสิตในอันที่จะสร้างสรรค์สิ่งที่ดีให้แก่สังคม
+                  และเป็นมหาวิทยาลัยแห่งนวัตกรรมเพื่อการเปลี่ยนแปลงที่ดีขึ้น
+                </p>
+                <p className="mt-4 text-base text-center px-2 max-md:px-5">
+                  <span className="text-xl text-orange-500">วิสัยทัศน์:</span>
+                  สร้างเสริมคุณภาพทางวิชาการด้านทัศนมาตรศาสตร์ในระดับมาตรฐานสากล
+                  และมีนวัตกรรมนำไปสู่การเปลี่ยนแปลง
+                </p>
+              </div>
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center">
+          <figure className="max-w-7xl w-full">
+            <div className="mb-4">
+              <div className="grid grid-cols-1 items-center">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
+                  <span className="text-3xl text-orange-500 mb-2">
+                    หลักสูตรระดับปริญญาตรี
+                  </span>
+                </div>
+                <div className="flex justify-center max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/WaveTemplate/Line.png"}
+                    alt=""
+                    className=""
+                    width={800}
+                    height={200}
+                  ></Image>
+                </div>
+                <div className="p-2 overflow-hidden hidden  max-lg:block">
+                  <Image
+                    src={"/image/Faculty/Scienc/Optometry/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* หลักสูตร 1 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-orange-500">
+                    ทัศนมาตรศาสตรบัณฑิต (ทศ.บ.) Doctor of Optometry (OD.)
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ระยะเวลาในการศึกษาตลอดหลักสูตร 6 ปี
+                    จำนวนหน่วยกิตรวมตลอดหลักสูตร 192 หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    แนวทางการประกอบอาชีพ
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    นักทัศนมาตรในระบบราชการ ได้แก่ โรงพยาบาลของกระทรวงสาธารณสุข
+                    กระทรวงกลาโหม กระทรวงมหาดไทย
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    คลินิกเอกชนที่เกี่ยวข้องกับสายตา
+                    สถานประกอบการส่วนตัวที่เกี่ยวกับสายตาหรือแว่นตา
+                    โรงงานอุตสาหกรรมเกี่ยวกับเลนส์
+                  </li>
+                  <div className="flex justify-center items-center  text-white pt-3 ">
+                    <button
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      onClick={() =>
+                        setData({
+                          Faculty: "คณะทัศนมาตรศาสตร์",
+                          Major: "สาขาวิชาทัศนมาตรศาสตร์",
+                          term1: "115,900",
+                          term2: "157,000",
+                          term3: "164,900",
+                          term4: "156,500",
+                          term5: "128,500",
+                          term6: "69,000",
+                          dsl: "2",
+                          Allterm: "791,800",
+                        })
+                      }
+                    >
+                      <FaMoneyBillWave size={20} />
+                      <span className="max-md:text-xs ">ค่าเทอม</span>
+                    </button>
+                    <Link
+                      href={"/pages/RegisterLevel/Scholarships"}
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
+                    >
+                      <FaMoneyCheckAlt size={20} />
+                      <span className="max-md:text-xs">ทุนการศึกษา</span>
+                    </Link>
+                    <Link
+                      href={"/pages/RegisterLevel"}
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
+                    >
+                      <BsPeopleFill size={20} />
+                      <span className="max-md:text-xs">สมัครเรียน</span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="overflow-hidden max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/Optometry/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* Line */}
+
+              {/* หลักสูตร 1 */}
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center bg-orange-400 pb-5">
+          <figure className="w-full overflow-hidden">
+            <Image
+              src="/image/Faculty/WaveTemplate/waveflip.png"
+              alt=""
+              width={2000}
+              height={550}
+            />
+            <div className="flex justify-center items-center px-3">
+              <div className="max-w-7xl w-full bg-white rounded-lg text-center">
+                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                  <span className="text-center text-orange-400 text-3xl">
+                    รายละเอียดเพิ่มเติม
+                  </span>
+                  <span className="text-center text-xl">การรับสมัคร</span>
+                  <span className="text-center text-gray-500">
+                    ขอรับใบสมัครได้ที่ สำนักงานรับนักศึกษา มหาวิทยาลัยรังสิต
+                    อาคารอาทิตย์ อุไรรัตน์ (ตึก 1) ชั้น 1
+                  </span>
+                  <span className="text-center text-gray-500">
+                    โทร. 0-2791-5500-10 โทรสาร 0-2997-2394
+                  </span>
+                  <Link href={"www.facebook.com/rangsituniversity"}>
+                    www.facebook.com/rangsituniversity
+                  </Link>
+                  <Link href={"https://www.facebook.com/OPTOMETRYRSU"}>
+                    https://www.facebook.com/OPTOMETRYRSU
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </article>
+        {/*  Content Faculty of Optometry*/}
+
+        <div className="bg-orange-400 bg-gradient-to-b from-orange-400 via-transparent to-red-400 w-full h-64"></div>
+
+        {/* Content Faculty of RADIOLOGICAL TECHNOLOGY */}
+        <article className="flex justify-center items-center">
+          <figure className="w-full  ">
+            <div className=" w-full flex justify-center  relative bg-red-400">
+              <div className="max-w-7xl w-full ">
+                <div className="flex justify-between mt-5 ">
+                  <div className="top overflow-hidden">
+                    <Image
+                      src={"/image/Faculty/Scienc/Radiological/1.png"}
+                      alt=""
+                      className="animation"
+                      data-aos="fade-right"
+                      width={500}
+                      height={550}
+                    ></Image>
+                  </div>
+                  <div className=" flex justify-center">
+                    <div className="flex flex-col ml-5 md:mt-5 max-lg:ml-5">
+                      <span className="text-white text-5xl max-md:text-xl">
+                        คณะรังสีเทคนิค
+                      </span>
+                      <span className="text-3xl max-md:text-base ">
+                        FACULTY OF RADIOLOGICAL TECHNOLOGY
+                      </span>
+                      <span className="text-white text-xl ">
+                        ผู้ที่สนใจทางด้านรังสีรักษา เปิดเทอมนี้
+                        <span className="text-2xl text-white  max-md:text-base">
+                          มาอยู่ทีมเดียวกับเรานะ
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-full flex items-end border-b border-white">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/wave.png"}
+                  alt=""
+                  className=""
+                  width={2000}
+                  height={550}
+                ></Image>
+              </div>
+            </div>
+            <div className="w-full flex justify-center pb-4">
+              <div className="mx-5">
+                <div className="flex justify-center m-3 ">
+                  <Link href={"https://www.facebook.com/RSURT"}>
+                    <Image
+                      src={"/image/Faculty/Scienc/Radiological/Logo.jpg"}
+                      alt=""
+                      width={200}
+                      height={400}
+                      className="p-3"
+                    ></Image>
+                  </Link>
+                </div>
+                <p className="mt-4 text-base text-center px-2  max-md:px-2">
+                  <span className="text-xl text-red-500">ปณิธาน:</span>
+                  คณะทัศนมาตรศาสตร์มีปณิธานที่จะสร้างบุคลากรสาธารณสุขขั้นพื้นฐานทางตาและสายตาให้ทัดเทียมกับนานาประเทศตามมาตรฐานสากลเพื่อให้ประชาชนทุกคนได้รับการบริการต่างๆเกี่ยวกับปัญหาสายตาอย่างทั่วถึงมีการให้บริการอย่างมีนวัตกรรมซึ่งสอดคล้องกับปณิธานของมหาวิทยาลัยรังสิตในอันที่จะสร้างสรรค์สิ่งที่ดีให้แก่สังคม
+                  และเป็นมหาวิทยาลัยแห่งนวัตกรรมเพื่อการเปลี่ยนแปลงที่ดีขึ้น
+                </p>
+                <p className="mt-4 text-base text-center px-2 max-md:px-5">
+                  <span className="text-xl text-red-500">วิสัยทัศน์:</span>
+                  สร้างเสริมคุณภาพทางวิชาการด้านทัศนมาตรศาสตร์ในระดับมาตรฐานสากล
+                  และมีนวัตกรรมนำไปสู่การเปลี่ยนแปลง
+                </p>
+              </div>
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center">
+          <figure className="max-w-7xl w-full">
+            <div className="mb-4">
+              <div className="grid grid-cols-1 items-center">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
+                  <span className="text-3xl text-red-500 mb-2">
+                    หลักสูตรระดับปริญญาตรี
+                  </span>
+                </div>
+                <div className="flex justify-center max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/WaveTemplate/Line.png"}
+                    alt=""
+                    className=""
+                    width={800}
+                    height={200}
+                  ></Image>
+                </div>
+                <div className="p-2 overflow-hidden hidden  max-lg:block">
+                  <Image
+                    src={"/image/Faculty/Scienc/Radiological/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* หลักสูตร 1 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-red-500">
+                    หลักสูตรวิทยาศาสตรบัณฑิต ( รังสีเทคนิค)
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ระยะเวลาการศึกษา ตลอดหลักสูตร 4 ปี โดยใช้เวลาศึกษาไม่เกิน 8
+                    ปี จำนวนหน่วยกิตประมาณ 144 หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    จุดเด่นของวิชาชีพรังสีเทคนิค และรังสีเทคนิค
+                    มหาวิทยาลัยรังสิต
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    นักรังสีเทคนิค หรือนักรังสีการแพทย์
+                    เป็นวิชาชีพขาดแคลนและมีค่าตอบแทนสูง มีทั้งรายรับประจำ
+                    และรายรับเมื่อปฏิบัติงานพิเศษนอกเวลา
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    วิชาชีพรังสีเทคนิค
+                    ใช้เครื่องมือทีมีเทคโนโลยีชั้นสูงทำให้มีความน่าสนใจโดยเฉพาะผู้ที่ต้องการทำงานในวงการสาธารณสุข
+                    และชอบเทคโนโลยีที่ทันสมัยและยังมีความก้าวหน้าทางวิชาชีพเมื่อศักยภาพของผู้ปฏิบัติงานมากขึ้น
+                  </li>
+                  <div className="flex justify-center items-center  text-white pt-3 ">
+                    <button
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      onClick={() =>
+                        setData({
+                          Faculty: "คณะรังสีเทคนิค",
+                          Major: "สาขาวิชารังสีเทคนิค",
+                          term1: "158,200",
+                          term2: "144,400",
+                          term3: "184,500",
+                          term4: "154,000",
+                          term5: "-",
+                          term6: "-",
+                          dsl: "2 + Human*",
+                          Allterm: "641,100",
+                        })
+                      }
+                    >
+                      <FaMoneyBillWave size={20} />
+                      <span className="max-md:text-xs ">ค่าเทอม</span>
+                    </button>
+                    <Link
+                      href={"/pages/RegisterLevel/Scholarships"}
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
+                    >
+                      <FaMoneyCheckAlt size={20} />
+                      <span className="max-md:text-xs">ทุนการศึกษา</span>
+                    </Link>
+                    <Link
+                      href={"/pages/RegisterLevel"}
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
+                    >
+                      <BsPeopleFill size={20} />
+                      <span className="max-md:text-xs">สมัครเรียน</span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="overflow-hidden max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/Scienc/Radiological/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* Line */}
+
+              {/* หลักสูตร 1 */}
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center bg-red-400 pb-5">
+          <figure className="w-full overflow-hidden">
+            <Image
+              src="/image/Faculty/WaveTemplate/waveflip.png"
+              alt=""
+              width={2000}
+              height={550}
+            />
+            <div className="flex justify-center items-center px-3">
+              <div className="max-w-7xl w-full bg-white rounded-lg text-center">
+                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                  <span className="text-center text-red-400 text-3xl">
+                    รายละเอียดเพิ่มเติม
+                  </span>
+                  <span className="text-center text-xl">การรับสมัคร</span>
+                  <span className="text-center text-gray-500">
+                    ขอรับใบสมัครได้ที่ สำนักงานรับนักศึกษา มหาวิทยาลัยรังสิต
+                    อาคารอาทิตย์ อุไรรัตน์ (ตึก 1) ชั้น 1
+                  </span>
+                  <span className="text-center text-gray-500">
+                    โทร. 0-2791-5500-10 โทรสาร 0-2997-2394
+                  </span>
+                  <Link href={"www.facebook.com/rangsituniversity"}>
+                    www.facebook.com/rangsituniversity
+                  </Link>
+                  <Link href={"https://www.facebook.com/RSURT"}>
+                  https://www.facebook.com/RSURT
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </article>
+        {/*  Content Faculty of Optometry*/}
       </main>
       <Footer />
     </>

@@ -1,6 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import UpdateImg1 from "../../../public/image/RsuUpdate/update1.jpg" ;
+import UpdateImg2 from "../../../public/image/RsuUpdate/update2.jpg" ;
+import UpdateImg3 from "../../../public/image/RsuUpdate/update3.jpg" ;
+import UpdateImg4 from "../../../public/image/RsuUpdate/update4.jpg" ;
+import UpdateImg5 from "../../../public/image/RsuUpdate/update1.jpg" ;
+import UpdateImg6 from "../../../public/image/RsuUpdate/update6.jpg" ;
 export default function CarouselRsuUpdate() {
     return (
         <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel">
@@ -14,22 +19,22 @@ export default function CarouselRsuUpdate() {
           </div>
           <div className="carousel-inner">
             <div  className="carousel-item active">
-              <img src="/image/RsuUpdate/update1.jpg" className="d-block w-100  " alt="..." />
+              <Image src={UpdateImg1} className="d-block w-100  " alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="/image/RsuUpdate/update2.jpg" className="d-block w-100" alt="..." />
+              <Image src={UpdateImg2} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="/image/RsuUpdate/update3.jpg" className="d-block w-100" alt="..." />
+              <Image src={UpdateImg3} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="/image/RsuUpdate/update4.jpg" className="d-block w-100" alt="..." />
+              <Image src={UpdateImg4} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="/image/RsuUpdate/update5.jpg" className="d-block w-100" alt="..." />
+              <Image src={UpdateImg5} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="/image/RsuUpdate/update6.jpg" className="d-block w-100" alt="..." />
+              <Image src={UpdateImg6} className="d-block w-100" alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
