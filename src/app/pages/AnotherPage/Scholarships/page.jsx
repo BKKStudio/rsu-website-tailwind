@@ -9,27 +9,6 @@ export default function Scholarships() {
       <NavbarRegister />
       <main>
         <article className="flex justify-center items-center ">
-          <figure className="max-w-7xl  w-full mx-2">
-            <div className="flex justify-between items-center">
-              <Image
-                src="/image/Logo_universe/Rsu_logo.png"
-                alt=""
-                width={300}
-                height={200}
-                className="max-md:w-2/3"
-              />
-              <div className="">
-                <Link
-                  href={""}
-                  className="no-underline text-white p-3  rounded-lg bg-pink-600"
-                >
-                  สมัครเรียน
-                </Link>
-              </div>
-            </div>
-          </figure>
-        </article>
-        <article className="flex justify-center items-center ">
           <figure className="max-w-7xl  w-full my-3 mx-2  text-pink-600">
             <div className="flex flex-col">
               <span className="text-3xl mb-3 max-md:text-xl flex items-center">

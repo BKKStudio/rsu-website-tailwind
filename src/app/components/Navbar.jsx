@@ -33,7 +33,7 @@ function MobileNav({ open, setOpen }) {
           <div className=" flex justify-center w-full text-center hover:bg-gray-500 hover:text-white h-11 duration-300 ease-in-out">
             <Link
               className="flex justify-center items-center  text-lg font-bold "
-              href="#"
+              href="/pages/AnotherPage"
             >
               สมัครเรียน
             </Link>
@@ -197,7 +197,7 @@ const Navbar = () => {
                   </button>
                   <ul className="dropdown-menu text-center font-bold">
                     <li>
-                      <Link className="dropdown-item font-bold " href="#">
+                      <Link className="dropdown-item font-bold " href="/pages/RegisterPage/Bachelors">
                         ปริญญาตรี 2566
                       </Link>
                     </li>

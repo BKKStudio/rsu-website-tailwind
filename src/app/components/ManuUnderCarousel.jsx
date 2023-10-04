@@ -14,7 +14,7 @@ export default function ManuUnderCarousel() {
         <article className="flex justify-center items-center ">
           <figure className="max-w-7xl  w-full my-3">
             <div className="grid grid-cols-8 max-lg:grid-cols-4 max-sm:text-xs">
-              <Link href={"/pages/Register"} className="flex justify-center">
+              <Link href={"/pages/Coursesoffered"} className="flex justify-center">
                 <div className={"text-center"}>
                   <Image
                     src={ImgManu1}
@@ -25,7 +25,7 @@ export default function ManuUnderCarousel() {
                   <p className="">หลักสูตรที่เปิดสอน</p>
                 </div>
               </Link>
-              <Link href={"/pages/RegisterLevel/tuition"} className="flex justify-center">
+              <Link href={"/pages/AnotherPage/tuition"} className="flex justify-center">
                 <div className={"text-center"}>
                 <Image
                     src={ImgManu2}
@@ -36,7 +36,7 @@ export default function ManuUnderCarousel() {
                   <p>ค่าเทอม</p>
                 </div>
               </Link>
-              <Link href={"/pages/RegisterLevel/Scholarships"} className="flex justify-center">
+              <Link href={"/pages/AnotherPage/Scholarships"} className="flex justify-center">
                 <div className={"text-center"}>
                 <Image
                     src={ImgManu3}
@@ -47,7 +47,7 @@ export default function ManuUnderCarousel() {
                   <p>ทุนการศึกษา</p>
                 </div>
               </Link>
-              <Link href={"/pages/RegisterLevel/LoanFund"} className="flex justify-center">
+              <Link href={"/pages/AnotherPage/LoanFund"} className="flex justify-center">
                 <div className={"text-center"}>
                 <Image
                     src={ImgManu4}
