@@ -4,7 +4,9 @@ import { useState } from "react";
 import { BsChevronRight } from "react-icons/bs";
 import Footer from "@/app/components/Footer";
 import TableTuitions from "@/app/Tablecomponents/TablesTuition/Tabletuition";
+import Image from "next/image";
 
+import ImgTuition from "../../../../../public/image/Slideshow/slide6.jpg"
 export default function AlllevelRegister() {
     const [levelStudy,setLevelStudy] = useState("ปริญญาตรี")
     const [colorBtn,setColorBtn] = useState("Bachelors")
@@ -42,7 +44,7 @@ export default function AlllevelRegister() {
         {/* Button Level Show */}
         <article className="flex justify-center items-center my-4">
             <figure  className="max-w-7xl  w-full my-3 mx-2">
-            <img  src="/image/Slideshow/slide6.jpg" alt="" className=""></img>
+            <Image  src={ImgTuition} alt="" className=""></Image>
             <div className="mt-4 grid grid-cols-4 gap-4  max-md:grid-cols-2">
             <button className={`p-3 ${colorBtn === "Bachelors" ? "bg-pink-500" : "bg-gray-500"} `} onClick={HandelBachelor}> 
             <span className="text-white text-xl max-md:text-base">ปริญญาตรี</span>

@@ -282,7 +282,6 @@ export default function SciencHealth() {
             </div>
           </figure>
         </article>
-        <img mgsrc="" alt=""></img>
         <article className="hidden max-md:flex justify-center items-center bg-gray-500 ">
           <figure className="w-full  my-3 mx-2  text-white">
             {/* Responsive menu mobile */}
