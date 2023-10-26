@@ -1,6 +1,5 @@
-"use client"
+"use client";
 import Footer from "@/app/components/Footer";
-import NavbarRegister from "@/app/components/NavbarRegister";
 import Link from "next/link";
 import { BsFillDatabaseFill } from "react-icons/bs";
 import { BsChevronRight } from "react-icons/bs";
@@ -13,7 +12,7 @@ import Swal from "sweetalert2";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import UploadImg from "@/app/components/FormRegister/UploadImg";
-
+import NavbarRegister from "@/app/components/NavbarRegister";
 
 export default function Applicationform({ params }) {
   const { id } = params;
@@ -45,8 +44,6 @@ export default function Applicationform({ params }) {
     DateRegister: formattedDate,
     confirmed: true,
   });
-
-
 
   useEffect(() => {
     // Simulate fetching data from an API
@@ -157,7 +154,9 @@ export default function Applicationform({ params }) {
                 </Link>
               </div>
               <div className="w-4/5 p-3 max-lg:w-full ">
-                <p>สมัครเรียน Online มหาวิทยาลัยรังสิต ปี 2566 เทอม 1</p>
+                <p className="">
+                  สมัครเรียน Online มหาวิทยาลัยรังสิต ปี 2566 เทอม 1
+                </p>
                 <p className="bg-pink-600 p-2 rounded-md text-white">
                   1.กรอกประวัติ
                 </p>
@@ -301,7 +300,7 @@ export default function Applicationform({ params }) {
                       </div>
                     </div>
                     <div className="">
-                    <UploadImg/>
+                      <UploadImg />
                     </div>
                     <div className="flex justify-center mt-3">
                       <input

@@ -26,7 +26,7 @@ export default function NavbarRegister() {
             </Link>
           </div>
           <div className="flex gap-3 text-white">
-            <div className="flex gap-3 max-sm:hidden">
+            <div className="hidden md:flex md:gap-2">
               <Link
                 href={"https://www.facebook.com/rangsituniversity"}
                 className="flex  items-center rounded-full text-white gap-1 w-1/2 "
@@ -121,10 +121,10 @@ export default function NavbarRegister() {
       <main>
         <article className="flex justify-center items-center my-2">
           <figure className="max-w-7xl  w-full my-1 ">
-            <div className="flex justify-between items-center max-md:flex-col">
+            <div className=" flex justify-between items-center max-md:flex-col">
               <Image src={ImageLogo} alt="" />
-              <div className="flex flex-col  max-md:hidden">
-                <div className="flex gap-4 justify-center  max-md:hidden">
+              <div className="hidden md:flex md:flex-col">
+                <div className="hidden md:flex md:gap-4 md:justify-center ">
                   <div className="dropdown">
                     <button
                       className="dropdown-toggle"

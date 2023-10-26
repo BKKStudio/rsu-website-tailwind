@@ -11,17 +11,6 @@ export default function UploadImg() {
   //Upload Img On clound
   const [Images, setImages] = useState([]);
 
-  async function deleteFiles(fileUrls) {
-    try {
-      console.error('files:',fileUrls);
-      await utapi.deleteFiles(fileUrls);
-      // Optionally, you can update your component's state here to reflect the changes.
-
-    } catch (error) {
-      console.error('Error deleting files:', error);
-      // Handle the error as needed.
-    }
-  }
   const imgList = (
     <>
      <ul>
@@ -33,7 +22,7 @@ export default function UploadImg() {
             >
               {Img.fileName}
             </span>
-            <button onClick={() => deleteFiles(Img.key)}><BsXLg size={20} color={"red"}/></button>
+            <button><BsXLg size={20} color={"red"}/></button>
           </li>
         ))}
       </ul>
