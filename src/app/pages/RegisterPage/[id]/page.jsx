@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Footer from "@/app/components/Footer";
 import NavbarRegister from "@/app/components/NavbarRegister";
 import Link from "next/link";
@@ -12,6 +12,8 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
 import { useRouter } from "next/navigation";
+import UploadImg from "@/app/components/FormRegister/UploadImg";
+
 
 export default function Applicationform({ params }) {
   const { id } = params;
@@ -27,19 +29,21 @@ export default function Applicationform({ params }) {
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth() + 1; // Month is zero-based, so we add 1 to get the actual month.
   const day = currentDate.getDate();
-  const formattedDate = `${year}-${month < 10 ? '0' : ''}${month}-${day < 10 ? '0' : ''}${day}`;
+  const formattedDate = `${year}-${month < 10 ? "0" : ""}${month}-${
+    day < 10 ? "0" : ""
+  }${day}`;
   const [student, setStudent] = useState({
     Faculty: "",
     Major: "",
-    idcard:id,
+    idcard: id,
     birthday: "",
     firstname: "",
     lastname: "",
     email: "",
     tell: "",
     level: "bachelors",
-    DateRegister:formattedDate,
-    confirmed:true,
+    DateRegister: formattedDate,
+    confirmed: true,
   });
 
 
@@ -108,16 +112,14 @@ export default function Applicationform({ params }) {
     }
   }
 
-
-
   return (
     <>
-      <NavbarRegister />
+      <NavbarRegister/>
       <main className="bg-gray-100">
         <article className="flex justify-center items-center  bg-gray-200 h-full">
           <figure className="max-w-7xl mt-4  w-full flex justify-center ">
             <div className="flex  justify-center w-full">
-              <div className="flex flex-col items-center   gap-3 w-1/5 max-lg:hidden ">
+              <div className="lg:flex flex-col items-center gap-3 w-1/5 max-lg:hidden">
                 <Link
                   href={""}
                   className="no-underline text-gray-500 flex items-center pl-2 justify-between gap-1 w-4/5  max-xl:w-full"
@@ -161,7 +163,7 @@ export default function Applicationform({ params }) {
                 </p>
                 <div className="bg-white w-full rounded-md pb-4">
                   <p className="text-xl p-3">1.ข้อมูลการสมัคร</p>
-                  <form>
+                  <div>
                     <div className="grid grid-cols-2  gap-3 px-3 max-md:grid-cols-1 w-full">
                       <div className="grid grid-cols-2 w-full gap-2 max-md:grid-cols-1">
                         <label>
@@ -298,17 +300,20 @@ export default function Applicationform({ params }) {
                         ></input>
                       </div>
                     </div>
+                    <div className="">
+                    <UploadImg/>
+                    </div>
                     <div className="flex justify-center mt-3">
-                    <input
-                      type="checkbox"
-                      value=""
-                      className="text-xl "
-                      onClick={() => setUnCheck(!uncheck)}
-                    />
-                    <label className="text-xs">
-                      ข้าพเจ้าขอยืนยันว่าข้อมูลดังกล่าวถูกต้องทุกประการ
-                    </label>
-                  </div>
+                      <input
+                        type="checkbox"
+                        value=""
+                        className="text-xl mr-2"
+                        onClick={() => setUnCheck(!uncheck)}
+                      />
+                      <label className="text-md">
+                        ข้าพเจ้าขอยืนยันว่าข้อมูลดังกล่าวถูกต้องทุกประการ
+                      </label>
+                    </div>
                     <div className="flex justify-center mt-2">
                       <button
                         type={"button"}
@@ -323,7 +328,7 @@ export default function Applicationform({ params }) {
                         EnRoll
                       </button>
                     </div>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>

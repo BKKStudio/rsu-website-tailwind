@@ -6,7 +6,7 @@ const SidebarModel = () => {
     <aside className="fixed  ml-8 mt-5  z-2 max-xl:hidden   animate__animated animate__bounceInLeft ">
       <div className="flex flex-col w-0  gap-2">
         <Link
-          href={"/pages/Register"}
+          href={"/pages/AnotherPage"}
           className="flex justify-center items-center w-48  h-14 rounded-lg no-underline  bg-red-600 text-white gap-1 hover:animate-animation-shake"
         >
           <BsBell size={20}></BsBell>

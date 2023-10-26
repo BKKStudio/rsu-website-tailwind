@@ -8,7 +8,7 @@ export default function NavbarRegister() {
     <>
       <nav className="flex justify-center items-center  bg-pink-500">
         <div className="max-w-7xl  w-full my-3 flex justify-between max-sm:text-sm mx-3">
-          <div className="flex gap-3 text-white ">
+          <div className="flex gap-3 text-white  ">
             <Link href={"/"} className="no-underline text-white max-sm:text-xs">
               หน้าแรก
             </Link>
@@ -136,7 +136,7 @@ export default function NavbarRegister() {
                     </button>
                     <ul className="dropdown-menu">
                       <li className="">
-                        <Link href="#" className="dropdown-item">
+                        <Link href="/pages/RegisterPage/Bachelors" className="dropdown-item">
                           ปริญญาตรี2566
                         </Link>
                       </li>
@@ -163,7 +163,7 @@ export default function NavbarRegister() {
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <Link className="dropdown-item" href="#">
+                        <Link className="dropdown-item" href="/pages/Faculty/Sciencehealth">
                           วิทยาศาสตร์ - สุขภาพ
                         </Link>
                       </li>

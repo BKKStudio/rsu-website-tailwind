@@ -229,7 +229,10 @@ export default function SciencHealth() {
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <Link className="dropdown-item" href="#">
+                        <Link
+                          className="dropdown-item"
+                          href="/pages/Faculty/Sciencehealth"
+                        >
                           วิทยาศาสตร์ - สุขภาพ
                         </Link>
                       </li>
@@ -261,7 +264,7 @@ export default function SciencHealth() {
                     </ul>
                   </div>
                   <Link
-                    href={"/pages/RegisterLevel/tuition"}
+                    href={"/pages/AnotherPage/tuition"}
                     className="no-underline text-black"
                   >
                     ค่าเทอม
@@ -269,7 +272,7 @@ export default function SciencHealth() {
                 </div>
                 <div className=" mt-4 flex text-center  max-md:grid">
                   <Link
-                    href={"/pages/RegisterLevel"}
+                    href={"/pages/AnotherPage"}
                     className="no-underline text-white py-2 px-4 bg-pink-500 text-lg "
                   >
                     สมัครเรียน
@@ -287,7 +290,7 @@ export default function SciencHealth() {
             {/* Responsive menu mobile */}
             <div className="  flex justify-between items-center gap-3 mx-3">
               <Link
-                href={"/pages/RegisterLevel"}
+                href={"/pages/AnotherPage"}
                 className="no-underline text-white py-2 px-10 bg-red-500 text-lg animate-animation-shakebtn"
               >
                 สมัครเรียน
@@ -615,7 +618,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg max-md:flex-col"
                     >
                       <BsPeopleFill size={20} />
@@ -794,7 +797,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2 gap-1  flex items-center  justify-center rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -898,7 +901,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -985,7 +988,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -1343,7 +1346,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg max-md:flex-col"
                     >
                       <BsPeopleFill size={20} />
@@ -1525,7 +1528,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -1630,7 +1633,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -1857,7 +1860,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -1981,7 +1984,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -2198,7 +2201,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-2 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -2423,7 +2426,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -2530,7 +2533,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -2616,7 +2619,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -2835,7 +2838,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -3050,7 +3053,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -3267,7 +3270,7 @@ export default function SciencHealth() {
                       <span className="max-md:text-xs">ทุนการศึกษา</span>
                     </Link>
                     <Link
-                      href={"/pages/RegisterLevel"}
+                      href={"/pages/AnotherPage"}
                       className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
                     >
                       <BsPeopleFill size={20} />
@@ -3318,7 +3321,7 @@ export default function SciencHealth() {
                     www.facebook.com/rangsituniversity
                   </Link>
                   <Link href={"https://www.facebook.com/RSURT"}>
-                  https://www.facebook.com/RSURT
+                    https://www.facebook.com/RSURT
                   </Link>
                 </div>
               </div>
@@ -3326,6 +3329,236 @@ export default function SciencHealth() {
           </figure>
         </article>
         {/*  Content Faculty of Optometry*/}
+
+        <div className="bg-red-400 bg-gradient-to-b from-red-400 via-transparent to-yellow-500 w-full h-64"></div>
+
+        {/* COLLEGE OF BIOMEDICAL ENGINEERING */}
+        <article className="flex justify-center items-center">
+          <figure className="w-full  ">
+            <div className=" w-full flex justify-center  relative bg-yellow-500">
+              <div className="max-w-7xl w-full ">
+                <div className="flex justify-between mt-5 ">
+                  <div className=" flex justify-center">
+                    <div className="flex flex-col ml-5 md:mt-5 max-lg:mr-5">
+                      <span className="text-white text-5xl max-md:text-xl">
+                        วิทยาลัยวิศวกรรมชีวการแพทย์
+                      </span>
+                      <span className="text-3xl max-md:text-base ">
+                        COLLEGE OF BIOMEDICAL ENGINEERING
+                      </span>
+                      <span className="text-white text-xl ">
+                        ผู้ที่อยากพัฒนา อุปกรณ์การแพทย์ให้ทันสมัย เปิดเทอมนี้
+                        <span className="text-2xl text-white  max-md:text-base">
+                          มาอยู่ทีมเดียวกับเรานะ
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="top overflow-hidden">
+                    <Image
+                      src={"/image/Faculty/Scienc/BiomedecalEngineer/1.png"}
+                      alt=""
+                      className="animation"
+                      data-aos="fade-left"
+                      width={500}
+                      height={550}
+                    ></Image>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-full flex items-end border-b border-white">
+                <Image
+                  src={"/image/Faculty/WaveTemplate/wave.png"}
+                  alt=""
+                  className=""
+                  width={2000}
+                  height={550}
+                ></Image>
+              </div>
+            </div>
+            <div className="w-full flex justify-center pb-4">
+              <div className="mx-5">
+                <div className="flex justify-center m-3 ">
+                  <Link
+                    href={
+                      "https://www.facebook.com/profile.php?id=100023398070876"
+                    }
+                  >
+                    <Image
+                      src={
+                        "/image/Faculty/Scienc/BiomedecalEngineer/LogoFacebook.jpg"
+                      }
+                      alt=""
+                      width={200}
+                      height={400}
+                      className="p-3"
+                    ></Image>
+                  </Link>
+                </div>
+                <p className="mt-4 text-base text-center px-2  max-md:px-2">
+                  <span className="text-xl text-yellow-500">ปณิธาน:</span>
+                  มุ่งทำให้ โลกแห่งการเรียนรู้
+                  โลกแห่งการทำงานและโลกแห่งอนาคตเป็นโลกเดียวกัน
+                </p>
+                <p className="mt-4 text-base text-center px-2 max-md:px-5">
+                  <span className="text-xl text-yellow-500">วิสัยทัศน์:</span>
+                  ก้าวสู่
+                  วิทยาลัยแห่งนวัตกรรมและผู้ประกอบการทางด้านวิศวกรรมชีวการแพทย์ที่เน้นการให้การศึกษาตลอดทุกช่วงชีวิต
+                </p>
+              </div>
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center">
+          <figure className="max-w-7xl w-full">
+            <div className="mb-4">
+              <div className="grid grid-cols-1 items-center">
+                <div className="flex flex-col justify-center text-center items-center px-3 max-md:pb-4">
+                  <span className="text-3xl text-yellow-500 mb-2">
+                    หลักสูตรระดับปริญญาตรี
+                  </span>
+                </div>
+                <div className="flex justify-center max-lg:hidden">
+                  <Image
+                    src={"/image/Faculty/WaveTemplate/Line.png"}
+                    alt=""
+                    className=""
+                    width={800}
+                    height={200}
+                  ></Image>
+                </div>
+                <div className="p-2 overflow-hidden hidden  max-lg:block">
+                  <Image
+                    src={"/image/Faculty/Scienc/Radiological/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* หลักสูตร 1 */}
+              <div className="grid grid-cols-2 max-lg:grid-cols-1 items-center md:my-4">
+                <div className="flex flex-col justify-center items-center max-md:px-2 px-2">
+                  <span className="text-2xl text-center text-yellow-500">
+                    สาขาวิชาวิศวกรรมชีวการแพทย์
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ระยะเวลาการศึกษา ตลอดหลักสูตร 4 ปี โดยใช้เวลาศึกษาไม่เกิน 8
+                    ปี จำนวนหน่วยกิตตลอดหลกัสูตร 128 หน่วยกิต
+                  </span>
+                  <span className="text-xl text-center max-md:px-2 ">
+                    ความพร้อมในการเผยแพร่หลักสูตรที่มีคุณภาพและมาตรฐาน
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                    หลักสูตรมีความพร้อมในการเผยแพร่หลกัสูตรที่มีคุณภาพและมาตรฐานตามกรอบมาตรฐาน
+                    คุณวุฒิการศึกษา ระดับอุดมศึกษาแห่งชาติพ.ศ. 2552 ในปีพ.ศ. 2565
+                  </li>
+                  <span className="text-xl text-center max-md:px-2 ">
+                  อาชีพที่สามารถประกอบได้หลังสำเร็จการศึกษา
+                  </span>
+                  <li className="text-gray-500 text-base text-center py-1">
+                  นักวิทยาศาสตร์ / ผู้ช่วยวิจัย ด้านวิทยาศาสตร์ชีวการแพทย์
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                  ผู้ช่วยแพทย์ / นักวิทยาศาสตร์การแพทข์ ทำงานในโรงพยาบาลทั้งในภาครัฐและเอกชน
+                  </li>
+                  <li className="text-gray-500 text-base text-center py-1">
+                  นักวิชาการในหน่วยงานภาครัฐและเอกชน
+                  </li>
+              
+              
+                  <div className="flex justify-center items-center  text-white pt-3 ">
+                    <button
+                      className="bg-gray-500 px-3  py-2  flex items-center gap-1 rounded-l-lg"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      onClick={() =>
+                        setData({
+                          Faculty: "วิทยาลัยวิศวกรรมชีวการแพทย์",
+                          Major: "สาขาวิชาวิศวกรรมชีวการแพทย์",
+                          term1: "132,400",
+                          term2: "121,800",
+                          term3: "121,800",
+                          term4: "121,800",
+                          term5: "-",
+                          term6: "-",
+                          dsl: "2 + Human*",
+                          Allterm: "497,800",
+                        })
+                      }
+                    >
+                      <FaMoneyBillWave size={20} />
+                      <span className="max-md:text-xs ">ค่าเทอม</span>
+                    </button>
+                    <Link
+                      href={"/pages/RegisterLevel/Scholarships"}
+                      className="no-underline text-white bg-gray-700 px-3  py-2  flex items-center gap-1 "
+                    >
+                      <FaMoneyCheckAlt size={20} />
+                      <span className="max-md:text-xs">ทุนการศึกษา</span>
+                    </Link>
+                    <Link
+                      href={"/pages/AnotherPage"}
+                      className="no-underline text-white bg-pink-600 px-3  py-2  flex items-center gap-1 rounded-r-lg"
+                    >
+                      <BsPeopleFill size={20} />
+                      <span className="max-md:text-xs">สมัครเรียน</span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="overflow-hidden max-lg:hidden">
+                  <Image
+                                 src={"/image/Faculty/Scienc/BiomedecalEngineer/1.jpg"}
+                    alt=""
+                    className="rounded-lg md:shadow-lg"
+                    data-aos="fade-left"
+                    width={2000}
+                    height={550}
+                  ></Image>
+                </div>
+              </div>
+              {/* Line */}
+
+              {/* หลักสูตร 1 */}
+            </div>
+          </figure>
+        </article>
+        <article className="flex justify-center items-center bg-yellow-500 pb-5">
+          <figure className="w-full overflow-hidden">
+            <Image
+              src="/image/Faculty/WaveTemplate/waveflip.png"
+              alt=""
+              width={2000}
+              height={550}
+            />
+            <div className="flex justify-center items-center px-3">
+              <div className="max-w-7xl w-full bg-white rounded-lg text-center">
+                <div className="flex justify-center items-center flex-col shadow-lg px-5 py-5">
+                  <span className="text-center text-yellow-500  text-3xl">
+                    รายละเอียดเพิ่มเติม
+                  </span>
+                  <span className="text-center text-xl">การรับสมัคร</span>
+                  <span className="text-center text-gray-500">
+                    ขอรับใบสมัครได้ที่ สำนักงานรับนักศึกษา มหาวิทยาลัยรังสิต
+                    อาคารอาทิตย์ อุไรรัตน์ (ตึก 1) ชั้น 1
+                  </span>
+                  <span className="text-center text-gray-500">
+                    โทร. 0-2791-5500-10 โทรสาร 0-2997-2394
+                  </span>
+                  <Link href={"www.facebook.com/rangsituniversity"}>
+                    www.facebook.com/rangsituniversity
+                  </Link>
+                  <Link href={"https://www.facebook.com/profile.php?id=100023398070876"}>
+                  https://www.facebook.com/profile.php?id=100023398070876
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </article>
+        {/* COLLEGE OF BIOMEDICAL ENGINEERING*/}
       </main>
       <Footer />
     </>

@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
 
-
 export default function RootLayout({ children }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
@@ -14,7 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
         <title>มหาวิทยาลัยรังสิต | RANGSIT UNIVERSITY</title>
         <link
           rel="icon"
@@ -42,9 +44,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="font-anuphan font-bold">
-        {children}
-        </body>
+      <body className="font-anuphan font-bold">{children}</body>
     </html>
   );
 }

@@ -1,10 +1,10 @@
-"use client";
-import Footer from "@/app/components/Footer";
-import NavbarRegister from "@/app/components/NavbarRegister";
+"use client"
+import Footer from "../../../components/Footer";
+import NavbarRegister from "../../../components/NavbarRegister";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import MaskedInput from "@/app/components/MaskedInput";
+import MaskedInput from "../../../components/MaskedInput";
 import Swal from "sweetalert2";
 import axios from "axios";
 import { useRouter } from "next/navigation";
