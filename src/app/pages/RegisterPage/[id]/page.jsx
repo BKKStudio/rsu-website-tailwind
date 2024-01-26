@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import UploadImg from "@/app/components/FormRegister/UploadImg";
+
 import NavbarRegister from "@/app/components/NavbarRegister";
 
 export default function Applicationform({ params }) {
@@ -299,19 +299,16 @@ export default function Applicationform({ params }) {
                         ></input>
                       </div>
                     </div>
-                    <div className="">
-                      <UploadImg />
-                    </div>
-                    <div className="flex justify-center mt-3">
+                    <div className="flex justify-center mt-3 px-2">
                       <input
                         type="checkbox"
                         value=""
                         className="text-xl mr-2"
                         onClick={() => setUnCheck(!uncheck)}
                       />
-                      <label className="text-md">
+                      <span className="text-md">
                         ข้าพเจ้าขอยืนยันว่าข้อมูลดังกล่าวถูกต้องทุกประการ
-                      </label>
+                      </span>
                     </div>
                     <div className="flex justify-center mt-2">
                       <button
