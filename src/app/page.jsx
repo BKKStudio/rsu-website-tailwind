@@ -28,14 +28,14 @@ import GallaryImg3 from "../../public/image/RsuGallery/gallery5.jpg";
 import GallaryImg4 from "../../public/image/RsuGallery/gallery1.jpg";
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <SidebarModel />
       <Carousel />
       <main>
         <ManuUnderCarousel />
         {/* Open House  */}
-        <article className="flex justify-center items-center my-4">
+        <article className="flex justify-center items-center my-4 ">
           <figure className="max-w-7xl  w-full my-3">
             <div className="text-4xl flex justify-between mb-1 items-center">
               <span className="max-sm:text-xl">OPENHOUSE</span>

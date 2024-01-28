@@ -156,7 +156,7 @@ function FacultyNav({ FacBtn, setFacBtn }) {
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <>
+    <React.Fragment>
       <MobileNav open={open} setOpen={setOpen} className="" />
       <nav className="">
         <div className="container mx-auto  max-w-7xl">
@@ -381,7 +381,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </React.Fragment>
   );
 };
 export default Navbar;

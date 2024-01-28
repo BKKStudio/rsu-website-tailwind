@@ -44,7 +44,7 @@ export default function Applicationform({ params }) {
     DateRegister: formattedDate,
     confirmed: true,
   });
-
+console.log(student);
   useEffect(() => {
     // Simulate fetching data from an API
     fetch("/api/RegisterStudent/Faculty")

@@ -18,7 +18,7 @@ export default function Carousel() {
           <Image
             src={SlideImg1}
             className="d-block w-100 h-100"
-            layout="responsive"
+          
             placeholder="blur"
             alt="Imaage Slide1"
           />
@@ -28,7 +28,7 @@ export default function Carousel() {
             src={SlideImg2}
             className="d-block w-100 h-100"
             alt="Imaage Slide2"
-            layout="responsive"
+          
             placeholder="blur"
           />
         </div>
@@ -37,7 +37,7 @@ export default function Carousel() {
             src={SlideImg3}
             className="d-block w-100 h-100"
             alt="Imaage Slide3"
-            layout="responsive"
+          
             placeholder="blur"
           />
         </div>
@@ -46,7 +46,7 @@ export default function Carousel() {
             src={SlideImg4}
             className="d-block w-100 h-100"
             alt="Imaage Slide4"
-            layout="responsive"
+          
             placeholder="blur"
           />
         </div>
@@ -55,7 +55,7 @@ export default function Carousel() {
             src={SlideImg5}
             className="d-block w-100 h-100"
             alt="Imaage Slide5"
-            layout="responsive"
+          
             placeholder="blur"
           />
         </div>
@@ -64,7 +64,7 @@ export default function Carousel() {
             src={SlideImg6}
             className="d-block w-100 h-100"
             alt="Imaage Slide6"
-            layout="responsive"
+          
             placeholder="blur"
           />
         </div>
@@ -73,7 +73,7 @@ export default function Carousel() {
             src={SlideImg7}
             className="d-block w-100 h-100"
             alt="Imaage Slide6"
-            layout="responsive"
+          
             placeholder="blur"
           />
         </div>

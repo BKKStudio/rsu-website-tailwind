@@ -26,10 +26,8 @@
     "react-icons": "^4.10.1",
     "react-input-mask": "^2.0.4",
     "react-scroll": "^1.8.9",
-    "solidjs-dropzone": "^1.0.0",
     "sweetalert2": "^11.7.31",
-    "swiper": "^10.1.0",
-    "uploadthing": "^5.7.1"
+    "swiper": "^10.1.0"
   },
   "devDependencies": {
     "@types/react": "18.2.28",

@@ -68,13 +68,6 @@ export default function RegisterBachelorsLevel() {
                     }
                     className="border"
                   ></MaskedInput>
-                  <label>วันเกิด :</label>
-                  <input type={"date"} 
-                  className="border w-full p-1 text-xs text-gray-400" 
-                  placeholder="mm/dd/yyyy"
-                  onChange={(ev) =>
-                    setStudent({ ...student, birthday: ev.target.value })
-                  }></input>
                   <div className="flex justify-center">
                     <input
                       type="checkbox"
